@@ -1,0 +1,14 @@
+@startuml BookType
+ 
+class BookType {
+    -id : String
+	-typeName : String
+	-days : String
+	-penalty : String
+    +getXXX() : String
+    +setXXX() : void
+}  
+ 
+note "图书类型类，包括类型名、借阅日期、逾期罚款等信息" as N0
+N0 .. BookType
+@enduml

@@ -1,0 +1,14 @@
+class Circle {
+	static double PI = 3.14159265;
+	int radius;
+}
+
+public class TestMemberVariable {
+    public static void main(String[] args) {
+    	Circle c = new Circle();
+    	c.radius = 10;
+    	System.out.println(Circle.PI);  // 访问类变量
+    	System.out.println(c.radius);   // 访问实例变量
+    	System.out.println(c.PI);       // 访问类变量 但是最好通过静态的方式访问
+    }
+}

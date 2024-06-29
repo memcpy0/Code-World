@@ -1,0 +1,58 @@
+import java.util.LinkedList;
+
+class User {
+	private int userID;
+	public int getUserID() {
+		return userID;
+	}
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
+	public User(int userID) {
+		this.userID = userID;
+	}
+}
+
+class SynchronizedQueue {
+	private LinkedList<User> data = new LinkedList<User>();
+	private final int SIZE = 5;
+	private int userNumber = 0; // 用户编号
+	// 入队返回入队的对象
+	public synchronized User offer() {
+		// 如果队列已经满了, 让生产者线程等待
+		if (data.size() >= SIZE) {
+			try {
+				System.out.println("队列满，" + Thread.currentThread().getName() + "等待！");
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		userNumber++;
+		User user = new User(userNumber); // 产生用户
+		data.offer(user); // 加入集合尾部
+		System.out.println(Thread.currentThread().getName() + "产生数据！");
+		if (data.size() >= SIZE) notify();
+		return user;  
+	}
+	// 出队返回出队的对象
+	public synchronized User poll() {
+		// 如果队列为空, 则让消费者线程等待
+		if (data.isEmpty()) {
+			try {
+				System.out.println("队列空，" + Thread.currentThread().getName() + "等待！");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		
+	}
+	public int size() { 
+		return data.size();
+	}
+}
+
+
+public class WaitNotifyTest {
+
+}

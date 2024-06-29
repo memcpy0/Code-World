@@ -1,0 +1,161 @@
+---
+title: "2017302360010_张平_R语言作业"
+author: "张平"
+date: "2019年5月10日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(stringr)
+```
+
+# P8
+## P8 Q3
+偶数的情况下，我们选择[length(x)/2]位置的字符, 向下取整数位置. 
+```{r}
+x <- c("a", "ab", "abc", "abcd")
+postion <- ceiling(str_length(x) / 2)
+str_sub(x, postion, postion)
+```
+
+
+## P8 Q4
+str_wrap: 包装文本以适应特定的宽度和缩进.如果想控制字符串输出格式的话可以用. 
+
+函数定义：str_wrap(string, width = 80, indent = 0, exdent = 0)
+
+参数列表：
+
+- string: 字符串,字符串向量.
+- width: 设置一行所占的宽度.
+- indent: 段落首行的缩进值.
+- exdent: 设置第二行后每行缩进.
+
+
+## P8 Q5
+str_trim: 去掉字符串首尾段的泛空格符, 如tab(\t)、空格和换行符等.
+
+函数定义：str_trim(string, side = c("both", "left", "right")) 
+
+参数列表：
+
+- side: 控制需要去除空格的方向, left, right, both. 默认为"both", 两端都会去掉.
+
+类似的从字符串中去除空格的还有:str_squish(string).
+```{r}
+str_trim("  String with trailing and leading white space\t", side = "left")
+str_trim("\n\nString with trailing and leading white space\n\n")
+
+str_squish("  String with trailing,  middle, and leading white space\t")
+str_squish("\n\nString with excess,  trailing and leading white   space\n\n")
+
+```
+逆操作: str_pad函数, 填充字符.
+
+函数定义：str_pad(string, width, side = c("left", "right", "both"), pad = " ")
+
+参数列表：
+
+- width: 字符串填充后的长度(向量).
+- side: 填充方向，both两边都填充，left左边填充，right右边填充.
+- pad: 用于填充的字符(向量).
+```{r}
+str_pad(c("a", "abc", "abcdef"), 10)
+str_pad("a", 10, pad = c("-", "_", " "))
+```
+
+## P8 Q6
+```{r}
+str_cat <- function(x, sep = ", ", last = ", and ") {
+  if (length(x) > 1) {
+    str_c(str_c(x[-length(x)], collapse = sep),
+        x[length(x)], sep = last)
+  } else {
+    x
+  }
+}
+str_cat("")
+str_cat("a")
+str_cat(c("a", "b"))
+str_cat(c("a", "b", "c"))
+```
+
+---
+
+# P9 
+## P9 Anchors Q2
+```{r}
+str_view(stringr::words, "^y", match = TRUE)
+str_view(stringr::words, "x$", match = TRUE) 
+str_view(stringr::words, "^...$", match = TRUE)
+str_view(stringr::words, "^.{7,}$", match = TRUE)
+```
+
+## P9 Character classes and alternatives Q1
+```{r}
+str_view(stringr::words, "^[aeiou]", match = TRUE)
+str_view(stringr::words, "^[^aeiou]+$", match = TRUE)
+str_view(stringr::words, "[^e]ed$", match = TRUE)
+str_view(stringr::words, "(ing|ise)$", match = TRUE)
+```
+
+## P9 Character classes and alternatives Q2
+```{r}
+str_view(stringr::words, "(cei|[^c]ie)", match = TRUE)
+str_view(stringr::words, "(cie|[^c]ei)", match = TRUE)
+```
+
+## P9 Character classes and alternatives Q3
+在`stringr::words`中, q后面总是跟着一个u.
+```{r}
+str_view(stringr::words, "q[^u]", match = TRUE)
+```
+
+## P9 Character classes and alternatives Q5
+```{r}
+x <- c("123-4568-7890", "123-2351-3829")
+str_view(x, "\\d{3}-\\d{4}-\\d{4}")
+```
+
+---
+
+## P9 Repetition Q2
+a. ^.*$ 匹配任意字符串, 包括空串, 但不包含有换行符的字符串.
+b. "\\{.+\\}" 匹配至少有一个字符周围有大括号的任何字符串.
+c. \d{4}-\d{2}-\d{2} 匹配4个数字-两个数字-两个数字形式的字符串.
+d. "\\\\{4}" 将解析为\\{4}的正则表达式,  "\\\\\\\\".
+
+
+## P9 Repetition Q3
+```{r}
+str_view(stringr::words, "^[^aeiou]{3}", match = TRUE)
+str_view(stringr::words, "[aeiou]{3,}", match = TRUE)
+str_view(stringr::words, "([aeiou][^aeiou]){2,}", match = TRUE)
+```
+
+---
+
+## P9 Grouping and backreferences Q1
+a. (.)\1\1：       匹配同一个字符连续出现三次的模式, 如"aaa".
+b. "(.)(.)\\2\\1"：一对字符后紧跟这对字符的反序形式, 如"abba".
+c. (..)\1：        任意两个字符连续重复出现, 如"a1a1".
+d. "(.).\\1.\\1"： 一个字符后面是任意的一个字符, 同样的一个字符后面再接任意一个字符, 再接同样的那个字符, 如"a1aca".
+e. "(.)(.)(.).*\\3\\2\\1"：三个字符后面接任意0个或多个字符, 再接上这三个字符的逆序形式, 如"abcsdsdgslkcba".
+
+
+## P9 Grouping and backreferences Q2
+a.认为字符串的长度大于1, 开头结尾字母不是同一个字母.
+```{r}
+str_view(stringr::words, "^([A-Za-z]).*\\1$", match = TRUE)
+```
+b.包含一对重复字母的单词.
+```{r}
+str_view(stringr::words, "([A-Za-z][A-Za-z]).*\\1", match = TRUE)
+```
+c.包含一个至少重复3次的字母的单词.
+```{r}
+str_view(stringr::words, "([A-Za-z]).*\\1.*\\1", match = TRUE)
+```
+

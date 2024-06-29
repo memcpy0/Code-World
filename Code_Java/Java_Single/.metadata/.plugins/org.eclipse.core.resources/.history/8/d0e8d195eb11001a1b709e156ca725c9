@@ -1,0 +1,12 @@
+
+public class ForeachTest {
+
+	public static void main(String[] args) { 
+		Integer[] array = {10, 45, 78, 36, 1, 53};
+		// 对数组进行迭代
+		for (int i : array) {
+			System.out.print(" " + i);
+		}
+	}
+
+}

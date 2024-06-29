@@ -1,0 +1,51 @@
+@startuml CourseSelectingSystem
+
+class Student {
+-StuId : String
+-StuName : String
+-StuCourses : Course[]
++Student()
++String getStuId()
++void setStuId()
++String getStuName()
++void setStuName()
++Course[] getStuCourses()
++void setStuCourses()
+}
+
+
+class Course {
+-CId : String
+-CName : String
+-CBooks : Book[]
++Course()
++String getCId()
++void setCId()
++String getCName()
++void setCName()
++Book[] getCBooks()
++void setCBooks()
+}
+
+class Book {
+-BId : String
+-BName : String
+-ISBN : String
++Book()
++String getBId()
++void setBId()
++String getBName()
++void setBName()
++String getISBN()
++void setISBN()
+}
+
+note right of Student : 学生类，用来存储学生的学号、姓名和所选课程
+
+note right of Course : 课程类，用来存储课程的课程号、课程名和所需教材
+
+note right of Book : 教材类，用来存储教材的书号、书名和ISBN号
+
+Student o-- Course : 聚合关系
+Course o-- Book : 聚合关系
+@enduml

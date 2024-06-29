@@ -1,0 +1,27 @@
+class CharacterPrinter implements Runnable {
+	private int status = 0; // 0-a 1-b 2-c 交替运行
+	private int count = 0; // 计数
+	public void run() {
+		synchronized (this) {
+			while (count < 20) {
+				if (status == 0) System.out.print("a");
+				else if (status == 1) System.out.print("b");
+				else if (status == 2) System.out.print("c");
+				status = (status + 1) % 3;
+				count++;
+			}
+		}
+	}
+}
+
+public class ABCPrinter {
+	public static void main() {
+		CharacterPrinter p = new CharacterPrinter(); 
+		Thread t1 = new Thread(p);
+		Thread t2 = new Thread(p);
+		Thread t3 = new Thread(p);
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+}

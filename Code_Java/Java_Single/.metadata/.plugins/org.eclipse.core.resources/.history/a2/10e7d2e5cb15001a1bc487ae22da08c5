@@ -1,0 +1,17 @@
+// 字符串格式化操作示例
+public class StringFormatTest {
+	public static void main(String[] args) {
+		String str = null;
+		String name = "zhangsan";
+		str = String.format("Hi, %s, 251 warning!%n", name);
+		System.out.println(str);
+		str = String.format("%d + %d = %d", 1, 2, 1 + 2);
+		System.out.println(str);
+		str = String.format("%d%%", 40);
+		System.out.println(str);
+		str = String.format("100的十六进制数是：%x", 100);
+		System.out.println(str);
+		str = String.format("100的八进制数是：%x", 100);
+		System.out.println(str);
+	}
+}

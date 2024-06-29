@@ -1,0 +1,12 @@
+import java.io.*;
+import java.net.*;
+
+public class ClientImformationInputTest {
+	public static void main(String[] args) throws IOException {
+		ServerSocket server = null;
+		server = new ServerSocket();
+		Socket client = null;
+		client = server.accept();
+		
+	}
+}

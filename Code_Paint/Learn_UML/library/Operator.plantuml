@@ -1,0 +1,15 @@
+@startuml Operator
+ 
+class Operator {
+    -id : String
+	-name : String
+	-grade : String
+	-password : String
+    
+    +getXXX() : String
+    +setXXX() : void
+}  
+ 
+note "操作者类，操作者包括管理员和管理员创建的管理用账户" as N0
+N0 .. Operator
+@enduml

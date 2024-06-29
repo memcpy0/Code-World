@@ -1,0 +1,19 @@
+{
+  "promptDelete": false,
+  "showLineNumber": false,
+  "communityPluginSortOrder": "download",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "readableLineLength": false,
+  "attachmentFolderPath": "附件",
+  "tabSize": 8,
+  "strictLineBreaks": true,
+  "useTab": false
+}

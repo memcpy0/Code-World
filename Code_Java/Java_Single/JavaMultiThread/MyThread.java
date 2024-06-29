@@ -1,0 +1,29 @@
+// 通过继承Thread类来创建线程类
+// 定义Thread的子类，重写该类的run方法，run方法就是线程需要执行的任务
+// 创建Thread子类的实例，即创建了线程对象
+// 使用线程对象的start方法启动该线程
+
+class ThreadSon extends Thread {
+	public void run() {
+		while (true) { // currentThread静态方法获取当前正在运行的线程对象
+			System.out.println("线程运行！" + Thread.currentThread().getName()); 
+		}
+	}
+}
+
+public class MyThread {
+	public static void main(String[] args) {
+		System.out.println("main方法运行！");
+		ThreadSon myThread1 = new ThreadSon();
+		myThread1.setName("线程1");
+		ThreadSon myThread2 = new ThreadSon();
+		myThread2.setName("线程2");
+		myThread1.start();
+		myThread2.start();
+		// 进入死循环
+		while (true) {
+			System.out.println("主线程！");
+		}
+	}
+}
+ 

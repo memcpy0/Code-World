@@ -1,0 +1,23 @@
+missing module named resource - imported by posix, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named posix - imported by os, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named _posixsubprocess - imported by subprocess, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named org - imported by pickle, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named clr - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.console.ironpython_console, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named IronPythonConsole - imported by pyreadline.console.ironpython_console, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named StringIO - imported by pyreadline.py3k_compat, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named System - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.keysyms.ironpython_keysyms, pyreadline.console.ironpython_console, pyreadline.rlmain, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named sets - imported by pyreadline.keysyms.common, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named startup - imported by pyreadline.keysyms.common, pyreadline.keysyms.keysyms, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named console - imported by pyreadline.console.ansi, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named _winreg - imported by platform, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named 'java.lang' - imported by platform, D:\Python_Projects\Pycharm_Projects\表白界面\love.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named termios - imported by tty, D:\Python_Projects\Pycharm_Projects\表白界面\love.py, getpass
+missing module named grp - imported by shutil, tarfile, D:\Python_Projects\Pycharm_Projects\表白界面\love.py
+missing module named 'org.python' - imported by copy, D:\Python_Projects\Pycharm_Projects\表白界面\love.py, xml.sax
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, D:\Python_Projects\Pycharm_Projects\表白界面\love.py, netrc, getpass
+missing module named _dummy_threading - imported by dummy_threading, D:\Python_Projects\Pycharm_Projects\表白界面\love.py

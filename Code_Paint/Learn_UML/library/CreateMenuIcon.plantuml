@@ -1,0 +1,9 @@
+@startuml CreateMenuIcon
+
+class CreateMenuIcon {
+    +add(String ImageName) : ImageIcon
+}  
+ 
+note "辅助类，创建图标对象" as N0
+N0 .. CreateMenuIcon 
+@enduml

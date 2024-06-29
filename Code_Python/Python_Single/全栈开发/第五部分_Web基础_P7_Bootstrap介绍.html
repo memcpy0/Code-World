@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta http-equiv="content-Type" charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap</title>
+    <!--
+    bootcdn
+    1. BootStrap 3.3
+        twitter公司开源的一个前端开发框架(一堆HTML CSS JS的代码)
+        需要下载和导入
+        <link ...>
+    2. 常用样式类
+        1. 容器
+            1. container
+            2. container-fluid
+        2. 栅格系统
+            把一行均分成最多12列
+            可以设置标签占多少列
+            1. row表示一行
+            2. col-xx-** 表示一列
+                xx: 表示样式适用的屏幕尺寸
+                    - xs: 手机
+                    - sm: 平板
+                    - md: 桌面显示器
+                    - lg: 超大屏幕
+                **: 表示占多少份
+                    - 取值范围: 1~12
+            3. col-xx-offset-**: 表示左侧空几份
+            4. 列支持再嵌套(再写一份, 分成12份)
+            5. 列排序
+                1. col-md-push-3
+                2. col-md-pull-3
+    3. 常用于排版的样式
+        bootstrap自己的标题样式 h1-h6
+        无用文本
+        删除文本
+        标记文本
+        strong
+        改变大小写等
+    4. 三种图标的使用 <span class="glyphicon"></span>
+        icon-font  阿里图标
+        http://v3.bootcss.com/ bootcss内置图标
+        http://www.fontawesome.com.cn/falcons/
+    (文字图标icon-font 放大不失真 体积小加载快 随便改颜色)
+
+    5. 常用组件 bootstrap.js依赖于jQuery
+       下拉菜单
+       上滑菜单
+       https://v3.bootcss.com/component/
+       iframe class="embed-responsive item"
+    6. sweetAlert for bootstrap插件
+    -->
+    <link rel="stylesheet" href="bootstrap-3.3.7/css/bootstrap.css">
+    <style>
+        .c1 {
+            color: red;
+            height: 100px;
+            background-color: rgb(0, 0, 255);
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: red; height: 100px"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 c1">6</div>
+            <div class="col-md-6 c1">6</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 c1">3</div>
+            <div class="col-md-9 c1">9</div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 c1">1</div>
+            <div class="col-md-3 c1">3</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>失败是成功之母!<small>废话!</small></h1>
+                <p class="lead">忠厚老实人的恶毒, 像饭里的沙砾或脱骨鱼片里未净的刺, 给人一种<mark>不期待</mark>的伤痛。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

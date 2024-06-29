@@ -1,0 +1,137 @@
+---
+title: "2017302360010_R语言作业"
+author: "张平"
+date: "2019年5月7日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(forcats)
+```
+
+```{r}
+gss_cat %>% glimpse()
+```
+
+## P4 Q2
+The most common `relig` is "Protestant".
+```{r}
+gss_cat %>% count(relig) %>%
+  arrange(desc(n)) %>%
+  head(1)
+```
+The most common `partyid` is "Independent".
+```{r}
+gss_cat %>% count(partyid) %>%
+  arrange(desc(n)) %>%
+  head(1)
+```
+
+## P4 Q3
+排除了没有回答的`denom`后, 其余的宗派都属于`Protestant`.
+```{r}
+gss_cat %>% 
+  filter(!denom %in% c("No answer", "Other", "Don't know", "Not applicable", "No denomination")) %>%
+  count(relig)
+```
+可视化:
+```{r}
+gss_cat %>%
+  count(relig, denom) %>%
+  ggplot(mapping = aes(x = relig, y = denom, size = n)) +
+  geom_point() +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+----
+
+## P5 Q2
+```{r}
+keep(gss_cat, is.factor) %>% names()
+```
+`marital`是部分`principled`:
+```{r}
+levels(gss_cat$"marital")
+gss_cat %>%
+  ggplot(aes(x = marital)) +
+  geom_bar() +
+  scale_x_discrete(drop = FALSE)
+```
+`race`是`principled`:
+```{r}
+levels(gss_cat$race)
+gss_cat %>%
+  ggplot(aes(race)) +
+  geom_bar() +
+  scale_x_discrete(drop = FALSE)
+```
+"No answer", "Don't know", "Refused", "Not applicable"是`arbitrary`.其余部分是`principled`, 降序排序.
+```{r}
+levels(gss_cat$rincome)
+```
+水平`relig`是`arbitrary`.没有自然的排序顺序.
+```{r}
+levels(gss_cat$relig)
+gss_cat %>%
+  ggplot(aes(relig)) +
+  geom_bar()+
+  coord_flip()
+```
+水平`denom`是`arbitrary`.没有自然的排序顺序.
+```{r}
+levels(gss_cat$denom)
+```
+忽略`No answer", "Don't know", "Other party", 其余部分是`principled`, 从"Strong Republican"到"Strong Democrat".
+```{r}
+levels(gss_cat$partyid)
+```
+
+## P5 Q3
+因为这给了水平"Not applicable"为1的整数值.
+
+----
+
+## P6 Q1
+`Independent`的比例逐渐增加, `Democrat`的比例较平稳, `Republican`的比例逐渐下降, `Other`的比例较少且变化不大.
+```{r}
+levels(gss_cat$partyid)
+gss_cat %>%
+  mutate(partyid =
+           fct_collapse(partyid,
+                other = c("No answer", "Don't know", "Other party"),
+                rep = c("Strong republican", "Not str republican"),
+                inp = c("Ind,near rep", "Independent", "Ind,near dem"),
+                dem = c("Not str democrat", "Strong democrat")
+           )) %>%
+  count(year, partyid) %>%
+  group_by(year) %>%
+  mutate(p = n / sum(n)) %>%
+  ggplot(aes(x = year, y = p, color = partyid)) +
+  geom_point() +
+  geom_line() +
+  labs(color = "Party ID.")
+  
+```
+
+
+## P6 Q2
+```{r}
+levels(gss_cat$rincome)
+gss_cat %>%
+  mutate(rincome = 
+           fct_collapse(rincome,
+                  "Unknown" = c("No answer", "Don't know", "Refused", "Not applicable"),
+                  "Lt $5000" = c("Lt $1000", "$1000 to 2999", "$3000 to 3999", "$4000 to 4999"),
+                  "$5000 to 10000" = c("$5000 to 5999", "$6000 to 6999", "$7000 to 7999", "$8000 to 9999"))
+         ) %>%
+   ggplot(aes(x = rincome)) +
+   geom_bar() +
+   coord_flip()
+```
+
+

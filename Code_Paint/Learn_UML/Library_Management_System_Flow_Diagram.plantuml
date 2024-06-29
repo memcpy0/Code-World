@@ -1,0 +1,51 @@
+@startuml Library_Management_System_Flow_Diagram
+skinparam conditionStyle InsideDiamond
+skinparam actorStyle awesome
+skinparam linetype ortho
+skinparam ConditionEndStyle hline
+start
+group 登录
+:进入系统主界面;
+:选择用户类型，再\n输入账户名和密码;
+end group
+
+if (账户名和密码<color:red>正确？) then (否)
+    #Pink:弹出报错信息;
+    kill
+elseif (是否为图书管理员？) then (否)
+    group 普通读者
+    :进入普通读者界面;
+    switch (选择操作？)
+    case () 
+        :检索图书;
+    case ()
+        :查询所借图书;
+    endswitch
+    end group
+else (是)
+    group 图书管理员
+    :进入图书管理员界面;
+    switch (选择操作？)
+    case () 
+        :检索图书;
+    case ()
+        :借阅图书;
+    case ()
+        :归还图书;
+    case ()
+        :增加图书;
+    case ()
+        :删除图书;
+    case ()
+        :查询读者
+        所借图书;
+    case ()
+        :查询借阅
+        图书的读者;
+
+    endswitch 
+    end group
+endif
+:返回用户主界面;
+stop
+@enduml

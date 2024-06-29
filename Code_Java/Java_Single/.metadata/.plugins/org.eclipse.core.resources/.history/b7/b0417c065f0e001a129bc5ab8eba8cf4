@@ -1,0 +1,15 @@
+
+public class FileCopyThreadUtil {
+    private String source;
+    private String target;
+    public FileCopyThreadUtil(String source, String target) {
+    	this.source = source;
+    	this.target = target;
+    }
+    
+    public void run() {
+    	try {
+    		
+    	}
+    }
+}

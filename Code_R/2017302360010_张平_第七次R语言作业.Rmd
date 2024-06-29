@@ -1,0 +1,114 @@
+---
+title: "2017302360010_R语言第六次作业"
+author: "张平"
+date: "2019年4月19日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(nycflights13)
+```
+
+## P118 (1)
+添加了`flight_id`作为主键, 将数据进行排序并以此为序号.
+```{r}
+flights %>% 
+  arrange(year, month, day, sched_dep_time, carrier, flight) %>%
+  mutate(flight_id = row_number()) %>%
+  select(flight_id, year, month, day, carrier, flight)
+```
+
+## P126 (2)
+将起点机场和终点机场的位置信息添加到flights中:
+```{r}
+flights %>%
+  left_join(airports, by = c("origin" = "faa")) %>%
+  left_join(airports, by = c("dest" = "faa")) %>%
+  glimpse
+```
+
+## P126 (3)
+没有太多的关系, 只是似乎随着机龄的增加飞机的延误时间轻微减少了.
+```{r}
+plane_ages <- planes %>%
+  mutate(plane_age = 2013 - year) %>%
+  select(tailnum, plane_age) 
+
+flights %>%
+  inner_join(plane_ages, by = "tailnum") %>%
+  group_by(plane_age) %>%
+  filter(!is.na(dep_delay)) %>% 
+  summarize(delay = mean(dep_delay)) %>%
+  ggplot(aes(x = plane_age, y = delay)) +
+  geom_point() +
+  geom_line()
+```
+
+## P126 (4)
+这里检验了可见度与延误时间的关系, 可见度越高, 延误时间越短. 
+```{r}
+weathers <- flights %>%
+  inner_join(weather, by = c(origin = "origin", 
+                             year = "year",
+                             month = "month", 
+                             day = "day", 
+                             hour = "hour")) 
+weathers %>%
+  group_by(visib) %>%
+  summarize(delay = mean(dep_delay, na.rm = TRUE)) %>%
+  ggplot(aes(x = visib, y = delay)) +
+  geom_line() +
+  geom_point() 
+```
+
+还有降水与延误时间的关系, 降水愈多, 延误时间越长.
+```{r}
+weathers %>%
+  group_by(precip) %>%
+  summarize(delay = mean(dep_delay, na.rm = TRUE)) %>%
+  ggplot(aes(x = precip, y = delay)) +
+  geom_line() + 
+  geom_point()
+```
+
+## P128 (2) 
+```{r}
+fly_records <- flights %>%
+  count(tailnum, sort=TRUE) %>%
+  filter(n >= 100)
+
+flights %>%
+  filter(tailnum %in% fly_records$tailnum)
+
+flights %>%
+  semi_join(fly_records)
+```
+
+## P128 (4) 
+这一年中航班延误时间最严重的四十八小时为2013-07-23日至24日, 总延误时间为175419minutes.发现这一天的湿度、温度、风速都较高.
+```{r}
+worst_delay <- flights %>%
+  group_by(year, month, day) %>%  
+  summarize(total = sum(dep_delay, na.rm = TRUE) + sum(arr_delay, na.rm = TRUE)) %>%
+  mutate(total_48 = total + lag(total)) %>% 
+  arrange(desc(total_48)) %>%
+  select(year, month, day, total_48) %>%
+  head(1) 
+weather %>% semi_join(worst_delay)
+```
+
+## P128 (5) 
+把flights中的那些`dest`与airports的`faa`匹配的行删除, 留下没有匹配记录的行, 是那些去往的目的地机场不在airports的`faa`记录中的航班记录.
+```{r}
+fli_air <- anti_join(flights, airports, by = c("dest" = "faa")) 
+fli_air
+```
+
+把airports中的`faa`与flights中的`dest`匹配的行删除, 留下没有匹配记录的行, 是那些不在航班的目的地记录中的机场, 即airports中不作为航班目的地的机场. 
+```{r}
+air <- anti_join(airports, flights, by = c("faa" = "dest"))
+air
+```
+

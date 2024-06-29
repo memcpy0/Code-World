@@ -1,0 +1,15 @@
+// 单例模式
+// 创建类模式之一
+class Singleton { 
+	private Singleton instance;
+	private Singleton() { }
+	public Singleton getSingletonInstance() {
+		if (instance == null) 
+			instance = new Singleton();
+		return instance;
+	}
+}
+
+public class Single {
+	
+}

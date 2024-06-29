@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第1个JavaScript实例</title>
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+        function displayHello() {
+            document.getElementById("Hello").innerText = "Hello JavaScript World!";
+        }
+    </script>
+</head>
+<body>
+    <h1>我的第一个JavaScript程序</h1>
+    <p>点击下方显示日期的按钮，会显示当前时间</p>
+    <button type="button" onclick="displayDate()">显示日期</button>
+    <p id="demo"></p>
+    <p>点击下方的按钮，会显示"Hello JavaScript World!"</p>
+    <button type="button" onclick="displayHello()">显示宣言</button>
+    <p id="Hello"></p>   
+</body>
+</html>

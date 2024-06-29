@@ -1,0 +1,8 @@
+public class TestCircumference {
+	public static void main(String[] args) {
+		Circle cl = new Circle();
+		cl.radius = 20;
+		double circumf1 = cl.circumstance();
+		System.out.println("Ô²µÄÖÜ³¤=" + circumf1);
+	}
+}

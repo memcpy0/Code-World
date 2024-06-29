@@ -1,0 +1,17 @@
+@startuml LibraryMainWindow
+
+class JFrame {
+
+}
+class LibraryMainWindow {
+    -DESKTOP_PANE : JDesktopPane  
+    +LibraryMainWindow()
+    +addIFame(JInternalFrame iframe) : void
+    -createToolBar() : JToolBar
+    -createMenu() : JMenuBar
+}  
+JFrame <|-- LibraryMainWindow 
+
+note "图书馆管理系统主窗体" as N0
+N0 .. LibraryMainWindow 
+@enduml

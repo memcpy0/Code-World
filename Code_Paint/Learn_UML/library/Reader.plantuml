@@ -1,0 +1,23 @@
+@startuml Reader
+ 
+class Reader {
+	-name : String
+	-sex : String
+	-age : String
+	-identityCard : String
+	-date : Date
+	-maxNum : String
+	-tel : String
+	-deposit : Double
+	-cardType : int 
+	-job : String
+	-ISBN : String
+	-haveCardTime : Date
+
+    +getXXX() : String / Date / Double / int
+    +setXXX() : void
+}  
+ 
+note "读者类，包含用户ID、姓名、性别、年龄、身份证、电话等信息" as N0
+N0 .. Reader
+@enduml

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EG5f+MZgMGxcBNO4MxuP6S3LQSbDmRkPKNCoexd/9p9ZnvUf8rlDNjNuNWOk30lwSFoIFKMUrqwbRXRd6MQDpA==",
+  "success": true,
+  "projectFilePath": "C:\\CodeWorld\\Code_FSharp\\FSharp_Multiple\\FSharp_Multiple.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\21839\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

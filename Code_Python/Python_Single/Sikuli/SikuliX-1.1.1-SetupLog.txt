@@ -1,0 +1,136 @@
+[debug (18-1-30 10:41:56)] Debug: setLogFile: C:\Users\dell\demo\SikuliX-1.1.1-SetupLog.txt
+[debug (18-1-30 10:41:56)] RunSetup: ... starting with no args given
+[debug (18-1-30 10:41:56)] RunSetup: Setup: 1.1.1 2018-01-08_18:46 in folder:
+C:\Users\dell\demo
+[debug (18-1-30 10:41:57)] RunSetup: RunningSystem: Windows 10.0
+[debug (18-1-30 10:41:57)] RunSetup: parent of jar/classes: C:\Users\dell\demo
+[debug (18-1-30 10:41:57)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_162-b12
+[debug (18-1-30 10:41:57)] init user preferences
+[debug (18-1-30 10:42:20)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\dell\demo
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 1 ---
+sikulixsetupIDE-1.1.1-20170329.232057-141-forsetup.jar (IDE/Scripting)
+sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar (Java API)
+ - with Jython
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (18-1-30 10:42:28)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixlibswin/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (18-1-30 10:42:29)] RunSetup: getMavenJar: sikulixlibswin-1.1.1-20170329.230420-154.jar
+[debug (18-1-30 10:42:29)] FileManager: Downloading sikulixlibswin-1.1.1-20170329.230420-154.jar having 10577 KB
+[debug (18-1-30 10:42:33)] FileManager: downloaded 10577 KB to:
+C:\Users\dell\AppData\Roaming\Sikulix\SikulixDownloads_201801081846\sikulixlibswin-1.1.1-20170329.230420-154.jar
+[debug (18-1-30 10:42:33)] FileManager: download time: 3
+[debug (18-1-30 10:42:37)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (18-1-30 10:42:37)] FileManager: resetFolder:
+C:\Users\dell\demo\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/dell/demo/sikulixlibswin.jar
+[debug (18-1-30 10:42:37)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupAPI/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (18-1-30 10:42:37)] RunSetup: getMavenJar: sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (18-1-30 10:42:38)] FileManager: Downloading sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar having 9352 KB
+[debug (18-1-30 10:42:41)] FileManager: downloaded 9352 KB to:
+C:\Users\dell\AppData\Roaming\Sikulix\SikulixDownloads_201801081846\sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar
+[debug (18-1-30 10:42:41)] FileManager: download time: 3
+[debug (18-1-30 10:42:45)] RunSetup: Copied from Downloads: sikulixapi
+[debug (18-1-30 10:42:45)] FileManager: resetFolder:
+C:\Users\dell\demo\SetupStuff\Lib
+jar:file:/C:/Users/dell/demo/sikulixapi.jar
+[debug (18-1-30 10:42:45)] FileManager: download to string from:
+https://oss.sonatype.org/content/groups/public/com/sikulix/sikulixsetupIDE/1.1.1-SNAPSHOT/maven-metadata.xml,
+[debug (18-1-30 10:42:45)] RunSetup: getMavenJar: sikulixsetupIDE-1.1.1-20170329.232057-141-forsetup.jar
+[debug (18-1-30 10:42:46)] FileManager: Downloading sikulixsetupIDE-1.1.1-20170329.232057-141-forsetup.jar having 10709 KB
+[debug (18-1-30 10:42:50)] FileManager: downloaded 10709 KB to:
+C:\Users\dell\AppData\Roaming\Sikulix\SikulixDownloads_201801081846\sikulixsetupIDE-1.1.1-20170329.232057-141-forsetup.jar
+[debug (18-1-30 10:42:50)] FileManager: download time: 3
+[debug (18-1-30 10:42:53)] RunSetup: Copied from Downloads: sikulix
+[debug (18-1-30 10:42:53)] RunSetup: 
+popAsk: --------------------
+If you click YES, you will get Jython version 2.7.0 (recommended)
+... but in rare cases there might be issues with UTF-8/Unicode
+that usually appear on startup when UTF-8 characters
+are present somewhere in the system environment
+If you encounter such problems with Jython 2.7.0
+run setup again and
+click NO to get Jython 2.5.4rc1
+--------------------
+[debug (18-1-30 10:43:01)] FileManager: Downloading jython-standalone-2.7.1.jar having 40171 KB
+[debug (18-1-30 10:43:12)] FileManager: downloaded 40171 KB to:
+C:\Users\dell\AppData\Roaming\Sikulix\SikulixDownloads\jython-standalone-2.7.1.jar
+[debug (18-1-30 10:43:12)] FileManager: download time: 11
+[debug (18-1-30 10:43:17)] RunSetup: Copied from Downloads: Jython
+[debug (18-1-30 10:43:17)] RunSetup: Download ended
+[debug (18-1-30 10:43:17)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.1-20170329.230420-154.jar sikulixsetupIDE-1.1.1-20170329.232057-141-forsetup.jar sikulixsetupAPI-1.1.1-20170329.231900-143-forsetup.jar jython-standalone-2.7.1.jar 
+[debug (18-1-30 10:43:17)] RunSetup: adding needed stuff to sikulix.jar
+[debug (18-1-30 10:43:17)] FileManager: buildJar: sikulixtemp.jar
+[debug (18-1-30 10:43:17)] FileManager: buildJar: adding: sikulix.jar
+[debug (18-1-30 10:43:24)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (18-1-30 10:43:25)] FileManager: buildJar: adding: sikulixjython.jar
+[debug (18-1-30 10:44:11)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (18-1-30 10:44:50)] FileManager: buildJar: completed
+[debug (18-1-30 10:44:50)] RunSetup: renaming sikulixtemp.jar to target jar: sikulix.jar
+[debug (18-1-30 10:44:50)] RunSetup: processing commandfiles
+[debug (18-1-30 10:44:50)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/dell/demo/sikulix.jar
+[debug (18-1-30 10:44:50)] RunTimeSETUP: exists libs folder at: C:\Users\dell\AppData\Roaming\Sikulix\SikulixLibs_201801081846
+[debug (18-1-30 10:44:50)] RunSetup: Jython: Trying to run functional test: running script statements via SikuliScript
+[debug (18-1-30 10:44:55)] ScriptingSupport: initScriptingSupport: enter
+[debug (18-1-30 10:45:00)] JythonSupport: init: starting
+[debug (18-1-30 10:45:00)] JythonSupport: init: success
+[debug (18-1-30 10:45:00)] JythonSupport: ***** Jython sys.path
+ 0: C:\Users\dell\demo\Lib
+ 1: C:\Users\dell\demo\sikulix.jar\Lib
+ 2: __classpath__
+ 3: __pyclasspath__/
+[debug (18-1-30 10:45:00)] JythonSupport: ***** Jython sys.path end
+[debug (18-1-30 10:45:00)] Jython: sikuli: Sikuli: starting init
+[debug (18-1-30 10:45:01)] RunTimeSETUP: exists libs folder at: C:\Users\dell\AppData\Roaming\Sikulix\SikulixLibs_201801081846
+[debug (18-1-30 10:45:01)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (18-1-30 10:45:01)] RunTimeSETUP: now exporting libs
+[debug (18-1-30 10:45:01)] RunTimeSETUP: libs to export are at:
+jar:file:/C:/Users/dell/demo/sikulix.jar!/sikulixlibs/windows/libs64
+[debug (18-1-30 10:45:01)] RunTimeSETUP: resourceList: enter
+[debug (18-1-30 10:45:01)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/windows/libs64
+[debug (18-1-30 10:45:01)] RunTimeSETUP: resourceList: having jar: jar:file:/C:/Users/dell/demo/sikulix.jar!/sikulixlibs/windows/libs64
+[debug (18-1-30 10:45:04)] RunTimeSETUP: files exported: 17 from: /sikulixlibs/windows/libs64 to:
+ C:\Users\dell\AppData\Roaming\Sikulix\SikulixLibs_201801081846
+[debug (18-1-30 10:45:04)] RunTimeSETUP: addToWindowsSystemPath: added to systempath:
+C:\Users\dell\AppData\Roaming\Sikulix\SikulixLibs_201801081846
+[debug (18-1-30 10:45:04)] RunTimeSETUP: checkJavaUsrPath: added to ClassLoader.usrPaths
+[debug (18-1-30 10:45:04)] RunTimeSETUP: loadLib: VisionProxy.dll
+[debug (18-1-30 10:45:04)] Mouse: init start
+[debug (18-1-30 10:45:04)] Mouse: init end
+[debug (18-1-30 10:45:05)] RunTimeSETUP: loadLib: WinUtil.dll
+[debug (18-1-30 10:45:05)] Jython: requested to use as default region: S(0)[0,0 1920x1080]
+[debug (18-1-30 10:45:05)] Jython: sikuli: Sikuli: ending init
+[debug (18-1-30 10:45:05)] JythonScriptRunner: running Jython 2.7.1 
+[debug (18-1-30 10:45:05)] ScriptingSupport: initScriptingSupport: added: jython
+[debug (18-1-30 10:45:05)] ScriptingSupport: initScriptingSupport: exit with defaultrunner: jython (py)
+[debug (18-1-30 10:45:05)] Jython: requested to use as default region: S(0)[0,0 1920x1080]
+[debug (18-1-30 10:45:06)] JythonScriptRunner: runPython: running statements
+[debug (18-1-30 10:45:06)] Image: BufferedImage: (100, 100)
+[debug (18-1-30 10:45:06)] Finder: Image: __BufferedImage__: (100x100)
+[debug (18-1-30 10:45:06)] Sikulix: testSetup: Finder setup with image worked
+[debug (18-1-30 10:45:06)] FileManager: tempfile create:
+C:\Users\dell\AppData\Local\Temp\Sikulix_833930276\sikuli-8822694122092596844.png
+[debug (18-1-30 10:45:06)] Image: loaded: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png (file:/C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png)
+[debug (18-1-30 10:45:06)] Image: cached: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (18-1-30 10:45:06)] Sikulix: testSetup: Finder setup with image file worked
+[debug (18-1-30 10:45:06)] Image: reused: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png (file:/C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png)
+[debug (18-1-30 10:45:06)] Region: wait: waiting 3.0 secs for C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png to appear in S(0)[0,0 1920x1080]
+[debug (18-1-30 10:45:07)] Region: wait: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png appeared (M[0,0 100x100]@S(S(0)[0,0 1920x1080]) S:1.00 C:50,50 [1087 msec])
+[debug (18-1-30 10:45:07)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (18-1-30 10:45:07)] Image: reused: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png (file:/C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png)
+[debug (18-1-30 10:45:07)] Region: wait: waiting 3.0 secs for C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png to appear in S(0)[0,0 1920x1080]
+[debug (18-1-30 10:45:08)] Region: wait: C:/Users/dell/AppData/Local/Temp/Sikulix_833930276/sikuli-8822694122092596844.png appeared (M[0,0 100x100]@S(S(0)[0,0 1920x1080]) S:1.00 C:50,50 [929 msec])
+[debug (18-1-30 10:45:08)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (18-1-30 10:45:17)] Sikulix: testSetup: Finder.find: worked
+[debug (18-1-30 10:45:22)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (18-1-30 10:45:22)] RunTimeSETUP: final cleanup
+[debug (18-1-30 10:45:22)] FileManager: deleteFileOrFolder:
+C:\Users\dell\AppData\Local\Temp\Sikulix_833930276

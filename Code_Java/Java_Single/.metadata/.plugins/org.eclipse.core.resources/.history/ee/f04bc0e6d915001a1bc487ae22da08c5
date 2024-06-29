@@ -1,0 +1,9 @@
+
+public class SeasonEnumTest {
+	public static void main(String[] args) {
+		System.out.println(SeasonEnum.SPRING.getName());
+		System.out.println(SeasonEnum.SUMMER.getName());
+		System.out.println(SeasonEnum.AUTUMN.getName());
+		System.out.println(SeasonEnum.WINTER.getName());
+	}
+}

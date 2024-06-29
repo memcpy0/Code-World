@@ -1,0 +1,58 @@
+@startuml Dao
+ 
+class Dao {
+    #dbClassName : String
+    #dbUrl : String
+    #dbUser : String
+    #dbPwd : String
+    #second : String
+    -conn : Connection
+
+    +Check(String name, String password) : Operator
+    +selectBookCategory() : List
+    +selectBookCategory(String bookType) : List
+    +insertBookType(String bookTypeName, String days, Double penalty) : int
+    +updateBookType(String id, String typeName, String days, String penalty) : int
+    +selectBookTypePenalty(String bookType) : List
+
+    +insertbook(String ISBN, String typeId, String bookname, String writer, String translator, String publisher, Date date, Double price): int
+    +selectBookInfo() : List
+    +selectBookInfo(String ISBN) : List
+    +updatebook(String ISBN, String typeId, String bookname, String writer, String translator, String publisher, Date date, Double price) : int
+    
+    +insertReader(String name, String sex, String age, String identityCard, Date date, String maxNum, String tel, Double deposit, String cardType String job, Date haveCardTime, String ISBN) : int
+    +selectReader() : List
+    +selectReader(String readerISBN) : List
+    +updateReader(String id, String name, String sex, String age, String identityCard, Date date, String maxNum, String tel, Double deposit, String cardType, String job, Date haveCardTime, String ISBN) : int
+    +delReader(String ISBN) : int
+    
+    +insertBookOrder(String ISBN, Date date, String number, String operator, String checkAndAccept, Double discount) : int
+    +selectBookOrder() : List
+    +selectBookOrder(String ISBN) : List
+    +updateCheckBookOrder(String ISBN) : int
+
+    +insertBookBorrow(String bookISBN, String readerISBN, String operatorId, Timestamp borrowDate, Timestamp backDate) : int
+    +selectBorrow(String readerISBN) : List
+    +selectBookBack(String readerISBN) : List
+    +updateBookBack(String bookISBN, String readerISBN, int id) : int
+
+    +selectbooksearch() : List
+    +selectbookFuzzy(String bookname) : List
+    +selectbookFuzzyWriter(String writer) : List
+
+    +insertOperator(String name, String sex, int age, String identityCard, Date workdate, String tel, String password) : int
+    +selectUser() : List
+    +delUser() : int
+    +updateUser(int id, String name, String sex, int age, String identityCard, Date workdate, String tel, String password) : int
+    +updatePassword(String password, String name) : int
+
+    -Dao()
+    -executeQuery(String sql) : ResultSet
+    -executeUpdate(String sql) : int
+    -cclose() : void
+}  
+ 
+
+note "数据操作类，对数据库中的数据进行添加、删除、修改和查询" as N0
+N0 .. Dao 
+@enduml

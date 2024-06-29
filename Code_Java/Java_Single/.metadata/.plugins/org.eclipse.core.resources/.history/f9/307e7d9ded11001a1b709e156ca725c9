@@ -1,0 +1,20 @@
+import java.util.Map;
+import java.util.HashMap;
+
+public class HashMapTest {
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap<String, String>(); 
+		// put(Object key, Object value)
+		map.put("001", "Tom"); 
+		map.put("002", "Jack");
+		String name = (String)map.get("002");
+		System.out.println(name);
+		for (String key : map.keySet()) {
+			System.out.println("key:" + key + "\t value:" + map.get(key));
+		}
+		map.put("002", "王五");
+		System.out.println((String)map.get("002")); // 如果key重复，则覆盖掉原来的value
+		System.out.println(map.containsKey("003"));
+		System.out.println(map.containsValue("Jay"));
+	}
+}

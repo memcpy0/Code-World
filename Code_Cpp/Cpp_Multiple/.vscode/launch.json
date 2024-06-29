@@ -1,0 +1,31 @@
+{
+    //使用 IntelliSense 了解相关属性。 
+    //悬停以查看现有属性的描述。
+    //欲了解更多信息，请访问:
+    //https://code.visualstudio.com/docs/editor/debugging#_launch-configurations
+    "version": "0.2.0",
+    "configurations": [ 
+        { //这个大括号里是我们的调试Debug配置
+            "name": "Debug",        //配置名称
+            "type": "cppdbg",       //配置类型,cppdbg对应cpptools提供的调试功能,可以认为此处只能是cppdbg
+            "request": "launch",    //请求配置类型,可以是启动launch或附加attach
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe", //将要进行调试的程序可执行文件的完整路径
+            "args": [],             //程序调试时传递给程序的命令行参数,这里设为空即可
+            "stopAtEntry": false,   //设为true时调试程序将暂停在程序入口处,相当于在main上打断点;如果传递了processId则不起任何作用
+            "cwd": "${fileDirname}",//调试程序时的工作目录,此处为源码文件所在目录
+            "environment": [],      //要添加到程序环境的环境变量,这里设为空即可
+            "externalConsole": false, //为true时使用单独CMD窗口,跳出小黑框;设为false则用VS Code的内置终端,建议用内置终端
+            "internalConsoleOptions": "neverOpen", //如果不设为neverOpen,调试时会跳到“调试控制台”选项卡,新手调试用不到
+            "MIMode": "gdb",        //指定MIDebugEngine连接的控制台调试程序,gdb是minGW中的调试程序
+            "miDebuggerPath": "C:\\Program Files\\mingw64\\bin\\gdb.exe", //MI调试程序(如gdb)的路径;如果未指定,将首先在路径中搜索调试程序
+            "setupCommands": [ //为了安装基础调试程序而执行的一个或多个GDB/LLDB命令
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build" //调试开始前执行的任务,我们在调试前要编译构建,与tasks.json的label相对应,名字要一样
+        }
+    ]
+}

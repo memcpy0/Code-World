@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+//Graph无权无向图
+//O(V+E)时间复杂度
+//检测图中是否有环 图中可能有多个联通分量, 一个联通分量有环则图有环
+//有环: 不是自环, 不是联通分量, 一个环内必然联通，但一个联通分量不一定有环
+//是否是环, 看DFS的出发点是否和结束点相等, 用visited防止重复访问, 用parent防止检测出自己到自己的环
+
+public class CycleDetection {
+	
+	private Graph G;
+	private boolean[] visited; 
+	
+	private boolean hasCycle = false;
+	
+	public CycleDetection(Graph G) { //构造函数中执行DFS, 用户通过order()访问算法逻辑
+		this.G = G;
+		visited = new boolean[G.V()];
+		
+		for (int i = 0; i < G.V(); ++i) 
+			if (visited[i] == false)
+				dfs(i, i);
+	}
+ 
+	
+	private void dfs(int v, int parent) {
+		visited[v] = true; 
+		
+		for (int w : G.adj(v)) //访问v的邻接点
+			if (visited[w] == false) //结点v的邻接点没有被访问
+				dfs(w, v); 
+			else if (w != parent) //要访问的下一个结点是否为v的前一个结点, 不是的话就有环, 是则为了防止回退
+				hasCycle = true;
+	}  
+	
+	public boolean hasCycle() {
+		return hasCycle;
+	}
+	public static void main(String[] args) {
+		Graph g = new Graph("g.txt");
+		CycleDetection cd = new CycleDetection(g);
+		System.out.println(cd.hasCycle()); //true有环
+	}
+
+}

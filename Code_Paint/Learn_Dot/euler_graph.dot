@@ -1,0 +1,13 @@
+graph {
+    rankdir = LR;
+    node [shape = circle]
+    a -- d[label = "1"];
+    a -- c[label = "4"];
+    b -- d[label = "2"];
+    c -- d[label = "3"];
+    c -- e[label = "8"];
+    d -- c[label = "5"];
+    d -- f[label = "6"];
+    e -- f[label = "7"];
+}
+//dot euler_graph.dot -Kfdp -Tpng -o euler_graph.png

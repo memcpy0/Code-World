@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- meta http-equiv="refresh" content="3;URL=http://www.ltxs52.com/0_295/34373.html" -->
+    <title>Hello Html World</title>
+    <link>
+    <style>
+        h1 {
+        color:red;
+        }
+    </style>
+    <!-- script>alert(123)</script -->
+
+</head>
+<body>
+    <h1>海燕</h1>
+    <a href="http://baidu.com" target="_blank">Baidu</a>
+    <br>
+    <a href="#b1">页面内部跳转</a>
+
+    <hr>
+    <h2>Sex!<br>快乐</h2>
+    <b>加粗</b>
+    <i>斜体</i>
+    <u>下划线</u>
+    <s>删除</s>
+    <p id="b1">这里的靖&nbsp;&nbsp;&nbsp;安哨山村，如果要从<b>这里</b>坐车去宜良，要绕道走40多公里，交通非常的不便捷</p>
+
+
+    <p>&lt;&gt;&yen;&amp;&nbsp;&copy;</p>
+
+    <img src="https://tu.xejimh.net/mhjmzj/uploads/2018/1010y5/yaoqi1.jpg" alt="H图" title="邪恶集" width="300px" height="400px" />
+
+    <div>我是div标签</div>
+    <span>我是span标签</span>
+    <div class="nav">
+        <ul>
+            <li><a href="http://www.ltxs52.com/">首页</a></li>
+            <li><a href="/modules/article/bookcase.php">我的书架</a></li>
+            <li><a href="/xuanhuanxiaoshuo/">玄幻小说</a></li>
+            <li><a href="/xiuzhenxiaoshuo/">修真小说</a></li>
+            <li><a href="/dushixiaoshuo/">都市小说</a></li>
+            <li><a href="/wangyouxiaoshuo/">网游小说</a></li>
+            <li><a href="/lawenxiaoshuo/">辣文小说</a></li>
+            <li><a href="/kehuanxiaoshuo/">科幻小说</a></li>
+            <li><a href="/paihangbang/">排行榜单</a></li>
+            <li><a href="/wanben/1_1">完本小说</a></li>
+            <li><script type="text/javascript">yuedu();</script></li>
+        </ul>
+    </div>
+
+    <!-- 无序列表 -->
+    <ul type="disc">
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+    </ul>
+
+    <!-- 有序列表 -->
+    <ol type="A">
+        <li>111</li>
+        <li>222</li>
+        <li>333</li>
+    </ol>
+
+    <!-- 标题列表 -->
+    <dl>
+        <dt>标题1</dt>
+        <dd>内容1</dd>
+        <dt>标题2</dt>
+        <dd>内容2</dd>
+    </dl>
+
+    <!-- 表格 -->
+    <table border="4">
+        <thead>
+            <!-- 加粗处理 -->
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>爱好</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>sylar</td>
+                <td>男</td>
+                <td>old man</td>
+            </tr>
+            <tr>
+                <td>Eva-J</td>
+                <td>女</td>
+                <td>喝茶</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 获取用户输入的标签 form与服务器交互 action:提交的地址 method: get||post -->
+    <form action="http://www.baidu.com/s" method="get" enctype="multipart/form-data">
+        <p><label>按钮</label>
+            <input type="button" value="我是一个按钮">
+        </p>
+        <p><label>重置<input type="reset" value="重置"></label></p>
+        <hr>
+        <p><input type="checkbox" name="hobby" value="basketball">篮球</p>
+        <p><input type="checkbox" name="hobby" value="soccer" checked>足球</p>
+        <p><input type="checkbox" name="hobby" value="doubleball">双球</p>
+        <hr>
+        <p><input type="radio" name="gender" checked>男</p>
+        <p><input type="radio" name="gender">女</p>
+        <hr>
+        <select name="city" multiple>
+            <option value="010" selected>北京</option>
+            <option value="020" selected>上海</option>
+            <option value="030" selected>深圳</option>
+        </select>
+        <hr>
+        <textarea name="" id="" cols="5" rows="10">天生爱你</textarea>
+        <hr>
+        <input type="submit">
+        <hr>
+        <input type="color">
+        <input type="date">
+        <input type="email">
+        <hr>
+        <p><label>用户名<input type="text" placeholder="请输入用户名" value="alex"></label></p>
+        <p><label>密码<input type="password" placeholder="请输入密码" value="my123"></label></p>
+        <hr>
+        <input type="file" name="avatar">
+        <hr>
+        <select name="city" multiple>
+            <optgroup label="分组1">
+                <option value="010" selected>111</option>
+                <option value="020" selected>222</option>
+            </optgroup>
+            <optgroup label="分组2">
+                <option value="030" selected>333</option>
+                <option value="030" selected>444</option>
+            </optgroup>
+        </select>
+
+        <hr>
+        <p>
+            <label class="search">
+                <input type="text" name="wd">
+                <input type="submit" value="搜索">
+            </label>
+        </p>
+   </form>
+
+
+</body>
+</html>

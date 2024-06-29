@@ -1,0 +1,5 @@
+2018-09-27 15:09:01,548 P161_logging模块.py[line:73] DEBUG debug message
+2018-09-27 15:09:01,549 P161_logging模块.py[line:74] INFO info message
+2018-09-27 15:09:01,549 P161_logging模块.py[line:75] WARNING warning message
+2018-09-27 15:09:01,549 P161_logging模块.py[line:76] ERROR error message
+2018-09-27 15:09:01,550 P161_logging模块.py[line:77] CRITICAL critical error message

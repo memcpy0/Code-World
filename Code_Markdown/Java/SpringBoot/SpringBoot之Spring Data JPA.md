@@ -1,0 +1,1 @@
+https://zhuanlan.zhihu.com/p/425864811 # 详细对比 JPA、MyBatisPlus 的差异

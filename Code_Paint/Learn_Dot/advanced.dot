@@ -1,0 +1,22 @@
+// digraph example {
+//     a0:w -> b0; //其中w意思是west，支持w,e,n,s,sw,se,nw,ne
+//     a1:e -> b1;
+//     a2:n -> b2;
+//     a3:s -> b3;
+//     a4:nw -> b4;
+//     a5:ne -> b5;
+//     a6:sw -> b6;
+//     a7:se -> b7;
+// }
+
+digraph example {
+    rankdir = LR;
+    a0:w -> b0; //其中w意思是west，支持w,e,n,s,sw,se,nw,ne
+    a1:e -> b1;
+    a2:n -> b2;
+    a3:s -> b3;
+    a4:nw -> b4;
+    a5:ne -> b5;
+    a6:sw -> b6;
+    a7:se -> b7;
+}

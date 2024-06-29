@@ -1,0 +1,17 @@
+@startuml MyDocumentc
+
+class PlainDocument {
+
+}
+
+class MyDocument {
+    -maxLength : int
+    +MyDocument()
+    +MyDocument(int newMaxLength)
+    +insertString(int offset, String str, AttributeSet a) : void
+}  
+ 
+note "自定义的PlaintDocument的子类" as N0
+N0 .. MyDocument 
+PlainDocument <|-- MyDocument
+@enduml

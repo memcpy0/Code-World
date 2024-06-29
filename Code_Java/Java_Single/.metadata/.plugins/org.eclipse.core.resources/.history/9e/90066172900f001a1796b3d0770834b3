@@ -1,0 +1,8 @@
+import java.net.*;
+
+public class InetAddressTest {
+	public static void main(String[] args) throws UnknownHostException {
+		// 获取本地主机对应的InetAddress对象
+		InetAddress localhost = InetAddress.getLocalHost(); // 
+	}
+}

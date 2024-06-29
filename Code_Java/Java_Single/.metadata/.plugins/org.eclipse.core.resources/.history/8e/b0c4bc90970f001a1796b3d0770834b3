@@ -1,0 +1,21 @@
+import java.io.*;
+import java.net.*;
+
+public class ServerSocketMoreConnectTest {
+	public static void main(String[] args) throws IOException {
+		ServerSocket server = null;
+		server = new ServerSocket(3333);
+		int count = 0; 
+		while (true) {
+			// System.out.println("等待客户端连接...");
+			Socket client = server.accept();
+			// System.out.println("有客户连接，通过流向客户端发送数据...");
+			count++;
+			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+			writer.write("您是本机的第" + count + "个用户!");
+			writer.write("欢迎下次光临...");
+			writer.flush();
+			client.close(); 
+		}
+	}
+}

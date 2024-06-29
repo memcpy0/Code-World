@@ -1,0 +1,16 @@
+
+public class priBit {
+	void priorityOfBitOperator() {
+		int a = ~67, b = 116, c = 78;
+		int d = ~a | b & c;
+		int e = ~c >> 2 & (a | ~b);
+		int f = a ^ b & c;
+		System.out.println("d=" + d);
+		System.out.println("e=" + e);
+		System.out.println("f=" + f);
+	}
+	public static void main(String[] args) {
+		priBit d = new priBit();
+		d.priorityOfBitOperator();
+	}
+}

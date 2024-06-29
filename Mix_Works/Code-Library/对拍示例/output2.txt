@@ -1,0 +1,125 @@
+请输入想要排序的字符串个数: 
+输入要排序的40个字符串(回车换行分隔字符串): 
+字符串按字典序递增排序的单链表如下: 
+A man is not old as long as he is seeking something. A man is not old until regrets take the place of dreams.
+A relationship should be between two people, not the whole world.
+Being single is better than being in an unfaithful relationship.
+Bravery never goes out of fashion.
+Don't part with your illusions . When they are gone you may still exist , but you have ceased to live.
+Don't try so hard, the best things come when you least expect them to.
+Energy and persistence conquer all things.
+Every noble work is at first impossible.
+Getting out of bed in winter is one of life's hardest mission.
+Giving is a reward in itself.
+Great minds have purpose, others have wishes.
+Having a calm smile to face with being disdained indicates kind of confidence.
+How much truth of heart in one's life is told in a joke?
+I love it when I catch you looking at me then you smile and look away.
+Ideal is the beacon. Without ideal , there is no secure direction ; without direction , there is no life.
+If they throw stones at you, don't throw back, use them to build your own foundation instead.
+If winter comes , can spring be far behind?
+If you are doing your best,you will not have to worry about failure.
+If you doubt yourself , then indeed you stand on sky ground.
+If you find a path with no obstacles, it probably doesn't lead anywhere.
+Living without an aim is like sailing without a compass. 
+Man struggles upwards; water flows downwards.
+Never underestimate your power to change yourself!
+Not everything that is faced can be changed, but nothing can be changed until it is faced.
+One's real value first lies in to what degree and what sense he set himself.
+Proper preparation solves 80 percent of life's problems.
+Sometimes your plans don't work out because God has better ones.
+Success is the ability to go from one failure to another with no loss of enthusiasm.
+Sweat is the lubricant of success.
+The future is scary but you can't just run to the past cause it's familiar.
+The man with a new idea is a crank until the idea succeeds.
+Those who turn back never reach the summit.
+Today, give a stranger one of your smiles. It might be the only sunshine he sees all day.
+True mastery of any skill takes a lifetime.
+We all have moments of desperation. But if we can face them head on, that's when we find out just how strong we really are.
+We improve ourselves by victories over ourselves. There must be contests, and we must win.
+When there's no expectation, losing won't bring hurt, gaining makes you surprised.
+Winners do what losers don't want to do.
+You can't have a better tomorrow if you don't stop thinking about yesterday.
+You have to believe in yourself . That's the secret of success.
+单链表逆序后全部字符串如下: 
+You have to believe in yourself . That's the secret of success.
+You can't have a better tomorrow if you don't stop thinking about yesterday.
+Winners do what losers don't want to do.
+When there's no expectation, losing won't bring hurt, gaining makes you surprised.
+We improve ourselves by victories over ourselves. There must be contests, and we must win.
+We all have moments of desperation. But if we can face them head on, that's when we find out just how strong we really are.
+True mastery of any skill takes a lifetime.
+Today, give a stranger one of your smiles. It might be the only sunshine he sees all day.
+Those who turn back never reach the summit.
+The man with a new idea is a crank until the idea succeeds.
+The future is scary but you can't just run to the past cause it's familiar.
+Sweat is the lubricant of success.
+Success is the ability to go from one failure to another with no loss of enthusiasm.
+Sometimes your plans don't work out because God has better ones.
+Proper preparation solves 80 percent of life's problems.
+One's real value first lies in to what degree and what sense he set himself.
+Not everything that is faced can be changed, but nothing can be changed until it is faced.
+Never underestimate your power to change yourself!
+Man struggles upwards; water flows downwards.
+Living without an aim is like sailing without a compass. 
+If you find a path with no obstacles, it probably doesn't lead anywhere.
+If you doubt yourself , then indeed you stand on sky ground.
+If you are doing your best,you will not have to worry about failure.
+If winter comes , can spring be far behind?
+If they throw stones at you, don't throw back, use them to build your own foundation instead.
+Ideal is the beacon. Without ideal , there is no secure direction ; without direction , there is no life.
+I love it when I catch you looking at me then you smile and look away.
+How much truth of heart in one's life is told in a joke?
+Having a calm smile to face with being disdained indicates kind of confidence.
+Great minds have purpose, others have wishes.
+Giving is a reward in itself.
+Getting out of bed in winter is one of life's hardest mission.
+Every noble work is at first impossible.
+Energy and persistence conquer all things.
+Don't try so hard, the best things come when you least expect them to.
+Don't part with your illusions . When they are gone you may still exist , but you have ceased to live.
+Bravery never goes out of fashion.
+Being single is better than being in an unfaithful relationship.
+A relationship should be between two people, not the whole world.
+A man is not old as long as he is seeking something. A man is not old until regrets take the place of dreams.
+请输入要删除的第几大的字符串(字典序): 
+单链表中删除第25大的字符串后情况如下: 
+You have to believe in yourself . That's the secret of success.
+You can't have a better tomorrow if you don't stop thinking about yesterday.
+Winners do what losers don't want to do.
+When there's no expectation, losing won't bring hurt, gaining makes you surprised.
+We improve ourselves by victories over ourselves. There must be contests, and we must win.
+We all have moments of desperation. But if we can face them head on, that's when we find out just how strong we really are.
+True mastery of any skill takes a lifetime.
+Today, give a stranger one of your smiles. It might be the only sunshine he sees all day.
+Those who turn back never reach the summit.
+The man with a new idea is a crank until the idea succeeds.
+The future is scary but you can't just run to the past cause it's familiar.
+Sweat is the lubricant of success.
+Success is the ability to go from one failure to another with no loss of enthusiasm.
+Sometimes your plans don't work out because God has better ones.
+Proper preparation solves 80 percent of life's problems.
+One's real value first lies in to what degree and what sense he set himself.
+Not everything that is faced can be changed, but nothing can be changed until it is faced.
+Never underestimate your power to change yourself!
+Man struggles upwards; water flows downwards.
+Living without an aim is like sailing without a compass. 
+If you find a path with no obstacles, it probably doesn't lead anywhere.
+If you doubt yourself , then indeed you stand on sky ground.
+If you are doing your best,you will not have to worry about failure.
+If winter comes , can spring be far behind?
+Ideal is the beacon. Without ideal , there is no secure direction ; without direction , there is no life.
+I love it when I catch you looking at me then you smile and look away.
+How much truth of heart in one's life is told in a joke?
+Having a calm smile to face with being disdained indicates kind of confidence.
+Great minds have purpose, others have wishes.
+Giving is a reward in itself.
+Getting out of bed in winter is one of life's hardest mission.
+Every noble work is at first impossible.
+Energy and persistence conquer all things.
+Don't try so hard, the best things come when you least expect them to.
+Don't part with your illusions . When they are gone you may still exist , but you have ceased to live.
+Bravery never goes out of fashion.
+Being single is better than being in an unfaithful relationship.
+A relationship should be between two people, not the whole world.
+A man is not old as long as he is seeking something. A man is not old until regrets take the place of dreams.

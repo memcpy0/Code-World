@@ -1,0 +1,19 @@
+// digraph example {
+//     rankdir = LR;
+//     node[shape = record]; //record形状
+//     a[label = "{A|}"]; //每个'|'都是一列
+//     b[label = "{B|}"];
+//     c[label = "{C|}"];
+//     d[label = "{D|NULL}"];
+//     a -> b:w;
+//     b -> c:w;
+//     c -> d:w;
+// }
+
+// digraph example {
+    // a[shape = record; label = "A | B | C | D"];
+// }
+digraph example {
+    rankdir = LR;
+    a[shape = record; label = "A | B | C | D"];
+}

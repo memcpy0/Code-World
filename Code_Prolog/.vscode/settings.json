@@ -1,0 +1,9 @@
+{
+    "prolog.dialect": "swi", //prolog方言选择:swi(SWI-Prolog)或者ecl(ECLiPSe)
+    "prolog.executablePath": "C:\\Program Files\\swipl\\bin\\swipl.exe", //指向prolog可执行文件
+    "prolog.linter.run": "onSave", //保存文件时进行代码检查
+    //"prolog.linter.delay": 500,  //使用"onType"时用到的选项
+    "prolog.format.enabled": true, //允许format源代码
+    "prolog.format.tabSize": 4,    //将tab替换为4个空格
+    "prolog.format.insertSpaces": true, //更偏向使用空格
+}

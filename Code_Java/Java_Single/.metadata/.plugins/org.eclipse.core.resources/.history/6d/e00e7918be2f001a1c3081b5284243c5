@@ -1,0 +1,6 @@
+package stone.ast;
+import java.util.List;
+
+public class NegativeExpr {
+
+}

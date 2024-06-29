@@ -1,0 +1,16 @@
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.exe
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.deps.json
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.runtimeconfig.json
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.runtimeconfig.dev.json
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.dll
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\ref\CSharp_Multiple.dll
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\bin\Debug\net5.0\CSharp_Multiple.pdb
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.csproj.AssemblyReference.cache
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.AssemblyInfoInputs.cache
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.AssemblyInfo.cs
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.csproj.CoreCompileInputs.cache
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.dll
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\ref\CSharp_Multiple.dll
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.pdb
+C:\CodeWorld\Code_CSharp\CSharp_Multiple\obj\Debug\net5.0\CSharp_Multiple.genruntimeconfig.cache

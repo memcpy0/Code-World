@@ -1,0 +1,33 @@
+import java.io.*;
+
+// 并行运行时会使用普通线程
+// 而不间断的监视工作也会用到线程
+// 如：运行时程序一直监视C盘的剩余空间，空间不足10GB时发出警报
+
+class WatchingThread extends Thread {
+	private File file = new File("C:");
+	public void run() {
+		while (true) {
+			long free = file.getFreeSpace();
+			System.out.println("C盘剩余空间: " + free / 1024 / 1024 / 1024 + "GB");
+			if (free < 1024 * 1024 * 1024 * 10) System.out.println("C盘剩余空间不足1GB");
+			try {
+				sleep(5000); // 暂停5秒后继续监视
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}
+
+public class WatchingThreadTest {
+	public static void main(String[] args) {
+		// 直接这样写会导致程序无法自动终止，因为Java程序必须在所有(非守护)子线程终止后才停止
+		// new WatchingThread().start();
+		// 这时需要标记为守护线程
+		Thread th = new WatchingThread();
+		th.setDaemon(true); // 在start之前，调用setDaemon可以标记为守护线程
+		// 这样在所有非守护线程结束后，程序就会终止
+		th.start();
+	}
+}

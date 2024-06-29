@@ -1,0 +1,17 @@
+// 单例模式
+class Singleton {
+	private String name;
+	private Singleton instance;
+	private Singleton() {
+		name = "单例";
+		if (instance == null) 
+			instance = new Singleton();
+	}
+	public static Singleton getSingletonInstance() {
+		return s;
+	}
+}
+
+public class Single {
+	
+}

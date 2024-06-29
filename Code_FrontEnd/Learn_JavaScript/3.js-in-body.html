@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第3个JavaScript实例</title>
+</head>
+<body>
+    <h1>我的web页面</h1>
+    <button type="button" onclick="myFunc()">尝试一下</button>
+    <p id="demo">一个段落</p>
+    <script>
+        function myFunc() {
+            document.getElementById("demo").innerHTML = "我的JavaScript函数";
+        }
+    </script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+<body>	
+    HTML 输出流中使用 document.write，相当于添加在原有html代码中添加一串html代码
+    。而如果在文档加载后使用（如使用函数），会覆盖整个文档。
+<p>
+JavaScript 能够直接写入 HTML 输出流中：
+</p>
+<script>
+    function myfunction(){
+    document.write("使用函数来执行doucment.write，即在文档加载后再执行这个操作，会实现文档覆盖");
+}
+document.write("<h1>这是一个标题</h1>");
+document.write("<p>这是一个段落。</p>");
+</script>
+<p>
+您只能在 HTML 输出流中使用 <strong>document.write</strong>。
+如果您在文档已加载后使用它（比如在函数中），会覆盖整个文档。
+</p>
+	
+</body>
+</html> -->

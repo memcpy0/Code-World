@@ -1,0 +1,30 @@
+// graph cut_vertex {
+//     node[shape = circle]
+//     a -- {b; c; d};
+//     c -- {d; e};
+//     d -- f;
+//     e -- f;
+//     e -- g;
+// }
+
+// digraph dfs_tree { 
+//     node[shape = circle]
+//     node [shape = doublecircle]; a
+//     size = "8, 5"
+//     node [shape = circle];
+//     a -> b;
+//     a -> c;
+//     d -> a[style=dotted];
+//     d -> c[style=dotted];
+//     c -> e;
+//     e -> {f, g};
+//     f -> d;
+// }
+
+graph cut_vertex2 {
+    node[shape = circle]
+    a:s -- b[weight=0];
+    b:s -- c[weight=0];
+    c:s -- d[weight=0];
+    d:n -- b[splines = "line", style=dotted];
+}

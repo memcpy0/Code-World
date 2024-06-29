@@ -1,0 +1,14 @@
+@startuml WalletController
+ 
+class WalletController #aliceblue ##[dotted]blue { 
+    -walletService : WalletService
+
+    +page(String id, Model model, int pageNum, int pageSize) : String 
+    +String pageId(String walletId, Model model, int pageNum, int pageSize) : String
+    +toUpdMoney(Integer walletId, Model model) : String
+    +toUpdMoney(Integer walletId,Model model) : String
+    +addMoney(String accountId,String money) : String
+    +updPwd(String password, HttpSession session) : String
+}
+note top of WalletController : 表现层控制类，更新钱包信息、用户充值等
+@enduml

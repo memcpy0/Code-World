@@ -1,0 +1,24 @@
+@startuml MenuActions
+ 
+class MenuActions {
+    -frames : Map<String, JInternalFrame>
+    +MODIFY_PASSWORD : PasswordModiAction
+    +USER_MODIFY_DEL : UserModiAndDelAction
+    +USER_ADD : UserAddAction
+    +BOOK_SEARCH : BookSearchAction
+    +GIVE_BACK : GiveBackAction
+    +BORROW : BorrowAction
+    +NEWBOOK_CHECK_ACCEPT : CheckAndAcceptNewBookAction
+    +NEWBOOK_ORDER : BoodOrderAction 
+	+BOOKTYPE_MODIFY : BookTypeModiAction
+	+BOOKTYPE_ADD : BookTypeAddAction
+	+READER_MODIFY : ReaderModiAndDelAction
+	+READER_ADD : ReaderAddAction
+	+BOOK_MODIFY : BookModiAndDelAction
+	+BOOK_ADD : BookAddAction
+    +EXIT: ExitAction
+}  
+ 
+note "菜单和各个按钮的Action对象，它们都是AbstractAction的子类" as N0
+N0 .. MenuActions
+@enduml

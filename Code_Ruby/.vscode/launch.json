@@ -1,0 +1,121 @@
+{ 
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [ 
+        {
+            //name是字符串形式的配置名称,显示在启动配置下拉菜单中,在配置数组中必须独一无二
+            "name": "Debug Local File",
+            //type是配置类型,必须是Ruby,告诉VS Code运行什么调试器
+            "type": "Ruby",
+            //request是请求配置类型,可以是launch(允许直接从VS Code中启动提供的程序),
+            //或者是attach,允许你附加到远程调试会话(remote debug session).
+            "request": "launch", 
+            //cwd调试程序时的工作目录,需要是源码文件所在的文件夹位置(program字符串指出的位置)
+            "cwd": "${fileDirname}",
+            //program是将要进行调试的程序的完整路径,不应该依赖于相对路径.
+            //如果文件在你的工作区,program通常是这样一个字符串"${workspaceRoot}/path/to/script.rb"
+            //- ${workspaceRoot} 开启在VS Code中的文件夹的路径
+            //- ${file} 当前打开的文件(的完整路径)
+            //- ${fileBasename} 当前打开的文件的basename(即文件名.扩展名)
+            //- ${fileDirname} 当前打开的文件的dirname
+            //- ${fileExtname} 当前打开的文件的扩展名
+            "program": "${fileDirname}/${fileBasename}",
+            //stopOnEntry设为true时调试程序将暂停在程序入口处,相当于在main上打断点
+            "stopOnEntry": false,
+            //showDebuggerOutput展示一些额外的输出信息到调试终端,尤其是关于rdebug-ide的运行
+            "showDebuggerOutput": true,
+            //args数组是程序调试时提供给程序的命令行参数,里面每个字符串都被作为一个单独参数进行传送
+            "args": [],
+            //env提供要在启动程序之前设置的环境变量
+            // "env": {
+            //     "BASE": "${fileDirname}",
+            //     "EXT": "${fileExtname}",
+            //     "RAILS_ENV": "test"
+            // },
+            //如果不是'ruby',就是Ruby可执行文件的路径,用于运行程序(在没有调试器时) 
+            //"pathToRuby": "ruby",
+            //如果'rdebug-ide'不在PATH环境变量中,需要提供'rdebug-ide'的绝对路径值,比如"c:\ruby\rdebug-ide.bat" 
+            "pathToRDebugIDE": "rdebug-ide",
+            //"pathToBundler": "bundle"
+        },
+        {   //仅对当前打开的测试文件运行Test::Unit
+            "name": "Test::Unit - open test file",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",          
+            "program": "${file}",
+            "includes": ["test", "lib"] //使用includes在$LOAD_PATH中包含其他路径。
+        },
+        {   //在当前打开的文件中,对单个选定的测试运行Test::Unit 
+            "name": "Test::Unit - single selected test",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",          
+            "program": "${file}",
+            "includes": ["test", "lib"],
+            "args": [
+                "-n",
+                "${selectedText}"
+            ]
+        },
+        {   //这将在源文件目录下运行rails服务器,假设binstubs已经通过bundler install --binstubs安装
+            "name": "Rails server",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/bin/rails",
+            "args": ["server"]
+        },
+        {
+            "name": "Minitest - current line",
+            "type": "Ruby",
+            "request": "launch", 
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/bin/rails",
+            "args": [
+                "test",
+                "${file}:${lineNumber}"
+            ]
+        },
+        {   //使用传递过来的额外参数,运行所有的spec
+            "name": "RSpec - all",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/bin/rspec",
+            "args": [
+                "-I", "${fileDirname}",
+                "--require", "spec_helper",
+                "--require", "rails_helper",
+                "--format", "documentation",
+            ]
+        },
+        {   //运行RSpec,不过只在当前打开的spec文件上
+            "name": "RSpec - active spec file only",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/bin/rspec",
+            "args": [
+                "-I",
+                "${fileDirname}",
+                "${file}"
+            ]
+        }, 
+        {   //运行所有cuke
+            "name": "Cucumber",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "program": "${fileDirname}/bin/cucumber"
+        },
+        // { //用于远程调试的配置,暂时用不到
+        //     "name": "Listen for rdebug-ide",
+        //     "type": "Ruby",
+        //     "request": "attach",
+        //     "remoteHost": "127.0.0.1",
+        //     "remotePort": "1234",
+        //     "remoteWorkspaceRoot": "${workspaceRoot}"
+        // },
+    ]  
+}

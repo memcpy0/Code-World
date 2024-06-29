@@ -1,0 +1,15 @@
+
+public class conditions {
+	String conditionExpression(int score) {
+		String result;
+		result = (score >= 60) ? "passed" : "doesn't pass";
+		if (score > 60) result = "passed";
+		else result = "doesn't pass";
+		System.out.println(result);
+		return result;
+	}
+	public static void main(String[] args) {
+		conditions d = new conditions();
+		d.conditionExpression(65)
+	}
+}

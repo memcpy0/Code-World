@@ -1,0 +1,255 @@
+{
+    /*-----------------------------------------LaTeX Workshop插件配置------------------------------------------*/
+    //设置扩展何时使用默认的(第一个)编译链(recipe),自动构建(build)LaTeX项目,
+    //即什么时候自动进行代码的编译, 选项为3个:
+    //- onSave: 当一个tex文件在vscode中被保存时,构建项目;
+    //- onFileChange: 当检测到任何依赖项中的文件更改(即使被其他应用程序修改)时构建项目,即
+    //检测到代码被更改时就自动编译tex文件以构建项目
+    //- never: 从不自动编译,需要编写者手动构建 
+    "latex-workshop.latex.autoBuild.run": "never", //新的LaTeX图标能够编译文档,将在下文提及
+
+    //启用上下文LaTeX菜单,此菜单默认停用(因为可以通过新的LaTeX图标使用),即变量设置为false.
+    //只需要将此变量设置为true,即可恢复菜单,将编译文档的两个选项显示在鼠标右键的菜单中,分别是
+    //- Build LaTeX project: 进行tex文件的编译,构建LaTeX项目
+    //- SyncTeX from cursor: 进行正向同步,从代码定位到编译出来的pdf文件相应位置
+    "latex-workshop.showContextMenu": true,
+
+    //是否从使用的宏包中自动提取命令和环境,补全正在编写的代码和环境 
+    "latex-workshop.intellisense.package.enabled": true,
+
+    //设置当文档编译错误时是否弹出显示警告和错误的弹窗,由于能从终端获取这些信息,所以设置为false
+    "latex-workshop.message.error.show": false,
+    "latex-workshop.message.warning.show": false,
+
+    //定义编译链(recipe)中使用的LaTeX编译工具,每个工具通过name标记,name将用作下文
+    //recipes的引用,command为该工具在扩展中的编译方式.
+    //激活时,将通过定义的参数args、env中的环境变量来调用命令command.
+    //占位符有%DOC%, %DOC_W32%, %DOC_EXT%, %DOC_EXT_W32%, %DOCFILE%, %DOCFILE_EXT%, 
+    //%DIR%, %DIR_W32%, %TMPDIR%, %OUTDIR%, %OUTDIR_W32%
+    //更多详情访问https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#placeholders.
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "texify",
+            "command": "texify",
+            "args": [
+                "--synctex",
+                "--pdf",
+                "--tex-option=\"-interaction=nonstopmode\"",
+                "--tex-option=\"-file-line-error\"",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        }
+    ],
+
+    "latex-workshop.latex.magic.args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+    ],
+    
+    //定义LaTeX使用的编译工具链,每个出现在列表中的工具链都是一个对象,包含它的标签name
+    //和使用的编译工具tools(将被顺序调用).这些编译工具定义在latex-workshop.latex.tools.
+    //默认的,第一个工具链将被用来编译项目.编译链的存在是为了方便编译,尤其是涉及到.bib文件时,
+    //要进行多次不同命令的转换编译,整个过程比较麻烦,而编译链解决了这一问题.
+    //https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipe
+    //pdflatex命令 = PDFTeX引擎 + LaTeX格式 + PDF输出(引擎就相当于编译器)
+    //pdftex命令 = PDFTeX引擎 + plain格式 + PDF输出
+    //latex命令 = PDFTeX引擎 + LaTeX格式 + DVI输出（因为是DVI输出，所以要用dvipdf将其转化为PDF格式
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        //latexmk可利用配置文件，自动地使用pdflatex、xelatex等latex编译器来编译
+        //（用过c/c++的同学应该知道 make 工具，latexmk 有点这样的味道）
+        //latexmk可利用的RC文件 (也就是配置文件) 有四个：
+        //- 系统RC文件 （Windows 路径：C:\latexmk\LatexMk）
+        //- 用户RC文件 （$HOME/.latexmkrc， $Home 是用户目录）
+        //- 当前项目工作路径的RC文件 (文件名是latexmkrc或.latexmkrc)
+        //- 其他RC文件 （需要在命令行中用-r选项指定） 
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        //关于文献管理，在科研写作中，就是在Reference部分中排版，然后在论文中适当地格式引用。
+        //最早用文献管理的软件是NoteExpress，而后是Endnote，现在是BibTex
+        {
+            "name": "bibtex",
+            "tools": [
+                "bibtex"
+            ]
+        },
+        {
+            "name": "texify",
+            "tools": [
+                "texify"
+            ]
+        },
+        {
+            "name": "xelatex*2",
+            "tools": [
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+    ],
+
+    //设置编译完成后要清除的辅助文件类型,无特殊需求的话就不用更改.它的属性必须是一个字符串数组.
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
+
+    //设置什么时候对上文说明的辅助文件类型进行清除,要被清除的文件夹需要通过latex-workshop.latex.outDir来定义.
+    //- onFailed: 当编译失败时,清除辅助文件
+    //- onBuilt: 当编译结束后,无论成功或者失败,都要清除辅助文件
+    //- never: 无论何时,都不清除辅助文件 
+    //由于tex文档编译可能需要用到辅助文件(编译目录和参考文献时),使用onBuilt会导致编译不出完整结果甚至编译失败
+    //如果要修改tex文件再编译,可能导致pdf文件没有正常更新,这时可能由于辅助文件没有及时更新,需要清除辅助文件,never做不到这一点
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+
+    //设置vscode编译tex文档时默认被latex-workshop.build使用的编译链,这同样被用到自动构建中.
+    //编译链通过它们定义在latex-workshop.latex.recipes的name加以标识.有两个特定值:
+    //- first: 使用latex-workshop.latex.recipes中的第一条编译链,可以根据自己的需要改变编译链顺序
+    //- lastUsed: 使用最近一次编译所用的编译链 
+    "latex-workshop.latex.recipe.default": "lastUsed",
+
+    //用于反向同步(从编译出的pdf文件指定位置跳转到tex文件中相应代码所在位置)的内部查看器(internal viewer)
+    //的快捷键绑定(keybinding).变量有两种:
+    //- ctrl/cmd + click: 默认选项,使用ctrl/cmd+鼠标左键单击
+    //- double-click: 使用鼠标左键双击
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "ctrl-click",
+
+    //--------------------------------------------------------------------------------------------
+    //设置默认的PDF查看器,变量为:
+    //- tab: 使用vscode内置PDF查看器
+    //- browser: 使用电脑默认浏览器进行PDF查看
+    //- external: 使用外部查看器进行查看 
+    "latex-workshop.view.pdf.viewer": "external",
+    
+    //进行PDF内外部查看切换的关键参数
+    //设置PDF查看器用于\ref命令上的[View on PDF]链接,此命令作用于\ref引用查看,参数如下:
+    //- auto: 由编辑器根据情况自动设置
+    //- tabOrBrowser: 使用VSCode内置PDF查看器或者电脑默认浏览器进行PDF查看
+    //- external: 使用外部PDF查看器查看
+    "latex-workshop.view.pdf.ref.viewer": "auto",
+
+    //使用外部查看器时要执行的命令,这一函数不存在官方支持
+    //设置外部查看器SumatraPDF.exe所在的位置,用于启动
+    //此处需要自行修改
+    "latex-workshop.view.pdf.external.viewer.command": "D:/Program Files/SumatraPDF/SumatraPDF.exe",
+
+    //设置使用外部查看器时,"latex-workshop.view.pdf.external.viewer.command"的参数
+    //%PDF%是用于生成PDF文件的绝对路径的占位符.
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "%PDF%"
+    ],
+
+    //将生成的.synctex.gz辅助文件,转发到外部查看器时要执行的命令.
+    //需要自行更改路径,即SumatraPDF.exe的路径.
+    "latex-workshop.view.pdf.external.synctex.command": "D:/Program Files/SumatraPDF/SumatraPDF.exe", //注意修改路径
+    
+    //当转发.synctex.gz辅助文件到外部查看器时,需要设置的latex-workshop.view.pdf.external.synctex的参数.
+    //%LINE%是行号,%PDF%是占位符(生成的PDF文件的绝对路径),%TEX%是触发syncTeX时扩展名为.tex的源LaTeX文件的路径.
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        //VSCode所在的.exe文件  //正向搜索设置(现在的写法)
+        "code \"D:/Program Files/Microsoft VS Code/resources/app/out/cli.js\" -r -g \"%f:%l\"",
+        //"code \"D:/Program Files/Microsoft VS Code/Code.exe\" \"D:/Program Files/Microsoft VS Code/resources/app/out/cli.js\" -r -g \"%f:%l\"", //注意修改路径
+        "%PDF%"
+    ], 
+}

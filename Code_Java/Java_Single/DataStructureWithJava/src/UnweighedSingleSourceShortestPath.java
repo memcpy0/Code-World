@@ -1,0 +1,90 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Collections;
+//Graph无权无向图
+//O(V+E)时间复杂度
+//(仅限于无权图) 单源最短路径问题 BFS
+//可以复用, n个UnweighedSingleSourceShortestPath做到无权图所有点对最短路径问题的求解
+//求传入的源点到目标点是否可达
+//求两点间的最短路径 两点在同一个联通分量，意味着两点间有路径
+//www.javaxxz.com_*YG%D67J(4FU
+public class UnweighedSingleSourceShortestPath {
+	
+	private Graph G;
+	private int s; //单源路径的源点 从s出发找到前往所有可达顶点的路径
+	private boolean[] visited; //当然, 可以抛弃visited, 用pre/dis就可以表达是否访问了该顶点
+	private int[] pre; //记录BFS时各个顶点的前一个顶点
+	private int[] dis; //记录BFS时从源点到可达的其他顶点的距离
+	
+	public UnweighedSingleSourceShortestPath(Graph G, int s) { //构造函数中执行DFS 
+		G.validateVertex(s);
+		
+		this.G = G;
+		this.s = s;
+		visited = new boolean[G.V()];
+		pre = new int[G.V()];
+		dis = new int[G.V()];
+		
+		for (int i = 0; i < G.V(); ++i) {
+			pre[i] = -1; //-1指的是从源点不可达到顶点i, 当然用visited[i]更好
+			dis[i] = -1;
+		}
+		bfs(s); //只需要遍历源点所在的这一个连通分量
+	}
+ 
+	
+	private void bfs(int s) { //起点
+		Queue<Integer> queue = new LinkedList<>(); 
+		queue.add(s);
+		visited[s] = true;
+		pre[s] = s; //记录起点
+		dis[s] = 0; //起点到自己的距离为0
+		
+		while (!queue.isEmpty()) {
+			int v = queue.remove();
+			
+			for (int w : G.adj(v)) {
+				if (visited[w] == false) {
+					queue.add(w);
+					visited[w] = true;
+					pre[w] = v; //记录顶点w的前一个顶点, 方便求路径
+					dis[w] = dis[v] + 1;
+				}
+			}
+		}
+	}  
+	
+	public boolean isConnectedTo(int t) { //从源点是否可达t
+		G.validateVertex(t); //检查是否合法
+		return visited[t]; //pre[t] == -1 //dis[t] == -1
+	}
+	
+	public Iterable<Integer> path(int t) { //得到从源点到t的一条路径
+		ArrayList<Integer> res = new ArrayList<>();
+		if (!isConnectedTo(t)) return res;
+		
+		int cur = t;
+		while (cur != s) {
+			res.add(cur);
+			cur = pre[cur];
+		}
+		res.add(s);
+		Collections.reverse(res);
+		return res;
+	}
+	
+	public int dis(int t) { //返回源点到顶点t的最短路径的距离
+		G.validateVertex(t);
+		return dis[t];
+	}
+	
+	public static void main(String[] args) {
+		Graph g = new Graph("g.txt");
+		UnweighedSingleSourceShortestPath usspath = new UnweighedSingleSourceShortestPath(g, 0); //源点为0的单源最短路类
+		System.out.print("0 -> 6 : ");
+		System.out.println(usspath.path(6));  
+		System.out.println(usspath.dis(6));
+	}
+
+}

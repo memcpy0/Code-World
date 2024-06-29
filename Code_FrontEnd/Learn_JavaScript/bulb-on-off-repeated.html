@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript演示</title>
+    </head>
+    <body>
+        <input type="button" onclick="on()" value="开灯">
+        <img id="myImage" border="0" src="off.gif" style="text-align:center;">
+        <input type="button" value="关灯" onclick="off()">
+        <script>
+            function on() {
+                document.getElementById('myImage').src = "on.gif";
+            }
+            function off() {
+                document.getElementById('myImage').src = "off.gif";
+            }
+
+            // 定义一个变量,记录灯的状态,偶数时开灯,奇数时关灯
+            var x = 0;
+            // 使用循环定时器
+            setInterval(function() {
+                if (x % 2 == 0) { // 偶数,开灯状态,调用on()
+                    on();
+                } else { // 奇数,关灯,调用off()
+                    off();
+                }
+                ++x; // 改变变量的值
+            }, 1000);  
+        </script>
+    </body>
+</html>

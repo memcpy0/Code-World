@@ -1,0 +1,27 @@
+import java.io.*;
+
+// 并行运行时会使用普通线程
+// 而不间断的监视工作也会用到线程
+// 如：运行时程序一直监视C盘的剩余空间，空间不足10GB时发出警报
+
+class WatchingThread extends Thread {
+	private File file = new File("C:");
+	public void run() {
+		while (true) {
+			long free = file.getFreeSpace();
+			System.out.println("C盘剩余空间: " + free / 1024 / 1024 / 1024 + "GB");
+			if (free < 1024 * 1024 * 1024 * 10) System.out.println("C盘剩余空间不足1GB");
+			try {
+				sleep(5000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}
+
+public class WatchingThreadTest {
+	public static void main(String[] args) {
+		new WatchingThread().start();
+	}
+}

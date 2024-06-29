@@ -1,0 +1,20 @@
+@startuml User
+ 
+class User {
+	-id : int
+	-name : String
+	-sex : String
+	-age : int
+	-identityCard : String
+	-workdate : Date
+	-tel : String
+	-admin : int
+	-password : String
+
+    +getXXX() : String / Date / int
+    +setXXX() : void
+}  
+ 
+note "用户类，包含用户ID、姓名、性别、年龄、身份证、电话、密码等信息" as N0
+N0 .. User
+@enduml

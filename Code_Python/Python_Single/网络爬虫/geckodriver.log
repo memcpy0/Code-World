@@ -1,0 +1,1238 @@
+1542371178225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.OL9qCA87wL8x"
+1542371184766	Marionette	INFO	Listening on port 37438
+1542371184994	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 13940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line[Child 11164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11164, C[Parent 1508, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11542371257904	Marionette	INFO	Stopped listening on port 37438
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542371264536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.WxFye1TZn9jB"
+1542371271309	Marionette	INFO	Listening on port 37731
+1542371271720	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10716, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1542371344368	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remot[Child 10524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bu
+###!!!1542371354312	Marionette	INFO	Listening on port 38012
+1542371354692	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 8592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8592, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542371433277	Marionette	INFO	Stopped listening on port 38012
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+71422855	Marionette	INFO	Listening on port 38331
+1542371423258	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 15152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/bu[Child 7484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7484,[Parent 15152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8080, Chrome_ChildThread] WARNING: 1542371456532	Marionette	INFO	Stopped listening on port 38331
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542371554161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.9XluweaVDmnv"
+1542371559567	Marionette	INFO	Listening on port 38707
+1542371559675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[Parent 10672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 2092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip[Parent 10672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542371626272	Marionette	INFO	Stopped listening on port 38707
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15628, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542371629410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.sMXWm0jbCX3e"
+1542371634454	Marionette	INFO	Listening on port 38932
+1542371634858	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 11600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11600, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1400, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrom[Child 14148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1542373119841	Marionette	INFO	Stopped listening on port 38932
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rror code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 9900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13420, Chrome_ChildThread] WARNING: pipe error: 109: f[Child 13488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13488, Chrome_[Parent 9900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1542371986405	Marionette	INFO	Stopped listening on port 39573
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7944, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542371993665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.PnIgchoNcdrF"
+1542371998762	Marionette	INFO	Listening on port 39930
+1542371999141	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript warning: https://aq.qq.com/v2/js/jquery.min.js?v=2.1, line 19: unreachable code after return statement
+JavaScript warning: https://aq.qq.com/v2/uv_aq/js/reset_pwd/pc_reset_pwd_input_account.js?v=3.10, line 1: unreachable code after return statement
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_Release1542372201711	Marionette	INFO	Listening on port 40473
+1542372201818	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38282706%2Farticle%2Fdetails%2F80390604&chi=1&ps=701x489&cfv=0&dri=0&dai=5&pcs=1519x750&ccd=24&par=1536x864&cdo=-1&col=zh-CN&pis=-1x-1&prot=2&tcn=1542372298&ari=2&pss=1537x6244&dtm=HTML_POST&ti=python%20selenium%2Bfirefox%20%E4%BD%BF%E7%94%A8%E5%B7%B2%E6%89%93%E5%BC%80%E7%9A%84%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C(%E4%B8%8D%E9%9C%80%E8%A6%81%E6%AF%8F%E6%AC%A1%E9%83%BD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E7%81%AB%E7%8B%90)%20-%20%E8%A1%8C%E8%80%85%E5%88%986&cec=UTF-8&cce=true&tlm=1542372297&ant=0&exps=111000&cja=false&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DiuRUIcjl_jP3SjVxkXA-_Ah3_OJ86DmI2XpZMGUip1DxLoQU7UERS-2yKugQ-sYrY6J3NiKgDqF463yuAMrvXEoQO-Azbv_Yzvh6KrSEmIe%26wd%3D%26eqid%3D9d1c0c010001fbdd000000035beebbb7&tpr=1542372297467&psr=1536x864&cpl=0&drs=1&dc=3&dis=0&cmi=0, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38282706%2Farticle%2Fdetails%2F80390604&chi=1&ps=701x489&cfv=0&dri=0&dai=5&pcs=1519x750&ccd=24&par=1536x864&cdo=-1&col=zh-CN&pis=-1x-1&prot=2&tcn=1542372298&ari=2&pss=1537x6244&dtm=HTML_POST&ti=python%20selenium%2Bfirefox%20%E4%BD%BF%E7%94%A8%E5%B7%B2%E6%89%93%E5%BC%80%E7%9A%84%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C(%E4%B8%8D%E9%9C%80%E8%A6%81%E6%AF%8F%E6%AC%A1%E9%83%BD%E9%87%8D%E6%96%B0%E6%89%93%E5%BC%80%E7%81%AB%E7%8B%90)%20-%20%E8%A1%8C%E8%80%85%E5%88%986&cec=UTF-8&cce=true&tlm=1542372297&ant=0&exps=111000&cja=false&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DiuRUIcjl_jP3SjVxkXA-_Ah3_OJ86DmI2XpZMGUip1DxLoQU7UERS-2yKugQ-sYrY6J3NiKgDqF463yuAMrvXEoQO-Azbv_Yzvh6KrSEmIe%26wd%3D%26eqid%3D9d1c0c010001fbdd000000035beebbb7&tpr=1542372297467&psr=1536x864&cpl=0&drs=1&dc=3&dis=0&cmi=0, line 119: unreachable code after return statement
+JavaScript error: https://gh.bdstatic.com/static/gh/js/ll/mword.js, line 1: SyntaxError: expected expression, got '<'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter30"
+[Parent 14352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14352, Gecko_IO[Parent 8680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://www.ciweimao.com/resources/scripts/bootstrap/js/jquery.js line 14 > eval, line 2: TypeError: $(...).tipso is not a function
+[Parent 8680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3268, Chrome_ChildThread] WARNING: pipe erro1542373016542	Marionette	INFO	Stopped listening on port 42456
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 14876, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+on
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 3596, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.c1542373110862	Marionette	INFO	Listening on port 43114
+1542373111301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 1596, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 150321542373189032	Marionette	INFO	Stopped listening on port 43114
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542373192369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.dQ8UPCRd44sO"
+1542373197205	Marionette	INFO	Listening on port 43421
+1542373197327	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 12544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc1542373259753	Marionette	INFO	Listening on port 43672
+1542373260213	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12568, Chrome_ChildThread] WARNING: pipe error: 10[9: file zChild 7356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346:
+[Child /build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Parent 864, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542373425740	Marionette	INFO	Stopped listening on port 43672
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9968, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542373428354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.xHGcArNSsNll"
+1542373433901	Marionette	INFO	Listening on port 44188
+1542373434458	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542373465464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.ACNYqeOVxT2M"
+1542373470859	Marionette	INFO	Listening on port 44337
+1542373470975	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://gh.bdstatic.com/static/gh/js/ll/mword.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq471011042%2Farticle%2Fdetails%2F79514995&chi=1&prot=2&par=1536x864&cmi=0&cdo=-1&dri=0&tlm=1542373572&pis=-1x-1&col=zh-CN&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3Dg2BeNffVMUwaTkGDx1T2NFn1StoS2fvUx5R_ACDK61Ef3E5bTyjq9Q4F8AxshKbnxgspGia13u_BiwiMfulWXpFEX8IDd79b6wGLTRSzc7a%26wd%3D%26eqid%3Dc5fb5bdb0002ba71000000035beec0af&exps=111000&cce=true&tcn=1542373573&dai=5&tpr=1542373571897&drs=3&ant=0&dis=0&pss=1266x5984&psr=1536x864&cfv=0&cec=UTF-8&ps=663x574&cpl=0&cja=false&dtm=HTML_POST&pcs=1266x713&ccd=24&dc=3&ti=selenium%E6%8A%A5%E9%94%99%E9%9B%86%E9%94%A6%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%8C%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89%20-%20YoungfreeFJS%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&ari=2, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq471011042%2Farticle%2Fdetails%2F79514995&chi=1&prot=2&par=1536x864&cmi=0&cdo=-1&dri=0&tlm=1542373572&pis=-1x-1&col=zh-CN&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3Dg2BeNffVMUwaTkGDx1T2NFn1StoS2fvUx5R_ACDK61Ef3E5bTyjq9Q4F8AxshKbnxgspGia13u_BiwiMfulWXpFEX8IDd79b6wGLTRSzc7a%26wd%3D%26eqid%3Dc5fb5bdb0002ba71000000035beec0af&exps=111000&cce=true&tcn=1542373573&dai=5&tpr=1542373571897&drs=3&ant=0&dis=0&pss=1266x5984&psr=1536x864&cfv=0&cec=UTF-8&ps=663x574&cpl=0&cja=false&dtm=HTML_POST&pcs=1266x713&ccd=24&dc=3&ti=selenium%E6%8A%A5%E9%94%99%E9%9B%86%E9%94%A6%EF%BC%88%E8%87%AA%E7%94%A8%EF%BC%8C%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89%20-%20YoungfreeFJS%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&ari=2, line 119: unreachable code after return statement
+[Child 3052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3052, C[Parent 6484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542373600834	Marionette	INFO	Stopped listening on port 44337
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542373632631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.MvpyWe9rfqad"
+1542373637985	Marionette	INFO	Listening on port 44866
+1542373638146	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7584, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+1542373785527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.VpLDSKUDlrsH"
+1542373792739	Marionette	INFO	Listening on port 45327
+1542373792847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://gh.bdstatic.com/static/gh/js/ll/mword.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fwqh_jingsong%2Farticle%2Fdetails%2F65935034&ccd=24&dri=0&ari=2&psr=1536x864&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DLaYI5NGvslfEppOBikXn3_NTEI-hA0519yFjXT_suo7lHKQmYWxULjZek0JwSEA6gafIkv0dQvlIwzQaYK0tOedJqgQFkhpPKyw2-B61Tv_%26wd%3D%26eqid%3Db05a0a690000155d000000035beec203&pcs=1266x696&chi=1&cfv=0&cce=true&cdo=-1&drs=3&cpl=0&exps=111000,119001&col=zh-CN&ant=0&pis=-1x-1&tcn=1542373907&cec=UTF-8&tpr=1542373906200&par=1536x864&pss=1310x6219&tlm=1542373906&prot=2&ti=Python%E6%8A%93%E5%8F%96ajax%E5%8A%A0%E8%BD%BD%E5%9B%BE%E7%89%87%E9%9B%86%20-%20wqh_jingsong%E7%9A%84%E4%B8%93%E6%A0%8F%20-%20CSDN%E5%8D%9A%E5%AE%A2&cmi=0&dtm=HTML_POST&cja=false&ps=647x574&dai=5&dis=0&dc=3, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fwqh_jingsong%2Farticle%2Fdetails%2F65935034&ccd=24&dri=0&ari=2&psr=1536x864&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DLaYI5NGvslfEppOBikXn3_NTEI-hA0519yFjXT_suo7lHKQmYWxULjZek0JwSEA6gafIkv0dQvlIwzQaYK0tOedJqgQFkhpPKyw2-B61Tv_%26wd%3D%26eqid%3Db05a0a690000155d000000035beec203&pcs=1266x696&chi=1&cfv=0&cce=true&cdo=-1&drs=3&cpl=0&exps=111000,119001&col=zh-CN&ant=0&pis=-1x-1&tcn=1542373907&cec=UTF-8&tpr=1542373906200&par=1536x864&pss=1310x6219&tlm=1542373906&prot=2&ti=Python%E6%8A%93%E5%8F%96ajax%E5%8A%A0%E8%BD%BD%E5%9B%BE%E7%89%87%E9%9B%86%20-%20wqh_jingsong%E7%9A%84%E4%B8%93%E6%A0%8F%20-%20CSDN%E5%8D%9A%E5%AE%A2&cmi=0&dtm=HTML_POST&cja=false&ps=647x574&dai=5&dis=0&dc=3, line 119: unreachable code after return statement
+JavaScript warning: https://ai2018.csdn.net/js/uss/jquery.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.2.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://gh.bdstatic.com/static/gh/js/ll/mword.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2FWinterto1990%2Farticle%2Fdetails%2F47983253&prot=2&dc=3&psr=1536x864&ant=0&cmi=0&dai=6&dis=0&ccd=24&ti=python%E7%88%AC%E5%8F%96ajax%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E7%9A%84%E6%95%B0%E6%8D%AE%20%E4%BB%A5%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E8%AF%84%E8%AE%BA%E4%B8%BA%E4%BE%8B%E5%AD%90%20-%20Winterto1990%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&col=zh-CN&cfv=0&pis=-1x-1&pcs=1266x696&ltr=https%3A%2F%2Fblog.csdn.net%2Fwqh_jingsong%2Farticle%2Fdetails%2F65935034&par=1536x864&tpr=1542373947946&cec=UTF-8&exps=111000&cdo=-1&dtm=HTML_POST&tcn=1542373950&ps=647x574&pss=1310x6366&cce=true&ari=2&drs=3&tlm=1542373949&chi=1&dri=0&cja=false&cpl=0, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2FWinterto1990%2Farticle%2Fdetails%2F47983253&prot=2&dc=3&psr=1536x864&ant=0&cmi=0&dai=6&dis=0&ccd=24&ti=python%E7%88%AC%E5%8F%96ajax%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E7%9A%84%E6%95%B0%E6%8D%AE%20%E4%BB%A5%E6%8A%93%E5%8F%96%E6%B7%98%E5%AE%9D%E8%AF%84%E8%AE%BA%E4%B8%BA%E4%BE%8B%E5%AD%90%20-%20Winterto1990%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&col=zh-CN&cfv=0&pis=-1x-1&pcs=1266x696&ltr=https%3A%2F%2Fblog.csdn.net%2Fwqh_jingsong%2Farticle%2Fdetails%2F65935034&par=1536x864&tpr=1542373947946&cec=UTF-8&exps=111000&cdo=-1&dtm=HTML_POST&tcn=1542373950&ps=647x574&pss=1310x6366&cce=true&ari=2&drs=3&tlm=1542373949&chi=1&dri=0&cja=false&cpl=0, line 119: unreachable code after return statement
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://gh.bdstatic.com/static/gh/js/ll/mword.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_26182553%2Farticle%2Fdetails%2F75047879&col=zh-CN&dtm=HTML_POST&ari=2&drs=1&cec=UTF-8&ti=Selenium-%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%9B%BE%E5%83%8F%20-%20qq_26182553%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DLjQTpu8_UsNcdciWnuDo7u-7i1xy1P01dU8KFMAYhCSetS4nPQajnniigXdewJSn5ltdsYVPcPvlKLOgxDXKTKPcRj4kVjrsdV0Ce57ku83%26wd%3D%26eqid%3Db409a48c000000d1000000035beec450&cdo=-1&par=1536x864&prot=2&tpr=1542374502739&dis=0&cpl=0&dc=3&chi=1&ant=0&ccd=24&dri=0&cfv=0&cce=true&pss=1519x5819&dai=6&exps=111000&tcn=1542374505&pis=-1x-1&cmi=0&cja=false&tlm=1542374505&psr=1536x864&pcs=1519x767&ps=718x489, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_26182553%2Farticle%2Fdetails%2F75047879&col=zh-CN&dtm=HTML_POST&ari=2&drs=1&cec=UTF-8&ti=Selenium-%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%9B%BE%E5%83%8F%20-%20qq_26182553%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DLjQTpu8_UsNcdciWnuDo7u-7i1xy1P01dU8KFMAYhCSetS4nPQajnniigXdewJSn5ltdsYVPcPvlKLOgxDXKTKPcRj4kVjrsdV0Ce57ku83%26wd%3D%26eqid%3Db409a48c000000d1000000035beec450&cdo=-1&par=1536x864&prot=2&tpr=1542374502739&dis=0&cpl=0&dc=3&chi=1&ant=0&ccd=24&dri=0&cfv=0&cce=true&pss=1519x5819&dai=6&exps=111000&tcn=1542374505&pis=-1x-1&cmi=0&cja=false&tlm=1542374505&psr=1536x864&pcs=1519x767&ps=718x489, line 119: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-127895514-2, line 147: unreachable code after return statement
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi[Child 2136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346w
+in.cc, line 346
+[Child 15464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1546[Parent 16352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14696, Chrome_ChildThread] WARNING: p1542375051639	Marionette	INFO	Stopped listening on port 45327
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542553104337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.naVKKypsVUFN"
+1542553110442	Marionette	INFO	Listening on port 2997
+1542553110579	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child1542553129041	Marionette	INFO	Stopped listening on port 2997
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542553468069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.6dBXywGzByN2"
+1542553474131	Marionette	INFO	Listening on port 3169
+1542553474392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+[Child 6724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 672console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_Release1542553670424	Marionette	INFO	Listening on port 3273
+1542553670587	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 368,console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8948, Chrom[Child 9256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9256, Chrome_Chil1542553928213	Marionette	INFO	Stopped listening on port 3273
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+s will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542553927491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.9nk3oFRD11Ky"
+1542553932404	Marionette	INFO	Listening on port 3386
+1542553932537	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17304,[Parent 13228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chi1542553943959	Marionette	INFO	Stopped listening on port 3386
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542554756385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.wqPJOGESzMKp"
+1542554761510	Marionette	INFO	Listening on port 4027
+1542554761962	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 9608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12524[Parent 9608, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542555730167	Marionette	INFO	Stopped listening on port 4027
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+sers\\dell\\AppData\\Local\\Temp\\rust_mozprofile.SXPbeRlLQ3tR"
+1542554995965	Marionette	INFO	Listening on port 4277
+1542554996204	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil[Parent 16960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child1542555022955	Marionette	INFO	Stopped listening on port 4277
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542555079777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.IhppaqKoSTak"
+1542555085181	Marionette	INFO	Listening on port 4361
+1542555085417	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returne[Parent 5388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542555795904	Marionette	INFO	Stopped listening on port 4459
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nsaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 13204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_w[Chin.cc, line 346ild 6428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+[Child 17252, [Child 6421542555736377	Marionette	INFO	Stopped listening on port 4361
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542555799264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.6H85CzO9rfih"
+1542555804219	Marionette	INFO	Listening on port 4523
+1542555804354	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_Release1542556032159	Marionette	INFO	Listening on port 4624
+1542556032503	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 16532, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 16532, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 16532, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 16532, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+[Parent 16532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[
+Parent 165[Child 132, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17228, Chrome_ChildThread] W[Parent 16532, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 124601542557983826	Marionette	INFO	Stopped listening on port 4624
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n port 4881
+[GPU 6160, Chro
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1542557420987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.CDK9zFqdPc0D"
+1542557425999	Marionette	INFO	Listening on port 4946
+1542557426076	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1542557442558	Marionette	INFO	Stopped listening on port 4946
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543073503360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.PzGpcSgoF9xD"
+1543073512640	Marionette	INFO	Listening on port 36421
+1543073513195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+[Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17680,console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_c[Parent 19228, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18500, Chrome_ChildThread] WARNING: pipe 1543074716477	Marionette	INFO	Stopped listening on port 36421
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543074793188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.tLrskkNehTXK"
+1543074799481	Marionette	INFO	Listening on port 37022
+1543074799917	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+JavaScript error: http://mooc1.mooc.whu.edu.cn/js/courselist/jquery-1.7.2.min.js, line 3: SecurityError: Permission denied to access property "document" on cross-origin object
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+console.error: "Error while calling actor 'pagestyle's method 'getComputed'" "node is null"
+console.error: "getComputed@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:227:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1178:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1721:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:66:5\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js, line 456: TypeError: node.offsetParent is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/rules/rules.js, line 456: TypeError: node.offsetParent is null
+[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3248, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543075378919	Marionette	INFO	Stopped listening on port 37022
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543075561070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.g1bUN5RfmZAZ"
+1543075565438	Marionette	INFO	Listening on port 37206
+1543075565522	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 23428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 23428, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 228001543075959801	Marionette	INFO	Stopped listening on port 37206
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+U
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543075958780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.MAEVGQenR7gn"
+1543075963832	Marionette	INFO	Listening on port 37483
+1543075963878	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 21988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 21988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 21988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543077037516	Marionette	INFO	Stopped listening on port 37668
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/TelemetryController.jsm, line 459: Error: submitExternalPing - Submission is not allowed after shutdown, discarding ping of type: modules
+, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch[Parent 23516, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543076215285	Marionette	INFO	Stopped listening on port 37483
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543076220140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.ZUxUvCnPkBXN"
+1543076225046	Marionette	INFO	Listening on port 37756
+1543076225288	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 9436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543077036805	Marionette	INFO	Stopped listening on port 37756
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL prot1543077035950	Marionette	INFO	Stopped listening on port 37939
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 21692, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/s1543077036541	Marionette	INFO	Stopped listening on port 38025
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+uild/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543077036794	Marionette	INconsole.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter30"
+[Parent 8152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8152, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543077315105	Marionette	INFO	Stopped listening on port 38114
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543164501419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.Do9pX3IfbyRk"
+1543164506396	Marionette	INFO	Listening on port 40606
+1543164506509	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 22944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24460,[Child 24228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 24228, Chr[Parent 22944, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Chil1543164560997	Marionette	INFO	Stopped listening on port 40606
+[GPU 241543164563160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.hBqsDOfvxbOI"
+1543164568065	Marionette	INFO	Listening on port 40684
+1543164568259	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21936, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i[Child 23236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child1543164669133	Marionette	INFO	Listening on port 40765
+1543164669449	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+console.error: "_refreshProcess of computed view cancelled"
+console.error: "_refreshProcess of computed view cancelled"
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/highlighter30"
+[Parent 19624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child[Parent 19624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543165854473	Marionette	INFO	Stopped listening on port 40765
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1324, line 1: unreachable code after return statement
+[Parent 17376, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17376, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 17376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17376, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1543165790245	Marionette	INFO	Stopped listening on port 40962
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/TelemetryController.jsm, line 459: Error: submitExternalPing - Submission is not allowed after shutdown, discarding ping of type: modules
+gram Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.BK030EGmuip7"
+1543165283053	Marionette	INFO	Listening on port 41166
+1543165283097	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543165366840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.yhaskbNlSwls"
+1543165370970	Marionette	INFO	Listening on port 41240
+1543165371315	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346[
+Child 18592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child [Parent 11168, Gecko_IOThread] WARNING: pipe error1543165410136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dell\\AppData\\Local\\Temp\\rust_mozprofile.0muD2ypLO2sm"
+1543165414414	Marionette	INFO	Listening on port 41312
+1543165414611	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fxuelanlingying%2Farticle%2Fdetails%2F78429894&cja=false&drs=1&ari=2&ti=Python%E7%88%AC%E8%99%AB%E2%80%94%E2%80%94selenium.common.exceptions.WebDriverException%3A%20Mes&psr=1536x864&cfv=0&exps=111000&chi=1&par=1536x864&tlm=1543165865&pss=1266x4723&tcn=1543165866&cpl=0&cmi=0&pis=-1x-1&dis=0&dai=1&dri=0&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DMJ_zSupg5_mKTY0ovxA8NIAkjyOTnMWqDKHSiFn8SKu1XQ4ZI-3yR2m31_qXy3-Yxv2OETNgJx3V2fWunLEp-feYejPTIPtj4Q9DZ7IIcRW%26wd%3D%26eqid%3Dddd7c0de00036b11000000035bfad60f&pcs=1266x713&prot=2&col=zh-CN&ps=663x574&ccd=24&dc=3&cdo=-1&dtm=HTML_POST&ant=0&tpr=1543165865537&cce=true&cec=UTF-8, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fxuelanlingying%2Farticle%2Fdetails%2F78429894&cja=false&drs=1&ari=2&ti=Python%E7%88%AC%E8%99%AB%E2%80%94%E2%80%94selenium.common.exceptions.WebDriverException%3A%20Mes&psr=1536x864&cfv=0&exps=111000&chi=1&par=1536x864&tlm=1543165865&pss=1266x4723&tcn=1543165866&cpl=0&cmi=0&pis=-1x-1&dis=0&dai=1&dri=0&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DMJ_zSupg5_mKTY0ovxA8NIAkjyOTnMWqDKHSiFn8SKu1XQ4ZI-3yR2m31_qXy3-Yxv2OETNgJx3V2fWunLEp-feYejPTIPtj4Q9DZ7IIcRW%26wd%3D%26eqid%3Dddd7c0de00036b11000000035bfad60f&pcs=1266x713&prot=2&col=zh-CN&ps=663x574&ccd=24&dc=3&cdo=-1&dtm=HTML_POST&ant=0&tpr=1543165865537&cce=true&cec=UTF-8, line 119: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_36390239%2Farticle%2Fdetails%2F79659877&cfv=0&psr=1536x864&pcs=1266x713&dtm=HTML_POST&ltr=https%3A%2F%2Fblog.csdn.net%2Fxuelanlingying%2Farticle%2Fdetails%2F78429894&col=zh-CN&dc=3&drs=3&cdo=-1&ari=2&dis=0&dai=7&cmi=0&tcn=1543165878&pss=1266x6222&cpl=0&prot=2&ccd=24&exps=111000&ps=663x573&dri=0&ti=selenium%E4%B8%AD%E7%94%A8%E5%88%B0%E4%B8%89%E7%A7%8D%E7%AD%89%E5%BE%85%E8%AE%BE%E7%BD%AE%E6%96%B9%E5%BC%8F%20-%20qq_36390239%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cec=UTF-8&tlm=1543165877&ant=0&par=1536x864&pis=-1x-1&chi=1&cce=true&cja=false&tpr=1543165874335, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_36390239%2Farticle%2Fdetails%2F79659877&cfv=0&psr=1536x864&pcs=1266x713&dtm=HTML_POST&ltr=https%3A%2F%2Fblog.csdn.net%2Fxuelanlingying%2Farticle%2Fdetails%2F78429894&col=zh-CN&dc=3&drs=3&cdo=-1&ari=2&dis=0&dai=7&cmi=0&tcn=1543165878&pss=1266x6222&cpl=0&prot=2&ccd=24&exps=111000&ps=663x573&dri=0&ti=selenium%E4%B8%AD%E7%94%A8%E5%88%B0%E4%B8%89%E7%A7%8D%E7%AD%89%E5%BE%85%E8%AE%BE%E7%BD%AE%E6%96%B9%E5%BC%8F%20-%20qq_36390239%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cec=UTF-8&tlm=1543165877&ant=0&par=1536x864&pis=-1x-1&chi=1&cce=true&cja=false&tpr=1543165874335, line 119: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: https://stackoverflow.com/questions/30936069/python-selenium-selenium-common-exceptions-timeoutexception-message-line-20, line 1: ReferenceError: buildAttribution is not defined
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript error: https://blog.csdn.net/heatdeath/article/details/71136174, line 3499: SyntaxError: missing } after property list
+JavaScript note: https://blog.csdn.net/heatdeath/article/details/71136174, line 3494: { opened at line 3494, column 26
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fheatdeath%2Farticle%2Fdetails%2F71136174&chi=1&ari=2&dtm=HTML_POST&cja=false&ant=0&ti=selenium.common.exceptions.WebDriverException%3A%20Message%3A%20geck&par=1536x864&dc=3&pis=-1x-1&pcs=1519x767&cec=UTF-8&ps=718x490&cmi=0&tpr=1543166029683&tlm=1543166034&pss=1519x5810&dis=0&col=zh-CN&drs=3&ccd=24&cce=true&dri=0&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D1YP9CXkOtfiNYlP5yLs_CpKhBE6LeSHLf_1m65_twTP8UpmDcPGDWMXRmq6ZJEGCDxdPWl71dnSBOER2yIeaUfl_iKRW92CswmzJFHetipq%26wd%3D%26eqid%3Dddd7c0de00036b11000000035bfad60f&cfv=0&prot=2&cdo=-1&tcn=1543166034&dai=5&cpl=0&exps=111000&psr=1536x864, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fheatdeath%2Farticle%2Fdetails%2F71136174&chi=1&ari=2&dtm=HTML_POST&cja=false&ant=0&ti=selenium.common.exceptions.WebDriverException%3A%20Message%3A%20geck&par=1536x864&dc=3&pis=-1x-1&pcs=1519x767&cec=UTF-8&ps=718x490&cmi=0&tpr=1543166029683&tlm=1543166034&pss=1519x5810&dis=0&col=zh-CN&drs=3&ccd=24&cce=true&dri=0&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D1YP9CXkOtfiNYlP5yLs_CpKhBE6LeSHLf_1m65_twTP8UpmDcPGDWMXRmq6ZJEGCDxdPWl71dnSBOER2yIeaUfl_iKRW92CswmzJFHetipq%26wd%3D%26eqid%3Dddd7c0de00036b11000000035bfad60f&cfv=0&prot=2&cdo=-1&tcn=1543166034&dai=5&cpl=0&exps=111000&psr=1536x864, line 119: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: https://coding.imooc.com/static/lib/util/placeholder.js?v=201811231956, line 101: unreachable code after return statement
+JavaScript warning: https://coding.imooc.com/static/lib/backbone/backbone-1.0.0.min.js?v=201811231956, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js, line 556: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&ti=%E5%88%A9%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E5%88%B7%E7%BD%91%E8%AF%BE%20-%20qq_38919714%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cmi=0&cce=true&psr=1536x864&pis=-1x-1&cfv=0&ccd=24&dri=0&ari=2&chi=1&par=1536x864&ps=718x489&exps=111000&dis=0&dc=3&cec=UTF-8&tlm=1543166094&cpl=0&dai=6&pss=1519x6342&dtm=HTML_POST&ant=0&cdo=-1&pcs=1519x767&drs=1&col=zh-CN&tcn=1543166094&prot=2&cja=false&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DZ71QHeJvb04yU5x1eJMUdTV78aT0ddGlKiseS6hR92FBRDfXwrhbGkxjl_mBHNBe3-B7_0Bs4tDursNq2MaM17ZH39-nRnAxrHAOZbhrPR3%26wd%3D%26eqid%3D8205cca50003bc0c000000035bfad887&tpr=1543166093976, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&ti=%E5%88%A9%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E5%88%B7%E7%BD%91%E8%AF%BE%20-%20qq_38919714%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cmi=0&cce=true&psr=1536x864&pis=-1x-1&cfv=0&ccd=24&dri=0&ari=2&chi=1&par=1536x864&ps=718x489&exps=111000&dis=0&dc=3&cec=UTF-8&tlm=1543166094&cpl=0&dai=6&pss=1519x6342&dtm=HTML_POST&ant=0&cdo=-1&pcs=1519x767&drs=1&col=zh-CN&tcn=1543166094&prot=2&cja=false&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DZ71QHeJvb04yU5x1eJMUdTV78aT0ddGlKiseS6hR92FBRDfXwrhbGkxjl_mBHNBe3-B7_0Bs4tDursNq2MaM17ZH39-nRnAxrHAOZbhrPR3%26wd%3D%26eqid%3D8205cca50003bc0c000000035bfad887&tpr=1543166093976, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fu012411003%2Farticle%2Fdetails%2F44259323&pis=-1x-1&prot=2&par=1536x864&cec=UTF-8&dai=5&ti=python%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC%EF%BC%88%E6%AD%A3%E6%96%B9%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%EF%BC%89%20-%20Yonah%E6%BD%87%E7%9A%84%E4%B8%93%E6%A0%8F%20-%20CSDN%E5%8D%9A%E5%AE%A2&cfv=0&pcs=1519x767&dri=0&exps=111000,119001&dis=0&ccd=24&cmi=0&tcn=1543166124&ant=0&cja=false&ps=718x489&tlm=1543166123&ari=2&pss=1519x6174&drs=1&dc=3&cdo=-1&cce=true&tpr=1543166123603&chi=1&psr=1536x864&dtm=HTML_POST&col=zh-CN&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&cpl=0, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fu012411003%2Farticle%2Fdetails%2F44259323&pis=-1x-1&prot=2&par=1536x864&cec=UTF-8&dai=5&ti=python%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC%EF%BC%88%E6%AD%A3%E6%96%B9%E6%95%99%E5%8A%A1%E7%B3%BB%E7%BB%9F%EF%BC%89%20-%20Yonah%E6%BD%87%E7%9A%84%E4%B8%93%E6%A0%8F%20-%20CSDN%E5%8D%9A%E5%AE%A2&cfv=0&pcs=1519x767&dri=0&exps=111000,119001&dis=0&ccd=24&cmi=0&tcn=1543166124&ant=0&cja=false&ps=718x489&tlm=1543166123&ari=2&pss=1519x6174&drs=1&dc=3&cdo=-1&cce=true&tpr=1543166123603&chi=1&psr=1536x864&dtm=HTML_POST&col=zh-CN&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&cpl=0, line 119: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fzerou8400%2Farticle%2Fdetails%2F80372887&tlm=1543166152&ps=718x489&cce=true&dis=0&tcn=1543166153&cec=UTF-8&ant=0&chi=1&ari=2&cfv=0&prot=2&tpr=1543166152046&cmi=0&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&dri=0&col=zh-CN&psr=1536x864&exps=111000&pcs=1519x767&dc=3&pss=1519x6342&cpl=0&ccd=24&drs=1&dtm=HTML_POST&cja=false&pis=-1x-1&ti=%E6%99%BA%E6%85%A7%E6%A0%91%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC%20-%20zerou8400%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&par=1536x864&cdo=-1&dai=6, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fzerou8400%2Farticle%2Fdetails%2F80372887&tlm=1543166152&ps=718x489&cce=true&dis=0&tcn=1543166153&cec=UTF-8&ant=0&chi=1&ari=2&cfv=0&prot=2&tpr=1543166152046&cmi=0&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&dri=0&col=zh-CN&psr=1536x864&exps=111000&pcs=1519x767&dc=3&pss=1519x6342&cpl=0&ccd=24&drs=1&dtm=HTML_POST&cja=false&pis=-1x-1&ti=%E6%99%BA%E6%85%A7%E6%A0%91%E5%88%B7%E8%AF%BE%E8%84%9A%E6%9C%AC%20-%20zerou8400%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&par=1536x864&cdo=-1&dai=6, line 119: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fxiaoi123%2Farticle%2Fdetails%2F83146472&tcn=1543166173&cfv=0&cce=true&tpr=1543166171720&cpl=0&pcs=1519x750&ccd=24&cja=false&dtm=HTML_POST&drs=1&dai=7&ti=%E5%88%A9%E7%94%A8python%E5%AE%8C%E6%88%90%E5%A4%A7%E5%AD%A6%E5%88%B7%E8%AF%BE%EF%BC%88%E4%BB%8E0%E5%88%B0%E5%AE%8C%E6%88%90%E7%9A%84%E6%80%9D%E8%B7%AF%EF%BC%89%20-%20xiaoi123%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&pss=1581x6287&cec=UTF-8&par=1536x864&ps=701x489&cmi=0&prot=2&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&pis=-1x-1&cdo=-1&tlm=1543166173&chi=1&dri=0&psr=1536x864&exps=111000&dc=3&ari=2&ant=0&dis=0&col=zh-CN, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fxiaoi123%2Farticle%2Fdetails%2F83146472&tcn=1543166173&cfv=0&cce=true&tpr=1543166171720&cpl=0&pcs=1519x750&ccd=24&cja=false&dtm=HTML_POST&drs=1&dai=7&ti=%E5%88%A9%E7%94%A8python%E5%AE%8C%E6%88%90%E5%A4%A7%E5%AD%A6%E5%88%B7%E8%AF%BE%EF%BC%88%E4%BB%8E0%E5%88%B0%E5%AE%8C%E6%88%90%E7%9A%84%E6%80%9D%E8%B7%AF%EF%BC%89%20-%20xiaoi123%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&pss=1581x6287&cec=UTF-8&par=1536x864&ps=701x489&cmi=0&prot=2&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&pis=-1x-1&cdo=-1&tlm=1543166173&chi=1&dri=0&psr=1536x864&exps=111000&dc=3&ari=2&ant=0&dis=0&col=zh-CN, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fg8433373%2Farticle%2Fdetails%2F79515713&cmi=0&cja=false&cfv=0&prot=2&pis=-1x-1&pcs=1393x703&dc=3&cdo=-1&pss=1393x6376&ccd=24&cce=true&cpl=0&chi=1&drs=3&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&par=1408x792&tlm=1543166626&tpr=1543166623181&dri=0&ant=0&col=zh-CN&tcn=1543166627&psr=1408x792&dai=6&dtm=HTML_POST&dis=0&exps=111000&ti=%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%B7%E8%AF%BE%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB%20-%20%E5%8C%97%E5%A4%A7%E8%99%AB%E5%B8%88%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cec=UTF-8&ps=1164x490&ari=2, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fg8433373%2Farticle%2Fdetails%2F79515713&cmi=0&cja=false&cfv=0&prot=2&pis=-1x-1&pcs=1393x703&dc=3&cdo=-1&pss=1393x6376&ccd=24&cce=true&cpl=0&chi=1&drs=3&ltr=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&par=1408x792&tlm=1543166626&tpr=1543166623181&dri=0&ant=0&col=zh-CN&tcn=1543166627&psr=1408x792&dai=6&dtm=HTML_POST&dis=0&exps=111000&ti=%E8%87%AA%E5%8A%A8%E5%8C%96%E5%88%B7%E8%AF%BE%E6%80%9D%E8%B7%AF%E5%88%86%E4%BA%AB%20-%20%E5%8C%97%E5%A4%A7%E8%99%AB%E5%B8%88%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&cec=UTF-8&ps=1164x490&ari=2, line 119: unreachable code after return statement
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&cce=true&dtm=HTML_POST&prot=2&ant=0&cja=false&tpr=1543166716793&psr=1408x792&dri=0&dai=7&tcn=1543166718&par=1408x792&pis=-1x-1&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D8Vf7OnxVFXxela_FPwoO6XabpeBWOX_Fh7mVr4IK4Kvyh6cpL6lz0yhmdZszpQxxcYI6QiX9MFAhXeuSZYqgul0yccY-Y52RW9Jd2T7whFC%26wd%3D%26eqid%3Df642715f00015778000000035bfadaf6&tlm=1543166718&cec=UTF-8&cdo=-1&ccd=24&ps=589x520&pcs=1161x638&chi=1&ari=2&cmi=0&drs=1&exps=111000&cpl=0&col=zh-CN&pss=1225x6222&dis=0&cfv=0&ti=%E5%88%A9%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E5%88%B7%E7%BD%91%E8%AF%BE%20-%20qq_38919714%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&dc=3, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/s?hei=36&wid=286&di=u3486002&ltu=https%3A%2F%2Fblog.csdn.net%2Fqq_38919714%2Farticle%2Fdetails%2F80715756&cce=true&dtm=HTML_POST&prot=2&ant=0&cja=false&tpr=1543166716793&psr=1408x792&dri=0&dai=7&tcn=1543166718&par=1408x792&pis=-1x-1&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3D8Vf7OnxVFXxela_FPwoO6XabpeBWOX_Fh7mVr4IK4Kvyh6cpL6lz0yhmdZszpQxxcYI6QiX9MFAhXeuSZYqgul0yccY-Y52RW9Jd2T7whFC%26wd%3D%26eqid%3Df642715f00015778000000035bfadaf6&tlm=1543166718&cec=UTF-8&cdo=-1&ccd=24&ps=589x520&pcs=1161x638&chi=1&ari=2&cmi=0&drs=1&exps=111000&cpl=0&col=zh-CN&pss=1225x6222&dis=0&cfv=0&ti=%E5%88%A9%E7%94%A8Python%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E5%88%B7%E7%BD%91%E8%AF%BE%20-%20qq_38919714%E7%9A%84%E5%8D%9A%E5%AE%A2%20-%20CSDN%E5%8D%9A%E5%AE%A2&dc=3, line 119: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 43: TypeError: window is null
+JavaScript error: resource://gre/modules/WebNavigationFrames.jsm, line 43: TypeError: window is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+JavaScript warning: http://mooc1.mooc.whu.edu.cn/ananas/ext-4.2.0.663/all-classes.js?v=2018-0922-1324, line 1: unreachable code after return statement
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17744, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 17744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 17744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 21440, Chrome_Chi[Parent 17744, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Ch1543167608670	Marionette	INFO	Stopped listening on port 41312
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

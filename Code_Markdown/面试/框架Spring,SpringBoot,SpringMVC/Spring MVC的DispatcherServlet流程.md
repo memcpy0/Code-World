@@ -1,0 +1,7 @@
+客户端发出请求访问服务器时，由DispatcherServlet调用一系列组件进行处理：
+1. 先调用HandlerMapping：根据访问路径找到组件（即Controller），并给DispatcherServlet返回一个HandlerExecutionChain，封装了解决请求的Controller和对这个请求实现拦截的拦截器。
+2. DispatcherServlet不是直接调用Controller，而是从HandlerExecutionChain得到HandlerAdapter去调用，并在里面调用Controller。
+	不过DispatcherServlet在调用HandlerAdapter之前，先是调用所有拦截器的preHandle()方法，再调用HandlerAdapter里面的Controller，返回一个ModelAndView给DispatcherServlet，返回之后，DispatcherServlet会调用所有拦截器的postHandle()方法。
+3. DispatcherServlet将ModelAndView给ViewResolver，ViewResovler根据数据找到模板引擎，给它进行渲染，由模板引擎向客户端做输出和渲染。模板引擎向客户端输出时，DispatcherServlet又会调用拦截器的afterCompletion()
+
+![](https://image-1307616428.cos.ap-beijing.myqcloud.com/Obsidian/202304201628548.png)

@@ -1,0 +1,10 @@
+// 字符串格式化操作示例
+public class StringFormatTest {
+	public static void main(String[] args) {
+		String str = null;
+		String name = "zhangsan";
+		str = String.format("Hi, %s, 251 warning!\n", name);
+		System.out.println(str);
+		System.out.println("dsla");
+	}
+}

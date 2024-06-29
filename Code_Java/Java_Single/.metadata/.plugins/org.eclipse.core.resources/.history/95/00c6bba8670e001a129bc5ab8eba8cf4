@@ -1,0 +1,44 @@
+// 使用多线程模拟一个铁路售票系统，实现通过3个售票窗口销售某日某次列车的100张车票
+
+class TicketWindow extends Thread {
+	private int ticketNum = 100;
+	public void run() {
+		while (true) {
+			if (ticketNum > 0) {
+				System.out.println(Thread.currentThread().getName() + "窗口卖出了第" + ticketNum-- + "张票");
+				sleep(1000); // 睡眠1秒
+		    }
+			else {
+				System.out.println("票已经售完了");
+				break;
+			}
+		}
+	}
+}
+
+class TicketWindowRunnable implements Runnable {
+	private int ticketNum = 100;
+	public void run() {
+		while (true) {
+			if (ticketNum > 0) 
+				System.out.println(Thread.currentThread().getName() + "窗口卖出了第" + ticketNum-- + "张票");
+			else {
+				System.out.println("票已经售完了");
+				break;
+			}
+		}
+	}
+}
+
+public class TicketWindowTest {
+	public static void main(String[] args) {
+		// 实际上卖出了300张票！继承Thread类无法同时处理同一资源
+		// new TicketWindow().start();
+		// new TicketWindow().start();
+		// new TicketWindow().start();
+		TicketWindowRunnable t = new TicketWindowRunnable();
+		new Thread(t).start();
+		new Thread(t).start();
+		new Thread(t).start();
+	}
+}

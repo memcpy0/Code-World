@@ -1,0 +1,52 @@
+@startuml Library_Management_System_Use_Case
+skinparam actorStyle awesome
+skinparam linetype polyline
+package 个人 {
+    actor 管理账户 as A
+} 
+
+package 系统 {
+    actor 图书馆管理系统 as B
+}
+
+package 管理功能 {
+    usecase "管理账户登录" as M1
+    usecase "增删改读者信息" as M2 
+    usecase "增加、修改图书类别" as M3 
+    usecase "增删改图书信息" as M4
+    usecase "订购新书" as M5
+    usecase "验收新书" as M6
+    usecase "借阅图书" as M7
+    usecase "归还图书" as M8 
+    usecase "搜索图书" as M9
+    usecase "更改密码" as M10
+    usecase "添加用户" as M11
+    usecase "修改及删除用户" as M12
+}
+ 
+left to right direction 
+A --d-> M1 #line:blue 
+A --d-> M2 #line:blue
+A --d-> M3 #line:blue
+A --d-> M4 #line:blue
+A --d-> M5 #line:blue 
+A --d-> M6 #line:blue
+A --d-> M7 #line:blue
+A --d-> M8 #line:blue
+A --d-> M9 #line:blue
+A --d-> M10 #line:blue
+A --d-> M11 #line:blue
+A --d-> M12 #line:blue 
+
+B --u-> M1
+B --u-> M2
+B --u-> M3
+B --u-> M4
+B --u-> M5
+B --u-> M6
+B --u-> M8
+B --u-> M9
+B --u-> M10
+B --u-> M11
+B --u-> M12 
+@enduml

@@ -1,0 +1,19 @@
+*/*.pdf
+*.sh
+*/*.aux
+*/*.log
+*/*.out
+*/*.toc
+*/*.idx
+*/*.ind
+*/*.ilg
+*/*.dat
+*/*.script
+*/*.table
+*/*.fdb_latexmk */*.fls
+*.swp
+todo
+tmp/
+*.fdb_latexmk
+*.fls
+*.synctex.gz

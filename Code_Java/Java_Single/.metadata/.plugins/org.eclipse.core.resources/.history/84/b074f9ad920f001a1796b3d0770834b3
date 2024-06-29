@@ -1,0 +1,15 @@
+import java.io.IOException;
+import java.net.*;
+
+public class ServerSocketTest {
+	public static void main(String[] args) throws IOException {
+		// 创建ServerSocket对象, 它监听3333端口
+		ServerSocket server = new ServerSocket(3333);
+		System.out.println("等待客户端连接...");
+		// 等待客户端连接，该行代码后面的代码暂时不运行，直到有客户端连接
+		Socket client = server.accept();
+		System.out.println("有客户连接，通过流向客户端发送数据...");
+		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(client.getOutputStream());
+		
+	}
+}

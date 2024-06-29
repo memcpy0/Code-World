@@ -1,0 +1,18 @@
+@startuml BookInfo
+ 
+class BookInfo {
+    -ISBN : String
+	-typeid : String
+	-writer : String
+	-translator : String
+	-publisher : String
+	-date : Date
+	-price : Double
+	-bookname : String
+    +getXXX() : Double / Date / int
+    +setXXX() : void
+}  
+ 
+note "图书信息类，包括图书ISBN、类型ID、作者、译者、出版商、价格、图书名等信息" as N0
+N0 .. BookInfo
+@enduml

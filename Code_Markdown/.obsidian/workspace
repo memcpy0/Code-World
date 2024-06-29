@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "05b4d8345086d852",
+    "type": "split",
+    "children": [
+      {
+        "id": "848726942aa7694d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "java/6. 接口、Lambda表达式和内部类.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "332763153e4d9405",
+    "type": "split",
+    "children": [
+      {
+        "id": "d43ff578e0616642",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e26ff52038df001",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9b91cc27f07e0e58",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 158.5
+  },
+  "right": {
+    "id": "fbf490589399261b",
+    "type": "split",
+    "children": [
+      {
+        "id": "059cd07af6fe8347",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b84387611051c35e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "java/9. 集合.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "floating": {
+    "id": "b07c011aa15c7cf6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4f1942cf490c5576",
+        "type": "window",
+        "children": [
+          {
+            "id": "b425154b40b88d2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/7. 异常、断言和日志.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 651,
+        "y": 100,
+        "width": 785,
+        "height": 804,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "3e4b94876bcc52b1",
+        "type": "window",
+        "children": [
+          {
+            "id": "924da3d840ca413e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/8. 泛型程序设计.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 497,
+        "y": 84,
+        "width": 1039,
+        "height": 777,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "886b3ef1ac229541",
+        "type": "window",
+        "children": [
+          {
+            "id": "4d52e8f01127098e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/9. 集合.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 703,
+        "y": 38,
+        "width": 859,
+        "height": 784,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "4d52e8f01127098e",
+  "lastOpenFiles": [
+    "java/6. 接口、Lambda表达式和内部类.md",
+    "java/8. 泛型程序设计.md",
+    "java/7. 异常、断言和日志.md",
+    "java/5. 继承.md",
+    "java/4. 对象与类.md",
+    "未命名 2.md",
+    "【面向男士的《新时代女性使用指南》】（短篇 图文）.md",
+    "【知识体系】用博文仓库管理个人知识体系.md",
+    "1.并发编程的挑战.md",
+    "java/XML.md"
+  ]
+}

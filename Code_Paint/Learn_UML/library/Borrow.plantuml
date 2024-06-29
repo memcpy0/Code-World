@@ -1,0 +1,18 @@
+@startuml Borrow
+ 
+class Borrow {
+    -id : int
+	-bookISBN : String
+	-readerISBN : String
+	-num : String
+	-borrowDate : String
+	-backDate : String
+	-bookName : String
+
+    +getXXX() : String / int
+    +setXXX() : void
+}  
+ 
+note "借阅类，包含借阅信息" as N0
+N0 .. Borrow
+@enduml

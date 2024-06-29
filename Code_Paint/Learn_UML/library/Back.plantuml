@@ -1,0 +1,19 @@
+@startuml Back
+ 
+class Back {
+    -bookISBN : String
+    -bookname : String
+    -operatorId : String
+    -borrowDate : String
+    -backDate : String 
+    -readerName : String
+    -readerISBN : String
+    -typeId : int
+    -id : int
+    +getXXX() : String / int
+    +setXXX() : void
+}  
+ 
+note "还书模型类，包括图书ISBN、图书名、借书日期、还书日期、读者名等信息" as N0
+N0 .. Back
+@enduml

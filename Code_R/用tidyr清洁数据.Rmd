@@ -1,0 +1,113 @@
+---
+title: "用tidyr清洁数据"
+author: "张平"
+date: "2019年4月26日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+```{r}
+table1 %>% 
+  count(year, wt = cases)
+
+ggplot(table1, aes(year, cases)) + 
+  geom_line(aes(group = country), colour = "blue") + 
+  geom_point(aes(colour = country))
+```
+## gather(): 宽表变成长表
+```{r}
+table4a
+table4a %>% 
+  gather(`1999`, `2000`, key = "year", value = "cases")
+table4b
+table4b %>% 
+  gather(`1999`, `2000`, key = "year", value = "population")
+tidy4a <- table4a %>% 
+  gather(`1999`, `2000`, key = "year", value = "cases")
+tidy4b <- table4b %>% 
+  gather(`1999`, `2000`, key = "year", value = "population")
+left_join(tidy4a, tidy4b)
+```
+
+## spread: 长表变为宽表
+```{r}
+table2
+spread(data = table2, key = type, value = count)
+```
+
+### spread必须要有独特的标识符
+```{r}
+people <- tribble(
+  ~name,             ~key,    ~value,
+  #-----------------|--------|------
+  "Phillip Woods",   "age",       45,
+  "Phillip Woods",   "height",   186,
+  "Phillip Woods",   "age",       50,
+  "Jessica Cordero", "age",       37,
+  "Jessica Cordero", "height",   156
+)
+
+people %>% mutate(id = row_number()) %>% spread(key = key, value = value)
+```
+
+## separate和unite
+By default, separate() will split values wherever it sees a non-alphanumeric character (i.e. a character that isn’t a number or letter).
+If you wish to use a specific character to separate a column, you can pass the character to the sep argument of separate().
+You can also pass a vector of integers to sep. separate() will interpret the integers as positions to split at.
+```{r}
+table3 
+table3 %>% separate(rate, into = c("cases", "population"))
+table3 %>% separate(rate, into = c("cases", "population"), convert = TRUE)
+table3 %>% 
+  separate(year, into = c("century", "year"), sep = 2)
+```
+unite() is the inverse of separate(): it combines multiple columns into a single column.
+The default will place an underscore (_) between the values from different columns. Here we don’t want any separator so we use "".
+```{r}
+table5 %>% 
+  unite(new, century, year)
+table5 %>% 
+  unite(new, century, year, sep = "")
+```
+
+## 缺失值
+Another important tool for making missing values explicit in tidy data is complete().
+```{r}
+stocks <- tibble(
+  year   = c(2015, 2015, 2015, 2015, 2016, 2016, 2016),
+  qtr    = c(   1,    2,    3,    4,    2,    3,    4),
+  return = c(1.88, 0.59, 0.35,   NA, 0.92, 0.17, 2.66)
+)
+stocks %>% 
+  spread(year, return)
+
+stocks %>% 
+  spread(year, return) %>% 
+  gather(year, return, `2015`:`2016`, na.rm = TRUE)
+
+stocks %>% 
+  complete(year, qtr)
+stocks
+```
+
+fill in these missing values with fill(). It takes a set of columns where
+you want missing values to be replaced by the most recent non-missing value
+(sometimes called last observation.
+```{r}
+treatment <- tribble(
+  ~ person, ~ treatment, ~response,
+  "Derrick Whitmore", 1, 7,
+  NA, 2, 10,
+  NA, 3, 9,
+  "Katherine Burke", 1, 4
+)
+treatment %>%
+  fill(person)
+```
+

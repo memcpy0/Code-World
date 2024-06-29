@@ -1,0 +1,44 @@
+@startuml Simulator
+ 
+class Elevator #aliceblue ##[dotted]blue {
+    -elevatorID : int
+    -currentFloor : int
+    -accessibleFloors : vector<int>
+    -waitQueue : queue<Passenger>
+    -carryQueue : queue<Passenger>
+    
+    +downRun() : void
+    +upRun() : void
+    +checkStop() : bool
+    +...
+} 
+ 
+
+class Floor #aliceblue ##[dotted]blue {
+    -floorID : int
+    -waitQueue : queue<Passenger>
+    -idleQueue : queue<Passenger>  
+    +getWaitQueue() : queue<Passenger>&
+    +getIdleQueue() : queue<Passenger>&
+    +...
+} 
+
+class Passenger #aliceblue ##[dotted]blue {
+    -currentFloor : int
+    -destFloor : int
+    -takeNum : int
+    -waitQueue : int
+    -L : int
+    -waitTime : int
+    -nextRequestTime : int
+    -responseFlag : bool
+    +getPassengerID() : int
+    +chooseElevator() : void
+    +operator<< : ostream&
+    +...
+}
+
+Floor -->  Elevator: "1 : m"
+Elevator --> Passenger : "1 : m"
+Floor --> Passenger : "1 : m"
+@enduml

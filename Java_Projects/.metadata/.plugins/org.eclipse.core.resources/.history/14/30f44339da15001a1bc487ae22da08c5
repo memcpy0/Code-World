@@ -1,0 +1,15 @@
+
+public class SeasonEnumTest {
+	public static void main(String[] args) {
+		// 枚举对象常用方法
+		// 返回此枚举实例的名称
+		System.out.println(SeasonEnum.SPRING.name());
+		// 返回当前枚举在定义在的索引值，从0开始
+		System.out.println(SeasonEnum.WINTER.ordinal());
+		
+		System.out.println(SeasonEnum.SPRING.getName());
+		System.out.println(SeasonEnum.SUMMER.getName());
+		System.out.println(SeasonEnum.AUTUMN.getName());
+		System.out.println(SeasonEnum.WINTER.getName()); 
+	}
+}

@@ -1,0 +1,5 @@
+import java.util.Vector;
+// Vector实现了List接口
+public class VectorTest {
+
+}

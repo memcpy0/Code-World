@@ -1,0 +1,7 @@
+// 字符串格式化操作示例
+public class StringFormatTest { 
+	private int noStatic = 2;
+	public static void main(String[] args) {
+		System.out.println(new StringFormatTest().noStatic); 
+	}
+}

@@ -1,0 +1,112 @@
+---
+title: "2017302360010_张平_R语言第八次作业"
+author: "张平"
+date: "2019年4月26日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+## P6 Q2
+感觉筛选数据最简单, 中间将两个数据框连接在一起时最麻烦, 因为需要注意数据的匹配关系.
+```{r}
+# Extract the number of cases per country per year
+cases <- table2 %>%
+  filter(type == "cases") 
+# Extract the population per country per year
+population <- table2 %>%
+  filter(type == "population")
+
+# matching 
+result <- cases %>% 
+  inner_join(population, by = c("country", "year")) %>%
+  mutate(cases = count.x, population = count.y) %>%
+  select("country", "year", cases, population)
+
+# compute the rate, and store back to rates
+rates <- result %>%
+  mutate(rate = cases / population * 10000)
+rates
+```
+
+table4a + table4b
+```{r}
+tibble(country = table4a[["country"]],
+       `1999` = table4a[["1999"]] / table4b[["1999"]] * 10000,
+       `2000` = table4a[["2000"]] / table4b[["2000"]] * 10000)
+```
+
+
+## P10 Q1
+- `spread(data, key, value, fill = NA, convert = FALSE, drop = TRUE, sep = NULL)`
+- `gather(data, key = "key", value = "value", ..., na.rm = FALSE, convert = FALSE, factor_key = FALSE)`
+
+函数`spread`和`gather`没有完全对称, 是因为列信息类型没有彼此转换. 原始的table中, `year`列是`numeric`类型, 但在使用`spread`和`gather`后变成了一个字符向量, 这是因为`key`变量名总是被`gather`转换成字符型.
+```{r}
+stocks <- tibble(
+  year = c(2015, 2015, 2016, 2016), 
+  half = c(   1,    2,    3,    4),
+  return = c(1.88, 0.59, 0.92, 0.17)
+)
+
+stocks %>%
+  spread(year, return) %>%
+  gather("year", "return", `2015`:`2016`)
+```
+`convert`可以转换向量的类型, 相当于自动调用了`type.convert`函数.
+```{r}
+stocks %>%
+  spread(year, return) %>%
+  gather("year", "return", `2015`:`2016`, convert = TRUE, na.rm = TRUE)
+```
+
+## P13 Q1
+`separate(data, col, into, sep = "[^[:alnum:]]+", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn", ...)`
+
+`extra`: 如果分隔符是字符向量, 且有过多的要分割的片段时, 由该参数控制其行为, 有三种有效选项:
+
+- "warn" (the default): 发出警告, 并丢弃多余的值.
+- "drop":               丢弃多余的值, 不发送警告.
+- "merge":              分割满足最大分割数即停止.
+
+`fill`: 如果分隔符是字符向量, 且没有足够的要分割的片段时, 由该参数控制其行为, 有三种有效选项:
+
+- "warn" (the default): 发出警告, 并从右侧填充NA.
+- "right":              不发出警告, 从右侧填充缺少值NA.
+- "left":               不发出警告, 从左侧填充缺少值NA.
+```{r}
+toy1 <- tibble(x = c("a,b,c", "d,e,f,g", "h,i,j"))
+toy1 %>% separate(x, into = c("one", "two", "three"), extra = "warn")
+toy1 %>% separate(x, into = c("one", "two", "three"), extra = "drop")
+toy1 %>% separate(x, into = c("one", "two", "three"), extra = "merge")
+
+toy2 <- tibble(x = c("a,b,c", "d,e", "f,g,i"))
+toy2 %>% separate(x, c("one", "two", "three"), fill = "warn")
+toy2 %>% separate(x, c("one", "two", "three"), fill = "right")
+toy2 %>% separate(x, c("one", "two", "three"), fill = "left")
+
+```
+
+## P17 Q4
+```{r}
+who1 <-  who %>%
+  gather(new_sp_m014:newrel_f65, key = "key", value = "cases", na.rm = TRUE) %>%
+  mutate(key = stringr::str_replace(key, "newrel", "new_rel")) %>%
+  separate(key, into = c("new", "type", "sexage")) %>%
+  select(-new, -iso2, -iso3) %>%
+  separate(sexage, into = c("sex", "age"), sep = 1) 
+
+who1 %>%
+  count(country, year, sex, wt = cases) %>%
+  filter(year > 1995) %>%
+  unite(country_sex, country, sex, remove = FALSE) %>%
+  ggplot(mapping = aes(x = year, y = n, group = country_sex, color = sex)) +
+  geom_line()
+```
+

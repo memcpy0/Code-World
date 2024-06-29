@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        { //这个大括号里是我们的调试Debug配置
+            "name": "Debug",        //配置名称
+            "type": "prolog",       //配置类型
+            "request": "launch",    //请求配置类型,可以是启动launch或附加attach
+            "program": "${file}",   //将要进行调试的程序的完整路径
+            "startupQuery": "start",
+            "stopAtEntry": false,   //设为true时调试程序将暂停在程序入口处,否则将执行到第一个断点处
+            "cwd": "${fileDirname}",//调试程序时的工作目录,此处为源码文件所在目录
+            "env": {},              //传递给源文件的环境变量
+            "runtimeExecutable": "C:\\Program Files\\swipl\\bin\\swipl.exe",  //调试进程的可执行文件  
+            "runtimeArgs": [],      //传递给调试程序的命令行参数
+            "args": [],             //程序调试时传递给程序的命令行参数,这里设为空即可
+            "traceCmds": {          //介于vscode调试命令和prolog trace选项之间的映射
+                "continue": ["leap", "l"], 
+                "stepover": ["skip", "s"],
+                "stepinto": ["creep", "c"], 
+                "stepout": ["up", "u"]
+            }, 
+        }
+    ]
+}

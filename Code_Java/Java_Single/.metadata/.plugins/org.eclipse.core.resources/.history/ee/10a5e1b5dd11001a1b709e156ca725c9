@@ -1,0 +1,19 @@
+import java.util.List;
+import java.util.Vector;
+// List和Vector使用
+// Vector实现了List接口，实现可增长的对象数组
+public class VectorTest {
+	public static void main(String[] args) {
+		List list = new Vector();
+		System.out.println("集合为空吗? " + list.isEmpty());
+		// 添加一个元素
+		list.add("第一个元素");
+		// 集合里面不能存放基本类型元素，但可以自动装箱
+		list.add(10.0);
+		System.out.println("集合中元素的个数为: " + list.size());
+		// 删除元素
+		list.remove(10.0);
+		System.out.println("集合中元素的个数为: " + list.size());
+		System.out.println("包含'第一个元素': " + list.contains("第一个元素"));
+	}
+}

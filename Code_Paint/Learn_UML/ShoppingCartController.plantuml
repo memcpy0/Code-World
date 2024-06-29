@@ -1,0 +1,25 @@
+@startuml ShoppingCartController
+ 
+class ShoppingCartController #aliceblue ##[dotted]blue {
+    -shoppingCartService : ShoppingCartService
+    -addressService : AddressService
+    -walletService : WalletService
+    -userService : UserService
+    -deskService : DeskService
+    -menuService : MenuService
+    -orderService : MenuService
+    -entryService : OrdersEntryService
+
+    +addToCart(String menuId, HttpSession session) : String 
+    +delAllCart(String menuIds, HttpSession session) : String 
+    +redCart(String menuId, HttpSession session) : String
+    +choiceOrders(String menuIds, HttpSession session, Model model) : String
+    +toOrdersOne(OrdersDto choiceDto, HttpSession session) : String
+    +toUpdateOrders(OrdersDto choiceDto, HttpSession session) : String
+    +ordersType(Integer type, HttpSession session, Model model) : String
+    +ordersUpdType(Integer type, HttpSession session, Model model) : String
+    -comment(HttpSession session) : User
+}  
+note "表现层控制类，对购物车和订单信息进行增删改查" as N0
+N0 .. ShoppingCartController 
+@enduml

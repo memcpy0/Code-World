@@ -1,0 +1,24 @@
+// graph example {
+//     a -- b;
+//     a -- c;
+//     b -- c;
+// }
+
+// graph example {
+    // a -- {b; c; d; e; f; g; h};
+// }
+
+// graph example {
+//     a -- b[color = red; label = "岛风"];
+//     a -- c[label = "恶毒"];
+//     b -- {d; e}[label = "z23"];
+//     b[shape = box];
+// }
+
+// graph example {
+//     edge[color = red];
+//     node[shape = box];
+
+//     a -- b;
+//     b -- c;
+// }

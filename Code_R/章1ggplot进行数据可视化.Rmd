@@ -1,0 +1,65 @@
+---
+title: "章1ggplot2进行数据可视化"
+author: "张平"
+date: "2019年3月22日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+mpg
+```
+mpg是数据框，是变量(列)和观测(行)的集合
+
+```{r }
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy))
+
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = hwy, y = cyl))
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = cyl, y = hwy))
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+
+```
+```{r}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy, size = class))
+```
+```{r}
+ggplot(data = mpg) +  # 将数据框的class列属性映射为数据的透明度的alpha图像属性
+  geom_point(mapping = aes(x = displ, y = hwy, alpha = class))
+```
+```{r}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy, shape = class))
+```
+```{r}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy)) +
+  facet_wrap(~class, nrow = 2)  # 通过一个变量进行分面
+```
+```{r}
+ggplot(data = mpg) +
+  geom_point(mapping = aes(x = displ, y = hwy)) +
+  facet_grid(drv~cyl)  # 用两个变量分面
+```
+```{r}
+ggplot(data = mpg) +
+  geom_smooth(mapping = aes(x = displ, y = hwy, linetype = drv))
+```
+```{r}
+
+```
+```{r}
+library(tidyverse)
+library(nfcfligths13)
+```
+
+
+

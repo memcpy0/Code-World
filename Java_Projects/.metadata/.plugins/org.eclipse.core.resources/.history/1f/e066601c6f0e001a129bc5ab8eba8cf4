@@ -1,0 +1,28 @@
+import java.util.*;
+
+class MyTask1 extends TimerTask {
+	public void run() {
+		System.out.println("5秒之后运行的定时器");
+	}
+}
+
+class MyTask2 extends TimerTask {
+	public void run() {
+		System.out.println("每秒运行的定时器");
+	}
+}
+
+class MyTask3 extends TimerTask {
+	public void run() {
+		System.out.println("从某日起每分钟运行的定时器");
+	}
+}
+
+public class TimerTest {
+	public static void main(String[] args) {
+		Timer timer = new Timer(); // 定时器对线程类进行了封装
+		timer.schedule(new MyTask1(), 5000); // 5秒
+		timer.schedule(new MyTask2(), 1000, 1000);
+		//timer.schedule(new MyTask3(), new Date(), 1000 * 60); // 1s*60=1min
+	}
+}

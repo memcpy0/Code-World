@@ -1,0 +1,28 @@
+@startuml BookAddIFrame
+
+class JInternalFrame {
+
+}
+
+class BookAddIFrame {
+	-publisher : JComboBox
+	-price : JTextField
+	-pubDate : JFormattedTextField
+	-translator : JTextField
+	-writer : JTextField
+	-ISBN : JTextField
+	-bookName : JTextField
+	-bookType : JComboBox
+
+	-buttonadd : JButton
+	-buttonclose : JButton
+	-bookTypeModel : DefaultComboBoxModel
+
+    +BookAddIFrame()
+}  
+ 
+JInternalFrame <|-- BookAddIFrame
+note "图书添加窗体" as N0
+N0 .. BookAddIFrame
+@enduml
+c

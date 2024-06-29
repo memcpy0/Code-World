@@ -1,0 +1,6 @@
+digraph example {
+    node[shape = circle];
+    root[shape = box];
+    root -> {b; e};
+    b -> {c; d};
+}

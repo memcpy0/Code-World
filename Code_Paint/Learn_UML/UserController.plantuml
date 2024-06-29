@@ -1,0 +1,31 @@
+@startuml UserController
+ 
+class UserController #aliceblue ##[dotted]blue {
+    -userService : UserService
+    -menuService : MenuService
+    -ordersService : OrdersService
+    -deskService : DeskService
+    -messageBoardService : MessageBoardService
+    -entryService : OrdersEntryService
+    -shoppingCartService : ShoppingCartService
+    -addressService : AddressService
+    -walletService : WalletService
+
+    +agreement() : String
+    +privacyStatement() : String
+    +orderNotice() : String
+    +help() : String
+    +home(HttpSession session) : String
+    +information(Model model, HttpSession session) : String
+    +userSave(User user, Model model, HttpSession session) : String
+    +status(Integer ordersStatus, Model model, HttpSession session) : String
+    +cart(Model model, HttpSession session) : String
+    +address(Model model, HttpSession session) : String
+    +addressSave(Address address, Model model, HttpSession session) : String
+    +changePwd(Model model, HttpSession session) : String
+    +page(name,Model model, int pageNum, int pageSize) : String
+    +wallet(Model model, HttpSession session) : String
+    +signOut(HttpSession session) : String
+}  
+note top of UserController : 表现层控制类，管理用户基本信息如地址、密码、钱包、订单状态等
+@enduml

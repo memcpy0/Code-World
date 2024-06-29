@@ -1,0 +1,12 @@
+
+public enum SeasonEnum {
+	SPRING("春天", "鸟语花香"), SUMMER("夏天", "烈日炎炎"), 
+	AUTUMN("秋天", "秋高气爽"), WINTER("冬天", "白雪皑皑");
+	private String name; // 季节名称
+	private String desc; // 季节描述
+	private SeasonEnum(String name, String desc) {
+		this.name = name;
+		this.desc = desc;
+	}
+	
+}

@@ -1,0 +1,5 @@
+import java.util.Vector;
+// Vector实现了List接口，实现可增长的对象数组
+public class VectorTest {
+
+}

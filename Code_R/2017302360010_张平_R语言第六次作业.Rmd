@@ -1,0 +1,140 @@
+---
+title: "2017302360010_张平_R语言作业"
+author: "张平"
+date: "2019年4月12日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+-----
+
+## 70
+### (2)
+- 正常值分箱中的观测太多;
+- 没有1500$的钻石;
+- 没有小于326$的钻石;
+- 在750$附近出现峰值, 即750$美元左右的钻石数量最多.
+```{r}
+smaller <- diamonds %>%
+  filter(price < 2500) 
+  ggplot(smaller) +
+    geom_histogram(mapping = aes(x = price), binwidth = 15)  
+    # coord_cartesian(xlim = c(100, 400))
+```
+```{r}
+ggplot(diamonds, mapping = aes(x = price)) +
+  geom_histogram(binwidth = 100, center = 0)
+```
+
+### (3)
+- 0.99克拉的钻石有23颗; 
+- 1克拉的钻石有1558颗, 是0.99克拉的70多倍;
+- 造成这种区别的原因是: 更大的钻石象征着更多的财富和地位, 在0.99克拉上再加0.01克拉并不会多出多少成本, 却更多的满足了自己的虚荣心.
+```{r}
+# count() is a short-hand for group_by() + tally()
+diamonds %>%
+  filter(carat >= 0.99, carat <= 1) %>%
+  count(carat)
+```
+
+-----
+
+## P77
+### (2)
+`carat`变量对与预测钻石的价格很重要.`carat`和`price`是连续变量, 使用散点图.
+```{r}
+ggplot(diamonds, mapping = aes(x = carat, y = price)) +
+  geom_point()
+```
+或者使用箱线图, 将carat分箱为分类变量, 显示连续变量price的分布:
+```{r}
+ggplot(diamonds, mapping = aes(x = carat, y = price)) +
+  geom_boxplot(mapping = aes(group = cut_width(carat, 0.1)))
+```
+或者使用二维分箱, 并用一种填充颜色表示落入每个分箱中的数据点.
+```{r}
+ggplot(diamonds, mapping = aes(x = carat, y = price)) +
+  geom_bin2d()
+```
+```{r}
+ggplot(diamonds, mapping = aes(x = carat, y = price)) +
+  geom_hex()
+```
+从上面的几幅图都可以看出`carat`和`price`存在明显的正相关关系.
+而`clarity`和`color`也是有序的分类变量, 使用箱线图看看它们和`price`的关系.
+```{r}
+ggplot(diamonds, mapping = aes(x = clarity, y = price)) +
+  geom_boxplot()
+```
+```{r}
+ggplot(diamonds, mapping = aes(x = color, y = price)) +
+  geom_boxplot()
+```
+可以看出, `clarity`和`price`存在微弱的负面关系, `color`也是. 它们与`price`的关系都不明显, 所以使用克拉是最好的选择.
+
+这个变量与切割变量`cut`的关系是: (使用频率多边形图和箱线图按分类变量`cut`的分组显示连续变量`carat`的分布)
+```{r}
+ggplot(diamonds, mapping = aes(x = carat, y = ..density..)) +
+  geom_freqpoly(mapping = aes(color = cut), binwidth = 0.1)
+```
+```{r}
+ggplot(diamonds, mapping = aes(x = cut, y = carat)) +
+  geom_boxplot()
+```
+由此可见, `carat`和`cut`有轻微的负关系, 最大的钻石有着最低的切割质量`Fair`.
+
+这两个变量的关系组合会导致质量更差的钻石价格更高的原因在于: 较低的切割质量可以用更大的克拉来弥补, 同时由于克拉更大, 就会导致更高的价格. 反而是小的钻石需要好的切割质量.
+
+-----
+
+## P78
+### (1)
+按照比例, 表示切割质量在颜色间的分布.
+```{r}
+diamonds %>%
+  count(color, cut) %>%
+  group_by(color) %>%
+  mutate(prop = n / sum(n)) %>%
+  ggplot(mapping = aes(x = color, y = cut)) +
+  geom_tile(mapping = aes(fill = prop)) 
+```
+按照比例, 表示颜色在切割质量间的分布.
+```{r}
+diamonds %>%
+  count(color, cut) %>%
+  group_by(cut) %>%
+  mutate(prop = n / sum(n)) %>%
+  ggplot(mapping = aes(x = color, y = cut)) +
+  geom_tile(mapping = aes(fill = prop))
+```
+
+## P81
+### (2)
+`cut_width(price, 1000)`函数将price分成宽度为1000的分箱, 默认其中不管有多少个观测值, 箱线图宽度都差不多, 不能体现处每个箱线图是对不同数量的观测进行统计的.
+```{r}
+ggplot(diamonds, mapping = aes(x = cut_width(price, 1000), y = carat)) +
+  geom_boxplot() +
+  coord_flip() +
+  xlab("Price")
+```
+`cut_number(price, 10)`函数将price分成10个分箱, 箱线图宽度由其中的观测值数量决定.
+```{r}
+ggplot(diamonds, mapping = aes(x = cut_number(price, 10), y = carat)) +
+  geom_boxplot() +
+  coord_flip() +
+  xlab("Price")
+```
+
+### (3)
+- 由第二题和书上的对carat分类的price分布箱线图可以看出, 特别大的钻石普遍价格更高, 偏差值更大, 更加多变。 
+- 结果符合预期, 因为更大的钻石具有更强烈的奢侈品属性, 价格弹性更大. 而且销售钻石的人只有在某种组合尺寸、切工、净度和颜色超过一定门槛的情况下, 才会发现出售钻石是有利可图的。
+- 最小的钻石只有在所有其他因素(切工、净度和颜色)都非常出色的情况下才能盈利, 因此所售的小钻石具有相似的特性。
+- 然而, 无论其他因素的价值如何, 较大的钻石都可能有利可图。因此,我们会发现许多具有不同的切割、净度和颜色的大型钻石, 价格上就会有更大的变化。
+

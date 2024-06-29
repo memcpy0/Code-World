@@ -1,0 +1,17 @@
+@startuml Order
+ 
+class Order {
+	-ISBN : String
+	-date : Date
+	-number : String
+	-operator : String
+	-checkAndAccept : String
+	-discount : String
+    
+    +getXXX() : String / Date
+    +setXXX() : void
+}  
+ 
+note "订单类，包含订单相关操作者，是否验收，折扣等信息" as N0
+N0 .. Order
+@enduml

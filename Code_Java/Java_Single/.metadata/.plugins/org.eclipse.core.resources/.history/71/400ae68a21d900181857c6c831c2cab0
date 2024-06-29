@@ -1,0 +1,34 @@
+package myfirstproject;
+
+import java.util.Scanner;
+
+public class IsPrime {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("请输入要选取素数的范围最大值");
+		int num = in.nextInt();
+		if (num <= 0) {
+			System.out.println("小于0");
+		}
+		boolean[] isPrime = new boolean[num];
+		for (int i=0; i<isPrime.length; i++) {
+			isPrime[i] = true;
+		}
+		
+		for (int j=2; j<isPrime.length; j++) {
+			if (isPrime[j]) {
+				for (int k=2; k*j<isPrime.length; k++) {
+					isPrime[k*j]  = false;
+				}
+			}
+		}
+		
+		for (int i=0; i<isPrime.length; i++) {
+			if (isPrime[i]) {
+				System.out.print(i+" ");				
+			}
+		}
+	}
+
+}
