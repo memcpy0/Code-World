@@ -172,9 +172,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "586e03bf03e8825c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LeetCode 3129. 找出所有稳定的二进制数组 I,3130. 找出所有稳定的二进制数组 II【动态规划,前缀和】2825.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34513a2d0736ac52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSDN/刷题日志与精进之路/LeetCode 551. 学生出勤记录I【字符串】简单, 552. 学生出勤记录 II【动规】困难.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1f5c201e572864c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSDN/刷题日志与精进之路/LeetCode 698. 划分为k个相等的子集, 【子集划分,回溯;动规】中等.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -224,7 +260,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 341.5,
+    "collapsed": true
   },
   "right": {
     "id": "fbf490589399261b",
@@ -240,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LeetCode 857. 雇佣 K 名工人的最低成本【】2259.md",
+                "file": "CSDN/刷题日志与精进之路/LeetCode 698. 划分为k个相等的子集, 【子集划分,回溯;动规】中等.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LeetCode 857. 雇佣 K 名工人的最低成本【】2259.md",
+                "file": "CSDN/刷题日志与精进之路/LeetCode 698. 划分为k个相等的子集, 【子集划分,回溯;动规】中等.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +317,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LeetCode 857. 雇佣 K 名工人的最低成本【】2259.md"
+                "file": "CSDN/刷题日志与精进之路/LeetCode 698. 划分为k个相等的子集, 【子集划分,回溯;动规】中等.md"
               }
             }
           },
@@ -374,36 +411,36 @@
       }
     ]
   },
-  "active": "631e6acc844b37d6",
+  "active": "c1f5c201e572864c",
   "lastOpenFiles": [
-    "CSDN/基础课程和实践项目/设计模式/【设计模式】C++_C#_Java实现State模式.md",
+    "CSDN/刷题日志与精进之路/LeetCode 690. 员工的重要性【哈希表;DFS,BFS】简单【C++,Java,Csharp,Go,Py3,JS】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 698. 划分为k个相等的子集, 【子集划分,回溯;动规】中等.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3158. 求出出现两次数字的 XOR 值【位运算】简单.md",
+    "CSDN/刷题日志与精进之路/LeetCode 551. 学生出勤记录I【字符串】简单, 552. 学生出勤记录 II【动规】困难.md",
+    "未命名 11.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3146. 两个字符串的排列差【数组,哈希表】简单【C++,Java,Py3,Go,JS,Rust】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 1238. Circular Permutation in Binary Representation【数学】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3143. 正方形中的最多点数【位运算,构造法】中等【C++,Java,Py3,Go,Rust】.md",
+    "LeetCode 3129. 找出所有稳定的二进制数组 I,3130. 找出所有稳定的二进制数组 II【动态规划,前缀和】2825.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3137. K 周期字符串需要的最少操作次数【统计子串个数】【C++,Java,Go,Rust,Py3,JS】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3151. 特殊数组 I, 3152. 特殊数组 II【前缀和;递推求最近奇偶性相同位置】【Py3,C++,Java,GO,Rust】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 2369. Check if There is a Valid Partition For The Array【记忆化搜索,动态规划】1779.md",
+    "CSDN/刷题日志与精进之路/LeetCode 1035. 不相交的线【动规,LCS,最简二维形式】中等【C,C++,Py3,GO,Java,JS,Csharp】.md",
     "LeetCode 857. 雇佣 K 名工人的最低成本【】2259.md",
+    "CSDN/刷题日志与精进之路/LeetCode 572. 另一棵树的子树【树+嵌套DFS;DFS序+KMP;树哈希】简单【C++,Java,GO】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 2659. Make Array Empty【树状数组;线段树(静态,动态);数学】困难.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3131. 找出与数组相加的整数 I【数组】简单【Rust,Java,C++,Py3,GO,JS,C】.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3132. 找出与数组相加的整数 II【排序,同向双指针;技巧】中等【Py3,Java,C++,C,GO,JS,Rust】.md",
+    "LeetCode 2065..md",
+    "CSDN/刷题日志与精进之路/LeetCode 2134. 最少交换次数来组合所有的 1 II【滑动窗口】1748.md",
+    "CSDN/刷题日志与精进之路/LeetCode 3143. 正方形中的最多点数【切比雪夫距离,次小距离最小值】中等.md",
+    "CSDN/基础课程和实践项目/设计模式/【设计模式】C++_C#_Java实现State模式.md",
     "[.md",
     "CSDN/数据结构和算法学习/【比赛相关】学习资源.md",
     "LeetCode 1553. 吃掉 N 个橘子的最少天数【动态规划,记忆化搜索】2048.md",
     "未命名",
     "未命名 1.canvas",
     "技术积累1：Java容错机制.md",
-    "未命名 9.md",
-    "自制编译器1.md",
-    "LeetCode 216. 组合总和 III【DFS+回溯,子集枚举】中等.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2391. 收集垃圾的最少总时间【倒序遍历+贡献法】1455.md",
-    "LeetCode 741. 摘樱桃【动态规划】困难.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2105. 给植物浇水 II【相向双指针模拟】1507.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2960. 统计已测试设备【差分思想】简单.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2079. 给植物浇水【数组】1320.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2369. Check if There is a Valid Partition For The Array【记忆化搜索,动态规划】1779.md",
-    "CSDN/刷题日志与精进之路/LeetCode 1235. 规划兼职工作【排序+动规+二分】2022.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2462. 雇佣 K 位工人的总代价【最小堆,模拟】.md",
-    "CSDN/刷题日志与精进之路/LeetCode 1491. 去掉最低工资和最高工资后的工资平均值【编程基础】简单.md",
-    "CSDN/刷题日志与精进之路/LeetCode 1652. 拆炸弹【定长滑窗】简单.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2739. 总行驶距离【模拟,数学】简单.md",
-    "CSDN/刷题日志与精进之路/LeetCode 1518. Water Bottles【模拟;数学】简单.md",
-    "【数据结构和算法学习】线段树基础,合并,分裂,优化建图,猫树.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2639. 查询网格图中每一列的宽度【数组】简单.md",
-    "CSDN/刷题日志与精进之路/LeetCode 1146. 快照数组【哈希表+二分查找】中等.md",
-    "未命名 10.md",
-    "CSDN/刷题日志与精进之路/LeetCode 2864. 最大二进制奇数【字符串,贪心】简单.md",
     "未命名 2.canvas",
     "刷漆",
     "Java/项目/外卖/产品原型/瑞吉外卖后台（管理端）/images/分类管理/u198.png",
