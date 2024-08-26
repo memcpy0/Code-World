@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自制编译器/自制编译器1：开始制作编译器.md",
+                "file": "自制编译器/自制编译器2：Cb和Cbc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58b0bf36a796bb3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. 学习Rust的理由，避免从入门到放弃.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d3c9ec138375118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Rust安装、本地文档和VSCode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a9de48d4581318d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Rust安装、本地文档和VSCode.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自制编译器/自制编译器1：开始制作编译器.md",
+                "file": "2. Rust安装、本地文档和VSCode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "自制编译器/自制编译器1：开始制作编译器.md",
+                "file": "2. Rust安装、本地文档和VSCode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自制编译器/自制编译器1：开始制作编译器.md"
+                "file": "2. Rust安装、本地文档和VSCode.md"
               }
             }
           }
@@ -146,9 +183,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c55c3ca31d98ecc1",
+  "active": "1a9de48d4581318d",
   "lastOpenFiles": [
-    "Pasted image 20240630160015.png",
-    "自制编译器/自制编译器1：开始制作编译器.md"
+    "3. 认识Cargo、多国语言HelloWorld.md",
+    "2. Rust安装、本地文档和VSCode.md",
+    "1. 学习Rust的理由，避免从入门到放弃.md",
+    "自制编译器/自制编译器2：Cb和Cbc.md",
+    "Rust学习",
+    "自制编译器/自制编译器1：开始制作编译器.md",
+    "Pasted image 20240630183859.png",
+    "Pasted image 20240630160015.png"
   ]
 }
