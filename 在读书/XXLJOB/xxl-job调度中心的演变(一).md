@@ -269,17 +269,126 @@ public class TestJob {
 大家千万别忘了，在我的程序中，虽然设置的定时任务只有一个，但是这个定时任务交给两个定时任务程序来执行了，调度模块每次只通知一个定时任务程序去执行，另一个定时任务程序起到兜底的作用。所以，现在我部署了两个定时任务程序，那每次执行的时候，调度模块应该通知哪个定时任务程序去执行呢？再进一步分析一下，调度模块从数据库中查询到了多个要执行的定时任务，这些定时任务肯定都有相应的定时任务程序部署在不同的服务器上，那调度中心该具体通知哪些定时任务程序来执行定时任务呢？  
   
 所以，现在就让我来再次想一想，调度功能和定时任务程序的关系。首先有一点是可以明确的，执行定时任务的程序肯定是要部署在一个服务器上的，而调度功能模块是我后来单独抽取出来的，这两个模块的关系十分紧密。那么，现在有一个问题，就是调度功能的模块是不是要和定时任务执行程序部署在相同的服务器上呢？显然是不能的，如果调度模块和定时任务程序部署在同一个服务器上，如果服务器崩溃了，那么调度模块和定时任务程序都无法使用了。我心中的理想程序是，如果有一个定时任务程序崩溃了，那么剩下的那个定时任务还可以继续配合调度模块执行定时任务。所以，答案显而易见了，最理想的方法就是调度模块单独部署在一个服务器上，两个定时任务程序部署在另外两个服务器上。调度模块单独访问数据库，并且维护定时任务在数据库中的信息，而两个定时任务程序从创建的那一刻，就分别把自己的定时任务信息通过网络发送给调度模块，随着定时任务信息一起发送的，还有定时任务程序部署的服务器的ip地址。这样一来，当调度模块从数据库中查询到了可以执行的定时任务，就会通过某种策略确定让哪个定时任务程序去执行，然后确定要执行定时任务的程序的ip地址，最后通过网络向该定时任务程序发送消息，通知该定时任务程序执行定时任务。并且，最开始困扰我的那个问题，也就终于得到解决了，定时任务执行时间的判断依据的是调度中心部署服务器的时间，而不是两个定时任务部署的服务器，这样，执行时间就终于有了一个统一的标尺。请大家看下面一幅简图。  
+![image.png](https://image-1307616428.cos.ap-beijing.myqcloud.com/Obsidian/202408300852356.png)
+
 
 接着，我再用刚才明确的编码思路把我的程序重构一下。首先是定时任务本身。  
-
+```java
+ public static void selfishHeart() {
+        System.out.println("执行定时任务！");
+}
+```
 接着是定时任务创建完毕后，要发送给调度模块的定时任务信息。  
+```java
+public class RegistryParam implements Serializable {
+    
+    private static final long serialVersionUID = 42L;
+    
+    //定时任务方法的名称
+    private String registryKey;
+    //定时任务程序部署的服务器的ip地址
+    private String registryValue;
 
+    public RegistryParam(){
+        
+    }
+    
+    public RegistryParam(String registryKey, String registryValue) {
+        this.registryKey = registryKey;
+        this.registryValue = registryValue;
+    }
+
+    public String getRegistryKey() {
+        return registryKey;
+    }
+
+    public void setRegistryKey(String registryKey) {
+        this.registryKey = registryKey;
+    }
+
+    public String getRegistryValue() {
+        return registryValue;
+    }
+
+    public void setRegistryValue(String registryValue) {
+        this.registryValue = registryValue;
+    }
+
+}
+```
 接着是要和数据库打交道的XxlJobInfo类。  
+```java
+public class XxlJobInfo {
 
+    //定时任务的方法名称
+	private String executorHandler;
+
+    //定时任务的下一次执行时间
+    private long triggerNextTime;
+
+    //定时任务部署的服务器ip地址的集合
+    private List<String> registryList;
+
+    public String getExecutorHandler() {
+		return executorHandler;
+	}
+
+	public void setExecutorHandler(String executorHandler) {
+		this.executorHandler = executorHandler;
+	}
+
+
+    public long getTriggerNextTime() {
+		return triggerNextTime;
+	}
+
+	public void setTriggerNextTime(long triggerNextTime) {
+		this.triggerNextTime = triggerNextTime;
+	}
+
+    public List<String> getRegistryList() {
+        return registryList;
+    }
+
+     public void setRegistryList(List<String> registryList) {
+        this.registryList = registryList;
+    }
+
+}
+```
 在这里，大家肯定会思考一个问题，那就是RegistryParam和XxlJobInfo的关系。我就简单明了地解释一下，RegistryParam是定时任务程序中要用到的对象，定时任务程序要把自己的信息通过网络发送给调度模块，就会把自己执行任务的方法和服务器的ip地址封装到RegistryParam对象中，该对象经过序列化后在网络中被传输到调度模块这一端。看到这里，大家应该有这样一个意识，那就是目前我的程序中部署了两个定时任务程序，这两个程序执行的都是相同的定时任务，那么它们发送给调度模块的RegistryParam对象中，registryKey肯定都是相同的，因为执行的都是同一个定时任务呀，不同的只有registryValue，因为这两个定时任务程序部署的服务器的ip地址肯定是不同的。但是，在调度中心维护的数据库中，相同的定时任务肯定只能存储一个，可是现在定时任务却有两个不同的要执行的地址，究竟把哪个地址存储在数据库中呢？当然是两个都要存储，为了解决这个问题，调度模块会在接收到两个定时任务程序发送过来的registryValue对象后，会判断它们的registryKey，也就是定时任务的方法名称是否一致，如果一致就把这两个对象中的registryValue，也就是远程的执行定时任务服务器的地址放进一个list集合中，封装到XxlJobInfo对象中，当然，registryKey也会封装到XxlJobInfo对象中，然后再把XxlJobInfo对象中的信息存储到数据库中。具体的细节还有很多很多，这是第二个代码版本对应的内容了，到时候我会为大家详细讲解。  
   
 好了，最后就是经过我重构的调度模块功能。  
+```java
+public class TestJob {
 
+    public static void main(String[] args) {
+        while (true) {
+            //从数据库中查询所有定时任务信息
+            List<XxlJobInfo> jobInfoList = findAll();
+            //得到当前时间
+            long time = System.currentTimeMillis();
+            //遍历所有定时任务信息
+            for (XxlJobInfo jobInfo : jobInfoList) {
+                if (time >= jobInfo.getTriggerNextTime) {
+                    //如果大于就执行定时任务，在这里就选用集合的第一个地址
+                    String address = jobInfo.getRegistryList().get(0);
+                    //注意，既然调度模块已经单独部署了，就没有再创建新的线程去执行定时任务
+                    //而是远程通知定时任务程序执行定时任务，没被通知的定时任务程序就不必执行
+                	System.out.println("通知address服务器，去执行定时任务!");
+                    //计算定时任务下一次的执行时间
+                    Date nextTime = new CronExpression(scheduleCron).getNextValidTimeAfter(new Date());
+                    //下面就是更新数据库中定时任务的操作
+                    XxlJobInfo job = new XxlJobInfo();
+                    job.setExecutorHandler(selfishHeart);
+                    job.setTriggerNextTime(nextTime.getTime());
+                    save(job);
+                }
+            }
+        }
+    }
+}
+```
 到此为止，程序已经很完美了，但是我仍然对自己所做的一切不太满意，因为这太像个小玩具了。别忘了，我的程序员之魂已经觉醒了，我打算把项目做大做强，然后开源。现在这种玩意怎么好意思给别人看呢？所以，我决定要做就做到最好，再下一番功夫，把这个程序重构得尽善尽美。因为程序本身还存在太多太多的缺陷了，别说其他的，就说说调度模块的名字吧，到现在为止，都没有一个正式的名字。仍然叫TestJob，还Job个毛啊！这就像你煞费苦心地追一个姑娘，花了很多时间，花了很多钱，你难道就不想尽快把她娶回家，给她一个正式的名份吗！所以，调度模块的名字是一定要明确一下的，比如就可以把TestJob这个类名换成JobScheduleHelper，这没什么不可以，反正是调度任务的好帮手嘛。除此之外呢？要调度的定时任务特别多怎么办？调度的定时任务没有成功怎么办？最要紧的是，调度定时任务，再通知定时任务去执行，这个活都让一个线程干，你就不怕把它累死啊。当然，累死线程事小，影响用户体验就事大了，说白了还是考虑到执行任务的效率。让一个线程在调度定时任务的同时，从数据库扫描定时任务信息，然后去远程通知定时任务程序执行定时任务，接着再计算定时任务下一次的执行时间，这样的方案设计，能给程序带来更高更快的性能吗？  
   
 总之，目前程序存在的问题太多了，这一章肯定是讲不完了，下一章继续吧。  
