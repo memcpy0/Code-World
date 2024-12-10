@@ -73,7 +73,199 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETTY/2. Netty的核心：理解 Reactor 线程模型.md",
+                "file": "XXLJOB/xxl-job调度中心的演变(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "756673493dfaa924",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/xxl-job执行器服务端的简单搭建(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4974a9f18d4a1bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/xxl-job执行器服务端的简单搭建(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76976e3f77bccf40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/细说xxl-job的心跳检测和路由策略.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41b1eb1be6a23d94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/完善xxl-job调度中心的日志收集和清除过期日志工功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af4e1753c6fc79f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/完善调度中心的分片广播、在线编码调度定时任务功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7d5bf6f595badf0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "XXLJOB/完善不依赖Springboot的执行器、超时时间，子任务执行功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93d58274264b38b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b79009dc94f7ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cbda70b423e81af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac16d7d9aa0ece96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(四).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ceb89fac8bfd0d45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(五).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4db11b1de433f6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(六).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc60c961c1bdb288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(七).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "821edd3c7712047e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者多消费者模式队列的搭建(保证并发消费的安全).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b94e33dbc1358402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：多生产者多消费者模式队列的搭建(九).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd7a3541f317a3cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +284,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -158,7 +350,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETTY/2. Netty的核心：理解 Reactor 线程模型.md",
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +367,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETTY/2. Netty的核心：理解 Reactor 线程模型.md",
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETTY/2. Netty的核心：理解 Reactor 线程模型.md"
+                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md"
               }
             }
           }
@@ -219,21 +411,39 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "457f3a6a7c3a364c",
+  "active": "c55c3ca31d98ecc1",
   "lastOpenFiles": [
-    "XXLJOB/xxl-job调度中心的演变(一).md",
+    "Disruptor/从零带你写disruptor：消费者顺序依赖消费功能的实现.md",
+    "Disruptor/从零带你写disruptor：多生产者多消费者模式队列的搭建(九).md",
+    "Disruptor/从零带你写disruptor：单生产者多消费者模式队列的搭建(保证并发消费的安全).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(七).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(六).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(五).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(四).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(三).md",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
+    "未命名",
+    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(一).md",
+    "XXLJOB/完善不依赖Springboot的执行器、超时时间，子任务执行功能.md",
+    "Disruptor",
+    "XXLJOB/完善调度中心的分片广播、在线编码调度定时任务功能.md",
+    "XXLJOB/完善执行器端的过期日志清除和任务阻塞策略功能，终止任务线程功能.md",
+    "XXLJOB/完善调度中心的监控和告警，以及失败重试功能.md",
+    "XXLJOB/完善xxl-job调度中心的日志收集和清除过期日志工功能.md",
+    "XXLJOB/完善xxl-job执行器端的结果回调和日志收集功能.md",
+    "XXLJOB/细说xxl-job的心跳检测和路由策略.md",
+    "XXLJOB/xxl-job执行器服务端的简单搭建(二).md",
+    "XXLJOB/xxl-job执行器服务端的简单搭建(一).md",
+    "XXLJOB/xxl-job调度中心的演变(三).md",
     "XXLJOB/xxl-job调度中心的演变(二).md",
+    "XXLJOB/xxl-job调度中心的演变(一).md",
     "NETTY/2. Netty的核心：理解 Reactor 线程模型.md",
     "XXLJOB",
     "NETTY/1. Netty的本质：如何提升NIO服务端的工作效率.md",
     "NETTY",
     "4. Rust基础入门.md",
     "Rust学习/2. Rust安装、本地文档和VSCode.md",
-    "Rust学习/3. 认识Cargo、多国语言HelloWorld.md",
-    "Rust学习/1. 学习Rust的理由，避免从入门到放弃.md",
-    "自制编译器/自制编译器2：Cb和Cbc.md",
     "Rust学习",
-    "自制编译器/自制编译器1：开始制作编译器.md",
     "Pasted image 20240630183859.png",
     "Pasted image 20240630160015.png"
   ]
