@@ -272,6 +272,1050 @@
             }
           },
           {
+            "id": "9597dd4d2683da5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/从零带你写 SOFA-JRAFT 目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0e456fcc15ddbc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：单主复制在raft共识算法中的实现(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "740b1b0617e20c11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：单主复制在raft共识算法中的实现(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ebe83cafd63b365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：分析节点启动过程，初步实现 NodeImpl(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ba0b0dc2059fbac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：分析 NodeImpl 初始化流程，实现节点预投票功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c998aa301c49896",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：分析 NodeImpl 初始化流程，实现节点预投票功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f018d47418bd83a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：分析选举超时定时器，重构节点选举流程，实现领导者选举(四).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90dd3021f07cc735",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 Replicator 复制器，完善领导者选举(五).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7aae15507444f01f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：重构 Replicator，实现心跳检测，分析节点内部线程的职责(六).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cd20978baad9247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 LogManager 日志管理体系，实现日志组件初始化(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1f946b9d4c6f495",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 LogManager 日志管理体系，实现日志组件初始化(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40a0dcd480db2cd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 Disruptor 框架，运用回调实现 JRAFT 领导者的日志持久化功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6aa6de1e9cc48938",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 Disruptor 框架，运用回调实现 JRAFT 领导者的日志持久化功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13cd19dba27829d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：剖析日志传输模式，初步实现领导者向跟随者传输日志功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d911f56ed43cf5c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：剖析日志传输模式，初步实现领导者向跟随者传输日志功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53b5247bc9565c67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：实现跟随者接收日志功能，解决跟随者和领导者日志冲突问题.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da2c20fed101b45b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 Pipeline 日志传输模式，重构 Replicator 复制器对象(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99bf2ec4a8690b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 AppendEntriesRequestProcessor，完善 Pipeline 模式(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e7e2e3e9e4855f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入 FSMCallerImpl 状态机组件，剖析领导者日志提交全流程(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53dd7fa93ff84eec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：再次使用 Disruptor 框架，在异步回调中实现日志的提交和应用 (二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1b561c5c4d1d28b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：再次使用 Disruptor 框架，在异步回调中实现日志的提交和应用 (三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "012bd268860f9d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：实现线性一致读功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b62c644601873c64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42886226518c17a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "040b01dc67e51920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6cebac5493f5045",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成(四).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13e2f718b34e6c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成(五).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab2bfb2789f4f4a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：完善 ConfigurationCtx 配置内部类功能，实现集群配置顺利变更.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7a1d26e7a691720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：引入快照组件，创建 snapshotTimer 快照定时生成器，实现快照定时生成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d538378bfef8c905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：完善快照组件，实现跟随者节点的快照安装.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cfc1e32c96b5287",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：实现优雅停机功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afd4eb0690bbb34c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/手写SOFA-JRAFT：实现优雅停机功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44a0bffc4216a89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOFTJRAFT/从零带你写 SOFA-JRAFT 目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e77d3c3b3e701021",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/从零带你写 hippo4j  目录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c28d3dbc33f7f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/从 java 线程池探讨动态线程池框架的可行性以及扩展性.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af9182c3a62dd869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/引入 DynamicThreadPoolExecutor 体系，完善线程池扩展功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e13cd1dab019bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/完善 DynamicThreadPoolExecutor 体系，构建简单客户端(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8781251c5d17645f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/构建简单客户端，实现项目线程池信息向服务端的注册功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33d389a62ea53b82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/完善框架，实现客户端与服务端的心跳检测以及过期服务移除功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5f981ef1ada602cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/运用长轮询，实现线程池配置信息的动态变更(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2f49112f7c7d9dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/运用长轮询，实现线程池配置信息的动态变更(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a0b62ff23909410",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/实现线程池运行时信息的收集与上报(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "402c601b63747b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/实现线程池运行时信息的收集与上报(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0ec42a196f59f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/实现 Tomcat、Dubbo 线程池配置的动态变更与信息上报.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72dfe13819cc9ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HIPPO4j/从 java 线程池探讨动态线程池框架的可行性以及扩展性.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68c15ec30ef5b951",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/从零带你写 Nacos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc33d24a99fbd067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建简单客户端，实现客户端服务实例注册功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3c8ec6cb9160719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建简单客户端，实现客户端服务实例注册功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b6d171b4a407501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建简单客户端，实现客户端服务实例注册功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50fc2bffae0c0e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建简单客户端，实现客户端服务实例注册功能(四).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2d9352e38f8db85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建简单客户端，实现客户端服务实例注册功能(五).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b663d1b2c44d293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/完善 RpcClient 类，实现客户端心跳检测、断线重连功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b953660ccf246add",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 NamingGrpcRedoService 类，实现连接恢复后操作自动重试功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d84a6dc52fb296c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 NamingGrpcRedoService 类，实现连接恢复后操作自动重试功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "581fc04caae2147d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ServiceInfoHolder、ServiceInfoUpdateService 类，实现客户端订阅、刷新服务功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33bb91fdbd545339",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建事件通知体系，实现客户端事件的监听功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c34e8dd4e782ba81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 FailoverReactor，实现故障转移功能，完善客户端注销服务、取消订阅功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f3fd6e78000aa9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 GrpcServer、NacosApplicationListener体系，实现注册中心服务端的启动(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2cba544c2262c91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 GrpcServer、NacosApplicationListener体系，实现注册中心服务端的启动(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1e38fd40999337a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 Acceptor、ConnectionManager，实现注册中心服务端接收客户端连接和请求功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a471b8c143a342d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 Acceptor、ConnectionManager，实现注册中心服务端接收客户端连接和请求功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd1748848bde3076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 Acceptor、ConnectionManager，实现注册中心服务端接收客户端连接和请求功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5d9559304dfa1ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 RequestHandler 模块，引入 Client 模块，初步实现服务端缓存服务实例功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68b3c2cd6a87c7e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/重构 ConnectionManager 连接管理器，实现服务端健康检测功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f10f5ec156ea61ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建 Client 体系，初步实现服务端缓存服务实例功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89b02709eb918b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建 Client 体系，初步实现服务端缓存服务实例功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dab9da90961ffd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ClientServiceIndexesManager 类，完成服务端订阅服务实例功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4165d567cbdac605",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ServiceStorage 类，完成服务端订阅服务实例功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c367c3976a314a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d23bc8c2e929cb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6e4af480129b5ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7ed459b7dcbe1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/简单剖析 distro 一致性协议，引入 ServerMemberManager，初步构建 distro 集群(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c42d568864f980ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/简单剖析 distro 一致性协议，重构 ServerMemberManager，完善 distro 集群(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f90a74c55e75b58d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，分析 distro 集群可发布和订阅的事件类型(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdc4b71a3c1524ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98020611247ed583",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(三).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "636cfb1a7640c54f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/完善 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(四).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e66632a10e9d2727",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/回顾 jraft 框架的 MultiRaftGroup 模式，分析 nacos 中 raft 集群的构建模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbd8b6f590fc29e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 JRaftProtocol 和 JRaftServer，实现 jraft 集群的构建和启动(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fb0294f2934a9de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 PersistentInstanceRequestHandler 非临时服务实例注册器，实现 nacos 服务端注册持久服务实例功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4ec5c2c9198ede4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 NacosConfigService，实现配置中心客户端发布、查询配置信息功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "298ba01653e55271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 NacosConfigService，实现配置中心客户端发布、查询配置信息功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "592f60fa9bb45d5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/重构 ClientWorker，实现配置中心客户端监听配置信息变更功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0f065ddcfc4790c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ConfigPublishRequestHandler 和 ConfigInfoPersistService，实现配置中心服务端存储配置信息功能(一).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18046070ee39c237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ConfigCacheService 和 DumpService，实现配置中心服务端存储配置信息功能(二).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92e27b6e1ea958d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/引入 ConfigQueryRequestHandler，实现配置中心服务端查询配置信息功能.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88a442b47d703f1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NACOS/从零带你写 Nacos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1a9de48d4581318d",
             "type": "leaf",
             "state": {
@@ -284,7 +1328,7 @@
             }
           }
         ],
-        "currentTab": 21
+        "currentTab": 108
       }
     ],
     "direction": "vertical"
@@ -334,7 +1378,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 422.5
   },
   "right": {
     "id": "b92df6124a88456f",
@@ -350,7 +1394,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
+                "file": "NACOS/从零带你写 Nacos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -367,7 +1411,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
+                "file": "NACOS/从零带你写 Nacos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -390,7 +1434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md"
+                "file": "NACOS/从零带你写 Nacos.md"
               }
             }
           }
@@ -411,38 +1455,40 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c55c3ca31d98ecc1",
+  "active": "88a442b47d703f1c",
   "lastOpenFiles": [
-    "Disruptor/从零带你写disruptor：消费者顺序依赖消费功能的实现.md",
-    "Disruptor/从零带你写disruptor：多生产者多消费者模式队列的搭建(九).md",
-    "Disruptor/从零带你写disruptor：单生产者多消费者模式队列的搭建(保证并发消费的安全).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(七).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(六).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(五).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(四).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(三).md",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(二).md",
-    "未命名",
-    "Disruptor/从零带你写disruptor：单生产者单消费者模式队列的搭建(一).md",
-    "XXLJOB/完善不依赖Springboot的执行器、超时时间，子任务执行功能.md",
+    "NACOS/构建 Client 体系，初步实现服务端缓存服务实例功能(二).md",
+    "NACOS/引入 AsyncNotifyService、RpcConfigChangeNotifier 类，实现配置中心服务端配置变更功能、配置中心服务端向客户端推送最新配置信息功能、集群节点同步配置信息功能.md",
+    "NACOS/引入 ConfigQueryRequestHandler，实现配置中心服务端查询配置信息功能.md",
+    "NACOS/引入 ConfigCacheService 和 DumpService，实现配置中心服务端存储配置信息功能(二).md",
+    "NACOS/引入 ConfigPublishRequestHandler 和 ConfigInfoPersistService，实现配置中心服务端存储配置信息功能(一).md",
+    "NACOS/重构 ClientWorker，实现配置中心客户端监听配置信息变更功能(一).md",
+    "NACOS/引入 NacosConfigService，实现配置中心客户端发布、查询配置信息功能(二).md",
+    "NACOS/引入 NacosConfigService，实现配置中心客户端发布、查询配置信息功能(一).md",
+    "NACOS/引入 PersistentInstanceRequestHandler 非临时服务实例注册器，实现 nacos 服务端注册持久服务实例功能.md",
+    "NACOS/引入 JRaftProtocol 和 JRaftServer，实现 jraft 集群的构建和启动(一).md",
+    "NACOS/回顾 jraft 框架的 MultiRaftGroup 模式，分析 nacos 中 raft 集群的构建模式.md",
+    "NACOS/完善 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(四).md",
+    "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(三).md",
+    "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，实现数据在 distro 集群中同步(二).md",
+    "NACOS/引入 DistroClientDataProcessor 和 DistroProtocol，分析 distro 集群可发布和订阅的事件类型(一).md",
+    "NACOS/简单剖析 distro 一致性协议，重构 ServerMemberManager，完善 distro 集群(二).md",
+    "NACOS/简单剖析 distro 一致性协议，引入 ServerMemberManager，初步构建 distro 集群(一).md",
+    "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(三).md",
+    "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(二).md",
+    "NACOS/构建 NacosTaskExecuteEngine 体系，实现服务端主动推送客户端最新服务实例信息功能(一).md",
+    "NACOS/引入 ServiceStorage 类，完成服务端订阅服务实例功能(二).md",
+    "NACOS/引入 ClientServiceIndexesManager 类，完成服务端订阅服务实例功能(一).md",
+    "NACOS/构建 Client 体系，初步实现服务端缓存服务实例功能(三).md",
+    "NACOS/重构 ConnectionManager 连接管理器，实现服务端健康检测功能.md",
+    "NACOS/引入 RequestHandler 模块，引入 Client 模块，初步实现服务端缓存服务实例功能(一).md",
+    "NACOS/引入 Acceptor、ConnectionManager，实现注册中心服务端接收客户端连接和请求功能(三).md",
+    "NACOS",
+    "HIPPO4j",
+    "SOFTJRAFT",
     "Disruptor",
-    "XXLJOB/完善调度中心的分片广播、在线编码调度定时任务功能.md",
-    "XXLJOB/完善执行器端的过期日志清除和任务阻塞策略功能，终止任务线程功能.md",
-    "XXLJOB/完善调度中心的监控和告警，以及失败重试功能.md",
-    "XXLJOB/完善xxl-job调度中心的日志收集和清除过期日志工功能.md",
-    "XXLJOB/完善xxl-job执行器端的结果回调和日志收集功能.md",
-    "XXLJOB/细说xxl-job的心跳检测和路由策略.md",
-    "XXLJOB/xxl-job执行器服务端的简单搭建(二).md",
-    "XXLJOB/xxl-job执行器服务端的简单搭建(一).md",
-    "XXLJOB/xxl-job调度中心的演变(三).md",
-    "XXLJOB/xxl-job调度中心的演变(二).md",
-    "XXLJOB/xxl-job调度中心的演变(一).md",
-    "NETTY/2. Netty的核心：理解 Reactor 线程模型.md",
     "XXLJOB",
-    "NETTY/1. Netty的本质：如何提升NIO服务端的工作效率.md",
     "NETTY",
-    "4. Rust基础入门.md",
-    "Rust学习/2. Rust安装、本地文档和VSCode.md",
     "Rust学习",
     "Pasted image 20240630183859.png",
     "Pasted image 20240630160015.png"
