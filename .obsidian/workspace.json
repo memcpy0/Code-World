@@ -11,8 +11,14 @@
             "id": "ece537c4d49fea4d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/装饰器模式：通过剖析Java IO类库源码学习装饰器模式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "装饰器模式：通过剖析Java IO类库源码学习装饰器模式"
             }
           }
         ]
@@ -34,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -50,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -58,14 +69,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 205.5
   },
   "right": {
     "id": "a14abf9b8f06a6ba",
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例 的反向链接列表"
             }
           },
           {
@@ -97,9 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例 的出链列表"
             }
           },
           {
@@ -109,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -118,7 +141,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "41.  单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例 的大纲"
             }
           }
         ]
@@ -138,6 +168,29 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7d183dcc490a4505",
-  "lastOpenFiles": []
+  "active": "ece537c4d49fea4d",
+  "lastOpenFiles": [
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/桥接模式：如何实现支持不同类型和渠道的消息推送系统？.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/代理模式：代理在RPC、缓存、监控等场景中的应用.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/享元模式（上）：如何利用享元模式优化文本编辑器的内存占用？（下）：剖析享元模式在Java Integer、String中的应用 1.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/享元模式（上）：如何利用享元模式优化文本编辑器的内存占用？（下）：剖析享元模式在Java Integer、String中的应用.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/组合模式：如何设计实现支持递归遍历的文件系统目录树结构？.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/门面模式：如何设计合理的接口粒度以兼顾接口的易用性和通用性？.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/适配器模式：代理、适配器、桥接、装饰，这四个模式有何区别？.md",
+    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/装饰器模式：通过剖析Java IO类库源码学习装饰器模式.md",
+    "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例.md",
+    "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/原型模式：如何最快速地clone一个HashMap散列表？.md",
+    "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/建造者模式：详解构造函数、set方法、建造者模式三种对象创建方式.md",
+    "在读书/设计模式之美/06丨设计模式与范式：创建型 (7讲)/工厂模式：三种工厂，如何设计实现一个Dependency Injection框架？.md",
+    "在读书/设计模式之美/结束语丨聊一聊机遇、方向、能力、努力！.html",
+    "在读书/设计模式之美/加餐一丨用一篇文章带你了解专栏中用到的所有Java语法.html",
+    "在读书/设计模式之美/加餐五丨听一听小争哥对Google工程师文化的解读.html",
+    "在读书/设计模式之美/加餐四丨聊一聊Google那些让我快速成长的地方.html",
+    "在读书/设计模式之美/加餐十丨如何接手一坨烂业务代码？如何在烂业务代码中成长？.html",
+    "在读书/设计模式之美/加餐三丨聊一聊Google是如何做CodeReview的.html",
+    "在读书/设计模式之美/加餐七丨基础学科的知识如何转化成实际的技术生产力？.html",
+    "在读书/设计模式之美/加餐六丨什么才是所谓的编程能力？如何考察一个人的编程能力？.html",
+    "在读书/设计模式之美/加餐九丨作为面试官或候选人，如何面试或回答设计模式问题？.html",
+    "在读书/设计模式之美/加餐二丨设计模式、重构、编程规范等相关书籍推荐.html"
+  ]
 }
