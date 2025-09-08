@@ -1,6 +1,6 @@
 {
   "theme": "moonstone",
-  "baseFontSize": 22,
+  "baseFontSize": 21,
   "textFontFamily": "Arial",
   "monospaceFontFamily": "Consolas,Century",
   "translucency": false,

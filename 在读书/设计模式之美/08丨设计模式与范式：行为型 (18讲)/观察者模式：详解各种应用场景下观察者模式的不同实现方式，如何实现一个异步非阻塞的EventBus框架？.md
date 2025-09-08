@@ -2,7 +2,7 @@
 
 行为型设计模式比较多，有 11 个，几乎占了 23 种经典设计模式的一半。它们分别是：观察者模式、模板模式、策略模式、职责链模式、状态模式、迭代器模式、访问者模式、备忘录模式、命令模式、解释器模式、中介模式。
 
-下面学习实际开发中用得比较多的一种模式：观察者模式。根据应用场景的不同，观察者模式会对应不同的代码实现方式：有同步阻塞的实现方式，也有异步非阻塞的实现方式；有进程内的实现方式，也有跨进程的实现方式。
+下面学习实际开发中用得比较多的一种模式：**观察者模式**。根据应用场景的不同，观察者模式会对应不同的代码实现方式：有同步阻塞的实现方式，也有异步非阻塞的实现方式；有进程内的实现方式，也有跨进程的实现方式。
 # 1. 原理及应用场景剖析
 **观察者模式** *Observer Design Pattern* 也被称为**发布订阅模式** *Publish-Subscribe Design Pattern* 。在 GoF 的《设计模式》一书中，它的定义是这样的：
 > Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
@@ -299,7 +299,7 @@ public DObserver {
 }
 ```
 当通过 `register()` 函数将 `DObserver` 类对象注册到 `EventBus` 的时候，`EventBus` 会根据 `@Subscribe` 注解找到 `f1()` 和 `f2()` ，并且将两个函数能接收的消息类型记录下来（`PMsg->f1` ，`QMsg->f2`）。当我们通过 `post()` 函数发送消息（比如 `QMsg` 消息）的时候，`EventBus` 会通过之前的记录（`QMsg->f2`），调用相应的函数（`f2`）。
-## 5.2 手把手实现一个 EventBus 框架
+## 5.2 手把手实现一个 `EventBus` 框架
 Guava EventBus 的功能已经讲清楚了，总体上来说，还是比较简单的。接下来重复造轮子，“山寨”一个 EventBus 出来。
 
 重点来看，EventBus 中两个核心函数 `register()` 和 `post()` 的实现原理。弄懂了它们，基本上就弄懂了整个 `EventBus` 框架。下面两张图是这两个函数的实现原理图。
@@ -313,7 +313,7 @@ Guava EventBus 的功能已经讲清楚了，总体上来说，还是比较简�
 - 对于异步非阻塞模式，`EventBus` 通过一个线程池来执行相应的函数。
 
 弄懂了原理，实现起来就简单多了。整个小框架的代码实现包括 5 个类：`EventBus, AsyncEventBus, Subscribe, ObserverAction, ObserverRegistry` 。接下来，依次来看下这 5 个类。
-### 5.2.1 Subscribe
+### 5.2.1 `Subscribe`
 `Subscribe` 是一个注解，用于标明观察者中的哪个函数可以接收消息。
 ```java
 @Retention(RetentionPolicy.RUNTIME)
@@ -321,7 +321,7 @@ Guava EventBus 的功能已经讲清楚了，总体上来说，还是比较简�
 @Beta
 public @interface Subscribe {}
 ```
-### 5.2.2 ObserverAction
+### 5.2.2 `ObserverAction`
 `ObserverAction` 类用来表示 `@Subscribe` 注解的方法，其中，target 表示观察者类，`method` 表示方法。它主要用在 `ObserverRegistry` 观察者注册表中。
 ```java
 public class ObserverAction {
@@ -341,7 +341,7 @@ public class ObserverAction {
 	}
 }
 ```
-### 5.2.3 ObserverRegistry
+### 5.2.3 `ObserverRegistry`
 `ObserverRegistry` 类就是前面讲到的 `Observer` 注册表，是最复杂的一个类，框架中几乎所有的核心逻辑都在这个类中。这个类大量使用了 Java 的反射语法，不过代码整体来说都不难理解，其中，一个比较有技巧的地方是 `CopyOnWriteArraySet` 的使用。
 
 `CopyOnWriteArraySet` ，顾名思义，在写入数据的时候，会创建一个新的 `set` ，并且将原始数据 `clone` 到新的 `set` 中，在新的 `set` 中写入数据完成之后，再用新的 `set` 替换老的 `set` 。这样就能保证在写入数据的时候，不影响数据的读取操作，以此来解决读写并发问题。除此之外，`CopyOnWriteSet` 还通过加锁的方式，避免了并发写冲突。具体的作用可以去查看一下 `CopyOnWriteSet` 类的源码，一目了然。
