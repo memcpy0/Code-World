@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "093d5bf7425da02d",
+        "id": "5dedd834b455b677",
         "type": "tabs",
         "children": [
           {
-            "id": "1d637534f8143b77",
+            "id": "97719ae34a27912f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "在读书/设计模式之美/08丨设计模式与范式：行为型 (18讲)/模版模式：在JDK、Servlet和JUnit等的应用，和Callback回调函数有何区别和联系？.md",
+                "file": "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模版模式：在JDK、Servlet和JUnit等的应用，和Callback回调函数有何区别和联系？"
-            }
-          },
-          {
-            "id": "f6505b2ac245ae51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux环境编程/1. Linux环境编程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Linux环境编程"
+              "title": "LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "1317",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "a14abf9b8f06a6ba",
@@ -185,35 +169,43 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f6505b2ac245ae51",
+  "active": "97719ae34a27912f",
   "lastOpenFiles": [
-    "在读书/设计模式之美/08丨设计模式与范式：行为型 (18讲)/模版模式：在JDK、Servlet和JUnit等的应用，和Callback回调函数有何区别和联系？.md",
-    "在读书/设计模式之美/08丨设计模式与范式：行为型 (18讲)/观察者模式：详解各种应用场景下观察者模式的不同实现方式，如何实现一个异步非阻塞的EventBus框架？.md",
-    "未命名 1.md",
-    "未命名.md",
-    "Linux环境编程/1. Linux环境编程.md",
-    "Linux环境编程",
-    "在读书/业务算法50讲/先导篇｜诶，这个 git diff 好像不是很直观？.pdf",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/享元模式：如何利用享元模式优化文本编辑器的内存占用，剖析享元模式在Java Integer、String中的应用.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/装饰器模式：通过剖析Java IO类库源码学习装饰器模式.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/组合模式：如何设计实现支持递归遍历的文件系统目录树结构？.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型 (8讲)/享元模式（上）：如何利用享元模式优化文本编辑器的内存占用？（下）：剖析享元模式在Java Integer、String中的应用 1.md",
-    "在读书/设计模式之美/54丨享元模式（上）：如何利用享元模式优化文本编辑器的内存占用？.html",
-    "在读书/设计模式之美/53丨组合模式：如何设计实现支持递归遍历的文件系统目录树结构？.html",
-    "在读书/设计模式之美/52丨门面模式：如何设计合理的接口粒度以兼顾接口的易用性和通用性？.html",
-    "在读书/设计模式之美/51丨适配器模式：代理、适配器、桥接、装饰，这四个模式有何区别？.html",
-    "在读书/设计模式之美/50丨装饰器模式：通过剖析JavaIO类库源码学习装饰器模式.html",
-    "在读书/设计模式之美/49丨桥接模式：如何实现支持不同类型和渠道的消息推送系统？.html",
-    "在读书/设计模式之美/48丨代理模式：代理在RPC、缓存、监控等场景中的应用.html",
-    "在读书/设计模式之美/55丨享元模式（下）：剖析享元模式在JavaInteger、String中的应用.html",
-    "在读书/设计模式之美/06丨设计模式与范式：创建型/单例模式：懒加载的双重检测不比饿汉式更优，为啥不推荐使用单例和有何替代，设计实现集群环境的分布式单例.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/门面模式：如何设计合理的接口粒度以兼顾接口的易用性和通用性？.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/适配器模式：代理、适配器、桥接、装饰，这四个模式有何区别？.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/桥接模式：如何实现支持不同类型和渠道的消息推送系统？.md",
-    "在读书/设计模式之美/07丨设计模式与范式：结构型/代理模式：代理在RPC、缓存、监控等场景中的应用.md",
-    "在读书/业务算法50讲/文本差分问题-Myers差分算法.md",
-    "在读书/设计模式之美/06丨设计模式与范式：创建型/原型模式：如何最快速地clone一个HashMap散列表？.md",
-    "在读书/设计模式之美/06丨设计模式与范式：创建型/建造者模式：详解构造函数、set方法、建造者模式三种对象创建方式.md",
-    "在读书/设计模式之美/06丨设计模式与范式：创建型/工厂模式：三种工厂，如何设计实现一个Dependency Injection框架？.md"
+    "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1304. Find N Unique Integers Sum up to Zero【Array】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode 3024. 三角形类型 II【】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2901-3000/LeetCode 2903. 找出满足差值条件的下标 I【双指针+维护最大最小】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2801-2900/LeetCode 2810. Faulty Keyboard【模拟,双端队列,字符串】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2701-2800/LeetCode 2706. 购买两块巧克力【数组,一次遍历】1207.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1901-2000/LeetCode 1915. Number of Wonderful Substrings【异或前缀和,位运算,哈希表,字符串】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1701-1800/LeetCode 1726. 同积元组【数组,哈希表】1530.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1401-1500/LeetCode 1402. 做菜顺序【排序,动态规划;贪心,前缀和,递推】1679.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1501-1600/LeetCode 1503. 所有蚂蚁掉下来前的最后一刻【脑筋急转弯】1618.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1801-1900/LeetCode 1816. Truncate Sentence【字符串】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1601-1700/LeetCode 1605. Find Valid Matrix Given Row and Column Sums【贪心,数组】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2601-2700/LeetCode 2605. Form Smallest Number From Two Digit Arrays【数组,哈希表,枚举;位运算】1241.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2501-2600/LeetCode 2512. 奖励最顶尖的 K 名学生【】1636.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2401-2500/LeetCode 2404. Most Frequent Even Element【哈希表】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2301-2400/LeetCode 2306. 公司命名【哈希表,字符串】2305.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2201-2300/LeetCode 2206. Divide Array Into Equal Pairs【数组_哈希】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2101-2200/LeetCode 2105. 给植物浇水 II【相向双指针模拟】1507.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2001-2100/LeetCode 2001. Number of Pairs of Interchangeable Rectangles【哈希表_数学】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2001-2100/LeetCode 2011. Final Value of Variable After Performing Operations【模拟】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1201-1300/LeetCode 1218. Longest Arithmetic Subsequence of Given Difference【动态规划,哈希表,贪心】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2901-3000",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2801-2900",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1001-1100/未命名",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2701-2800",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2601-2700",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2501-2600",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2401-2500",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2301-2400",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2201-2300",
+    "Code_Markdown/CSDN/刷题日志与精进之路/2101-2200",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1101-1200/LeetCode 1105. Filling Bookcase Shelves【记忆化搜索,动态规划】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1001-1100/LeetCode 1003. Check If Word Is Valid After Substitutions【栈,字符串】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/【LeetCode】征服LeetCode系列文章汇总目录（持续更新中）.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/901-1000/LeetCode 901. 股票价格跨度【单调栈】1708.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/801-900/LeetCode 807. Max Increase to Keep City Skyline【数组_贪心】中等.md"
   ]
 }

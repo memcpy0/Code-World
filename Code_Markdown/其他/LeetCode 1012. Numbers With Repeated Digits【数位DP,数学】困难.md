@@ -31,9 +31,9 @@ Output: 262
 ---
 ### 解法 状压+记忆化搜索（数位DP）
 相似题目（基本可用通用数位DP模板来解决，但233和17.06可直接用计数原理解决，更简单）：
-- [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)（题解：[[CSDN/刷题日志与精进之路/LeetCode 233. Number of Digit One【计数模拟】困难]]）
+- [233. 数字 1 的个数](https://leetcode.cn/problems/number-of-digit-one/)（题解：[[LeetCode 233. Number of Digit One【计数模拟】困难]]）
 - [面试题 17.06. 2出现的次数](https://leetcode.cn/problems/number-of-2s-in-range-lcci/)（题解：[[CSDN/刷题日志与精进之路/LeetCode 面试题 17.06. 2出现的次数【数位DP,计数原理】困难]]）
-- [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)（题解：[[CSDN/刷题日志与精进之路/LeetCode 600. Non-negative Integers without Consecutive Ones【数位DP,斐波那契,位运算】困难]]）
+- [600. 不含连续1的非负整数](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones/)（题解：[[LeetCode 600. Non-negative Integers without Consecutive Ones【数位DP,斐波那契,位运算】困难]]）
 - [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set/)（题解：[]）
 - [1067. 范围内的数字计数](https://leetcode.cn/problems/digit-count-in-range/)（会员题）
 - [1397. 找到所有好字符串](https://leetcode.cn/problems/find-all-good-strings/)（有难度，需要结合一个经典字符串算法）

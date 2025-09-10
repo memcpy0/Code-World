@@ -755,9 +755,9 @@ int main() {
 由于最小瓶颈路不唯一，一般情况下会询问**最小瓶颈路上的最大边权**。也就是说，我们需要求**最小生成树链上的 $max$** 。
 
 倍增、树剖都可以解决，这里不再展开。
-[[../刷题日志与精进之路/LeetCode 778. Swim in Rising Water【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】2096|LeetCode 778. Swim in Rising Water【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】2096]]]
-[[../刷题日志与精进之路/LeetCode 1631. Path With Minimum Effort【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】1947|LeetCode 1631. Path With Minimum Effort【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】1947]]
-[[../刷题日志与精进之路/LeetCode 2812. Find the Safest Path in a Grid【最大瓶颈树;多源BFS+二分;最大生成树Kruskal或Prim;并查集】困难|LeetCode 2812. Find the Safest Path in a Grid【最大瓶颈树;多源BFS+二分;最大生成树Kruskal或Prim;并查集】困难]]
+[[LeetCode 778. Swim in Rising Water【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】2096|LeetCode 778. Swim in Rising Water【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】2096]]]
+[[LeetCode 1631. Path With Minimum Effort【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】1947|LeetCode 1631. Path With Minimum Effort【最小瓶颈路;二分+BFS或DFS;计数排序+并查集;最小生成树】1947]]
+[[LeetCode 2812. Find the Safest Path in a Grid【最大瓶颈树;多源BFS+二分;最大生成树Kruskal或Prim;并查集】困难|LeetCode 2812. Find the Safest Path in a Grid【最大瓶颈树;多源BFS+二分;最大生成树Kruskal或Prim;并查集】困难]]
 
 ---
 ## Kruskal 重构树
