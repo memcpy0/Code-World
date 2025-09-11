@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单.md",
+                "file": "Code_Markdown/CSDN/刷题日志与精进之路/1301-1400/LeetCode 1317. 将整数转换为两个无零整数的和【枚举,随机,构造】简单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单"
+              "title": "LeetCode 1317. 将整数转换为两个无零整数的和【枚举,随机,构造】简单"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "1317",
+                "query": "1317. ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "right": {
     "id": "a14abf9b8f06a6ba",
@@ -171,27 +172,32 @@
   },
   "active": "97719ae34a27912f",
   "lastOpenFiles": [
+    "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode  3034. 匹配模式数组的子数组数目 I, 3036. 匹配模式数组的子数组数目 II【】.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1301-1400/LeetCode 1317. 将整数转换为两个无零整数的和【枚举,随机,构造】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/101-200/Leetcode C++ 101. Symmetric Tree 【树】easy.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/201-300/LeetCode C++ 202. Happy Number【Math_Hash Table】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/201-300/LeetCode C++ 300. Longest Increasing Subsequence【Dynamic Programming_Binary Search_String】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/301-400/LeetCode C++ 303. Range Sum Query - Immutable 【Array_一维前缀和】.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/301-400/LeetCode C++ 395. Longest Substring with At Least K Repeating Characters【分治_递归_动态规划】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/401-500/LeetCode C++ 492. Construct the Rectangle【Math_Two Pointers】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/501-600/LeetCode C++ 599. Minimum Index Sum of Two Lists【Hash Table】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/601-700/LeetCode C++ 700. Search in a Binary Search Tree【二叉搜索树】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/701-800/LeetCode C++ 800. Similar RGB Color【】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/801-900/Leetcode C++ 804. Unique Morse Code Words 【Set】.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/801-900/LeetCode C++ 897. Increasing Order Search Tree【Tree_DFS】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/901-1000/LeetCode C++ 905. Sort Array By Parity【Two Pointers】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1001-1100/LeetCode C++ 1002. Find Common Characters【Hash Table】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1201-1300/LeetCode C++ 1207. Unique Number of Occurrences【Hash Table】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1101-1200/LeetCode C++ 1114. 按序打印【操作系统】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1801-1900/LeetCode C++ 1832. Check if the Sentence Is Pangram【String】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1701-1800/LeetCode C++ 1707. Maximum XOR With an Element From Array【Sort_Greedy_Trie_Tow Pointers_Offline】困难.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1601-1700/LeetCode C++ 1603. Design Parking System【Design】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1501-1600/LeetCode C++ 1502. Can Make Arithmetic Progression From Sequence【Sort_Array】简单.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1401-1500/LeetCode C++ 1405. Longest Happy String【Greedy_Heap】中等.md",
+    "Code_Markdown/CSDN/刷题日志与精进之路/1301-1400/LeetCode C++ 1305. All Elements in Two Binary Search Trees【二叉搜索树_DFS】中等.md",
     "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1304. Find N Unique Integers Sum up to Zero【Array】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode C++ 1317. Convert Integer to the Sum of Two No-Zero Integers【数学_双指针】简单.md",
     "Code_Markdown/CSDN/刷题日志与精进之路/LeetCode 3024. 三角形类型 II【】简单.md",
     "Code_Markdown/CSDN/刷题日志与精进之路/2901-3000/LeetCode 2903. 找出满足差值条件的下标 I【双指针+维护最大最小】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2801-2900/LeetCode 2810. Faulty Keyboard【模拟,双端队列,字符串】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2701-2800/LeetCode 2706. 购买两块巧克力【数组,一次遍历】1207.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1901-2000/LeetCode 1915. Number of Wonderful Substrings【异或前缀和,位运算,哈希表,字符串】中等.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1701-1800/LeetCode 1726. 同积元组【数组,哈希表】1530.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1401-1500/LeetCode 1402. 做菜顺序【排序,动态规划;贪心,前缀和,递推】1679.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1501-1600/LeetCode 1503. 所有蚂蚁掉下来前的最后一刻【脑筋急转弯】1618.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1801-1900/LeetCode 1816. Truncate Sentence【字符串】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1601-1700/LeetCode 1605. Find Valid Matrix Given Row and Column Sums【贪心,数组】中等.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2601-2700/LeetCode 2605. Form Smallest Number From Two Digit Arrays【数组,哈希表,枚举;位运算】1241.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2501-2600/LeetCode 2512. 奖励最顶尖的 K 名学生【】1636.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2401-2500/LeetCode 2404. Most Frequent Even Element【哈希表】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2301-2400/LeetCode 2306. 公司命名【哈希表,字符串】2305.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2201-2300/LeetCode 2206. Divide Array Into Equal Pairs【数组_哈希】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2101-2200/LeetCode 2105. 给植物浇水 II【相向双指针模拟】1507.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2001-2100/LeetCode 2001. Number of Pairs of Interchangeable Rectangles【哈希表_数学】中等.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2001-2100/LeetCode 2011. Final Value of Variable After Performing Operations【模拟】简单.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1201-1300/LeetCode 1218. Longest Arithmetic Subsequence of Given Difference【动态规划,哈希表,贪心】中等.md",
     "Code_Markdown/CSDN/刷题日志与精进之路/2901-3000",
     "Code_Markdown/CSDN/刷题日志与精进之路/2801-2900",
     "Code_Markdown/CSDN/刷题日志与精进之路/1001-1100/未命名",
@@ -201,11 +207,6 @@
     "Code_Markdown/CSDN/刷题日志与精进之路/2401-2500",
     "Code_Markdown/CSDN/刷题日志与精进之路/2301-2400",
     "Code_Markdown/CSDN/刷题日志与精进之路/2201-2300",
-    "Code_Markdown/CSDN/刷题日志与精进之路/2101-2200",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1101-1200/LeetCode 1105. Filling Bookcase Shelves【记忆化搜索,动态规划】中等.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/1001-1100/LeetCode 1003. Check If Word Is Valid After Substitutions【栈,字符串】中等.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/【LeetCode】征服LeetCode系列文章汇总目录（持续更新中）.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/901-1000/LeetCode 901. 股票价格跨度【单调栈】1708.md",
-    "Code_Markdown/CSDN/刷题日志与精进之路/801-900/LeetCode 807. Max Increase to Keep City Skyline【数组_贪心】中等.md"
+    "Code_Markdown/CSDN/刷题日志与精进之路/2101-2200"
   ]
 }
