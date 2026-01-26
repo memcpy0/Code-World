@@ -427,9 +427,8 @@ var peopleAwareOfSecret = function(n, delay, forget) {
 };
 ```
 复杂度分析：
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(n)$
-
+- 时间复杂度：$O(n)$ 。
+- 空间复杂度：$O(n)$ 。
 ---
 ### 方法二 前缀和
 横看成岭侧成峰，对于 $known[j]$ 来说，它会被哪些 $known[i]$ 更新？
@@ -455,10 +454,68 @@ class Solution {
 }
 ```
 ```cpp
+class Solution {
+public:
+    int peopleAwareOfSecret(int n, int delay, int forget) {
+        const int MOD = 1'000'000'007;
+        vector<int> diff(n + 1);
+        diff[1] = 1;
+        diff[2] = -1;
+        int known = 0;
+        long long ans = 0;
 
+        for (int i = 1; i <= n; i++) {
+            // 加上 diff[i] 后，known 表示恰好在第 i 天得知秘密的人数
+            known = (known + diff[i]) % MOD;
+            // 统计在第 n 天没有忘记秘密的人数
+            if (i >= n - forget + 1) {
+                ans += known;
+            }
+            // 恰好在第 i 天得知秘密的人，会在第 [i+delay, i+forget-1] 天分享秘密
+            if (i + delay <= n) {
+                diff[i + delay] = (diff[i + delay] + known) % MOD;
+            }
+            if (i + forget <= n) {
+                diff[i + forget] = (diff[i + forget] - known + MOD) % MOD; // +MOD 保证结果非负
+            }
+        }
+
+        return ans % MOD;
+    }
+};
 ```
 ```rust
+impl Solution {
+    pub fn people_aware_of_secret(n: i32, delay: i32, forget: i32) -> i32 {
+        const MOD: i32 = 1_000_000_007;
+        let n = n as usize;
+        let delay = delay as usize;
+        let forget = forget as usize;
+        let mut diff = vec![0; n + 1];
+        diff[1] = 1;
+        diff[2] = -1;
+        let mut known = 0;
+        let mut ans = 0;
 
+        for i in 1..=n {
+            // 加上 diff[i] 后，known 表示恰好在第 i 天得知秘密的人数
+            known = (known + diff[i]) % MOD;
+            // 统计在第 n 天没有忘记秘密的人数
+            if i >= n - forget + 1 {
+                ans = (ans + known) % MOD;
+            }
+            // 恰好在第 i 天得知秘密的人，会在第 [i+delay, i+forget-1] 天分享秘密
+            if i + delay <= n {
+                diff[i + delay] = (diff[i + delay] + known) % MOD;
+            }
+            if i + forget <= n {
+                diff[i + forget] = (diff[i + forget] - known + MOD) % MOD; // +MOD 保证结果非负
+            }
+        }
+
+        ans
+    }
+}
 ```
 ```python
 class Solution:
